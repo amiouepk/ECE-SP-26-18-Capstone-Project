@@ -5,9 +5,11 @@
 #include <unistd.h>
 #include <errno.h>
 
-//#define TEXT_OPT "text\0"
+#define BUFFER_SIZE 64
 
 int sample_text();
+
+
 
 int main(int argc, char **argv){
 
@@ -49,16 +51,19 @@ int sample_text(){
         exit(EXIT_FAILURE);
     }
 
-    char in_buff[64];
-    char out_buff[64];
+    char in_buff[BUFFER_SIZE]; // Input Buffer
+    char out_buff[BUFFER_SIZE]; // Output Buffer
 
-    int bytes_read;
+    int bytes_read; // Number of bytes read by fread (used for error checking)
 
-    int loop_break = 0;
-    int start;
+    int loop_break = 0; // Loop break to break from nested loop
+    int start; // used for the for fseek
+    int read_num = 0; // number of times read to get to beginning of data
+
+    int num_buff[5]; // Temporary buffer used before turning string into float/double
 
     while (1){
-        bytes_read = fread(in_buff, 1, 63, in_fp);
+        bytes_read = fread(in_buff, 1, BUFFER_SIZE - 1, in_fp);
         if (ferror(in_fp)){
             fprintf(stderr, "fread error when seeking for start\n");
             exit(EXIT_FAILURE);
@@ -73,13 +78,15 @@ int sample_text(){
       
         in_buff[bytes_read] = '\0';
         
-
-        printf("%s\n", in_buff);
+        printf("\nread number: %d\n", read_num++);
+        printf("%s", in_buff);
 
         for (int i = 0; i < 64; i++){
             if (in_buff[i] == '|'){
                 loop_break = 1;
-                start = i; 
+                start = i + 3; 
+                printf("\nstart: %d\n", start);
+                
                 break;
             }
 
@@ -91,12 +98,26 @@ int sample_text(){
         //start += 64;
     }
 
-    int fseek_num = fseek(in_fp, SEEK_CUR, -(64-start));
-    if (!fseek_num){
+    int fseek_num = fseek(in_fp, -(BUFFER_SIZE - 1 - start), SEEK_CUR);
+    if (fseek_num){
         perror("fseek error when navigating to start of file");
         exit(EXIT_FAILURE);
     }
 
+    bytes_read = fread(in_buff, 1, BUFFER_SIZE - 1, in_fp);
+    if (ferror(in_fp)){
+            fprintf(stderr, "fread error when seeking for start\n");
+            exit(EXIT_FAILURE);
+    }
+    else if (feof(in_fp)){
+        fprintf(stderr, "Read Error: reached end of file when seeking for start of data.\n");
+        exit(EXIT_FAILURE);
+    } 
+
+    printf("\nafter fseek: %s\n", in_buff);
+    
+
+    
     
 
     //fread_num = fread();
