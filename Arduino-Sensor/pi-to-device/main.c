@@ -130,6 +130,10 @@ int sample_text(){
             exit(EXIT_FAILURE);
         } 
 
+        int i = 0;
+        while(i < BUFFER_SIZE - 1){
+            
+        }
 
 
     }
