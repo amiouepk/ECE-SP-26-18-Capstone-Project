@@ -7,6 +7,15 @@
 
 #define BUFFER_SIZE 64
 
+/*
+ * Need to:
+ * - Connect websocket jag did in python
+ * - ML model :()
+ * 
+ *
+ */
+
+
 int sample_text();
 
 
@@ -104,23 +113,35 @@ int sample_text(){
         exit(EXIT_FAILURE);
     }
 
-    bytes_read = fread(in_buff, 1, BUFFER_SIZE - 1, in_fp);
-    if (ferror(in_fp)){
-            fprintf(stderr, "fread error when seeking for start\n");
+    /* now what i have to do:
+     * 1. Read the number till the /
+     * 2. convert the number to a double/float
+     * 3. Put in an array/struct to be used easily
+     */ 
+
+    while (1) {
+        bytes_read = fread(in_buff, 1, BUFFER_SIZE - 1, in_fp);
+        if (ferror(in_fp)){
+                fprintf(stderr, "fread error when seeking for start\n");
+                exit(EXIT_FAILURE);
+        }
+        else if (feof(in_fp)){
+            fprintf(stderr, "Read Error: reached end of file when seeking for start of data.\n");
             exit(EXIT_FAILURE);
+        } 
+
+
+
     }
-    else if (feof(in_fp)){
-        fprintf(stderr, "Read Error: reached end of file when seeking for start of data.\n");
-        exit(EXIT_FAILURE);
-    } 
 
-    printf("\nafter fseek: %s\n", in_buff);
+    //printf("\nafter fseek: %s\n", in_buff);
+    
+    
     
 
     
     
 
-    //fread_num = fread();
 
     
 
