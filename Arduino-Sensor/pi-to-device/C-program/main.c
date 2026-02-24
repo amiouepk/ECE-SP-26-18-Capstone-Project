@@ -68,8 +68,9 @@ int sample_text(){
     int loop_break = 0; // Loop break to break from nested loop
     int start; // used for the for fseek
     int read_num = 0; // number of times read to get to beginning of data
+    char curr_char;
 
-    int num_buff[5]; // Temporary buffer used before turning string into float/double
+    char str_num[32]; // Temporary buffer used before turning string into float/double
 
     while (1){
         bytes_read = fread(in_buff, 1, BUFFER_SIZE - 1, in_fp);
@@ -119,7 +120,7 @@ int sample_text(){
      * 3. Put in an array/struct to be used easily
      */ 
 
-    while (1) {
+    while (1) { //Loop for indefinite reading
         bytes_read = fread(in_buff, 1, BUFFER_SIZE - 1, in_fp);
         if (ferror(in_fp)){
                 fprintf(stderr, "fread error when seeking for start\n");
@@ -131,8 +132,23 @@ int sample_text(){
         } 
 
         int i = 0;
-        while(i < BUFFER_SIZE - 1){
+        while(i < BUFFER_SIZE - 1){ //loop to go thorugh each character in the in_buff
             
+            curr_char = in_buff[i];
+            int j = 0;
+
+            if (curr_char == '-'){
+                str_num[j] == curr_char;
+                j++; i++;
+                curr_char = in_buff[i];
+            }
+            
+            while (curr_char != '/'){
+                if (){
+
+                }
+
+            }
         }
 
 
@@ -141,12 +157,6 @@ int sample_text(){
     //printf("\nafter fseek: %s\n", in_buff);
     
     
-    
-
-    
-    
-
-
     
 
 
