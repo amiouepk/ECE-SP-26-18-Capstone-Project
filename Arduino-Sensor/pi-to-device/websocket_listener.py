@@ -1,6 +1,8 @@
 import asyncio
 import websockets
 import sys
+import main
+import data
 
 async def listen(uri):
     print(f"Connecting to {uri}...")
@@ -9,6 +11,8 @@ async def listen(uri):
             print(f"Connected! Listening for messages...\n{'-'*40}")
             async for message in ws:
                 print(f">> {message}")
+                #print("hu")
+                main.file_reading(message)
     except websockets.exceptions.ConnectionClosedOK:
         print("Connection closed.")
     except websockets.exceptions.ConnectionClosedError as e:
@@ -17,7 +21,7 @@ async def listen(uri):
         print(f"Connection refused. Is the server running at {uri}?")
 
 if __name__ == "__main__":
-    uri = sys.argv[1] if len(sys.argv) > 1 else "ws://localhost:8765"
+    uri = sys.argv[1] if len(sys.argv) > 1 else "ws://192.168.42.1:81"
     try:
         asyncio.run(listen(uri))
     except KeyboardInterrupt:
