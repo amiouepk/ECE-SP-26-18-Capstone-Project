@@ -9,10 +9,19 @@ async def listen(uri):
     try:
         async with websockets.connect(uri) as ws:
             print(f"Connected! Listening for messages...\n{'-'*40}")
+            num_sensors = 6
+            out_file = open('sensor_data.txt', 'w+')
+
             async for message in ws:
                 print(f">> {message}")
                 #print("hu")
-                main.file_reading(message)
+                sens_data = main.file_reading(message)
+                if data is not None:
+                    out_file.write(data + '\n')
+
+                
+                print(sens_data)
+
     except websockets.exceptions.ConnectionClosedOK:
         print("Connection closed.")
     except websockets.exceptions.ConnectionClosedError as e:
