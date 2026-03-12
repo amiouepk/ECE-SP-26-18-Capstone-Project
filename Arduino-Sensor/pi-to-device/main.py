@@ -13,7 +13,7 @@ import data
 
 def file_reading(msg):
     print(msg)
-    imu_num = 3    
+    imu_num = 5    
     
     sensor_num = [None] * imu_num
     
