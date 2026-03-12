@@ -1,0 +1,544 @@
+Time: 0.503171
+Sensor 1: 
+X: 6.35 | Y: 3.17 | Z: 7.86
+roll: -0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.41 | Y: 3.64 | Z: 8.2
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.19 | Y: 5.66 | Z: 7.19
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.35 | Y: 6.63 | Z: 4.86
+roll: -0.06 | pitch: 0.04 | yaw: 0.02
+Sensor 5: 
+X: -5.73 | Y: 4.22 | Z: 6.41
+roll: -0.06 | pitch: 0.01 | yaw: -0.01
+
+Time: 1.013072
+Sensor 1: 
+X: 6.34 | Y: 3.19 | Z: 7.84
+roll: 0.0 | pitch: 0.02 | yaw: -0.04
+Sensor 2: 
+X: -4.43 | Y: 3.63 | Z: 8.17
+roll: -0.03 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.21 | Y: 5.66 | Z: 7.18
+roll: -0.01 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.37 | Y: 6.62 | Z: 4.85
+roll: -0.05 | pitch: 0.05 | yaw: 0.01
+Sensor 5: 
+X: -5.71 | Y: 4.24 | Z: 6.41
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 1.52118
+Sensor 1: 
+X: 6.35 | Y: 3.17 | Z: 7.85
+roll: 0.0 | pitch: 0.02 | yaw: -0.04
+Sensor 2: 
+X: -4.41 | Y: 3.66 | Z: 8.17
+roll: -0.03 | pitch: 0.02 | yaw: 0.01
+Sensor 3: 
+X: -3.2 | Y: 5.68 | Z: 7.18
+roll: -0.02 | pitch: 0.01 | yaw: -0.01
+Sensor 4: 
+X: -4.37 | Y: 6.63 | Z: 4.85
+roll: -0.05 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.71 | Y: 4.25 | Z: 6.4
+roll: -0.07 | pitch: 0.02 | yaw: -0.03
+
+Time: 2.034086
+Sensor 1: 
+X: 6.36 | Y: 3.17 | Z: 7.84
+roll: -0.0 | pitch: 0.0 | yaw: -0.03
+Sensor 2: 
+X: -4.42 | Y: 3.62 | Z: 8.2
+roll: -0.04 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.19 | Y: 5.66 | Z: 7.18
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.38 | Y: 6.62 | Z: 4.86
+roll: -0.06 | pitch: 0.03 | yaw: 0.02
+Sensor 5: 
+X: -5.71 | Y: 4.24 | Z: 6.41
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 2.543091
+Sensor 1: 
+X: 6.35 | Y: 3.16 | Z: 7.84
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.4 | Y: 3.62 | Z: 8.2
+roll: -0.04 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.18 | Y: 5.67 | Z: 7.18
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.37 | Y: 6.62 | Z: 4.86
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.71 | Y: 4.25 | Z: 6.42
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 3.053082
+Sensor 1: 
+X: 6.4 | Y: 3.16 | Z: 7.83
+roll: 0.0 | pitch: 0.02 | yaw: -0.04
+Sensor 2: 
+X: -4.4 | Y: 3.63 | Z: 8.19
+roll: -0.03 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.18 | Y: 5.67 | Z: 7.19
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.36 | Y: 6.63 | Z: 4.85
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.72 | Y: 4.24 | Z: 6.4
+roll: -0.07 | pitch: 0.01 | yaw: -0.01
+
+Time: 3.563421
+Sensor 1: 
+X: 6.39 | Y: 3.15 | Z: 7.82
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.39 | Y: 3.64 | Z: 8.21
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.17 | Y: 5.67 | Z: 7.19
+roll: -0.02 | pitch: 0.01 | yaw: -0.01
+Sensor 4: 
+X: -4.37 | Y: 6.63 | Z: 4.84
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.71 | Y: 4.24 | Z: 6.4
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 3.660089
+Sensor 1: 
+X: 6.4 | Y: 3.14 | Z: 7.81
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.36 | Y: 3.64 | Z: 8.22
+roll: -0.04 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.17 | Y: 5.67 | Z: 7.19
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.36 | Y: 6.62 | Z: 4.86
+roll: -0.06 | pitch: 0.03 | yaw: 0.02
+Sensor 5: 
+X: -5.71 | Y: 4.25 | Z: 6.4
+roll: -0.06 | pitch: 0.01 | yaw: -0.01
+
+Time: 4.161076
+Sensor 1: 
+X: 6.39 | Y: 3.15 | Z: 7.82
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.37 | Y: 3.64 | Z: 8.21
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.16 | Y: 5.67 | Z: 7.21
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.36 | Y: 6.62 | Z: 4.86
+roll: -0.06 | pitch: 0.04 | yaw: 0.02
+Sensor 5: 
+X: -5.72 | Y: 4.24 | Z: 6.4
+roll: -0.07 | pitch: 0.02 | yaw: -0.02
+
+Time: 4.662075
+Sensor 1: 
+X: 6.41 | Y: 3.14 | Z: 7.79
+roll: 0.0 | pitch: 0.02 | yaw: -0.04
+Sensor 2: 
+X: -4.35 | Y: 3.62 | Z: 8.22
+roll: -0.03 | pitch: 0.02 | yaw: 0.01
+Sensor 3: 
+X: -3.15 | Y: 5.68 | Z: 7.21
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.35 | Y: 6.63 | Z: 4.85
+roll: -0.06 | pitch: 0.03 | yaw: 0.01
+Sensor 5: 
+X: -5.71 | Y: 4.24 | Z: 6.4
+roll: -0.06 | pitch: 0.01 | yaw: -0.02
+
+Time: 5.163064
+Sensor 1: 
+X: 6.42 | Y: 3.14 | Z: 7.8
+roll: 0.0 | pitch: 0.02 | yaw: -0.04
+Sensor 2: 
+X: -4.33 | Y: 3.64 | Z: 8.2
+roll: -0.03 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.15 | Y: 5.67 | Z: 7.19
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.35 | Y: 6.64 | Z: 4.85
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.72 | Y: 4.24 | Z: 6.41
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 5.661375
+Sensor 1: 
+X: 6.41 | Y: 3.15 | Z: 7.81
+roll: 0.0 | pitch: 0.04 | yaw: -0.05
+Sensor 2: 
+X: -4.36 | Y: 3.65 | Z: 8.21
+roll: -0.04 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.16 | Y: 5.68 | Z: 7.19
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.35 | Y: 6.63 | Z: 4.85
+roll: -0.06 | pitch: 0.03 | yaw: 0.02
+Sensor 5: 
+X: -5.71 | Y: 4.25 | Z: 6.4
+roll: -0.07 | pitch: 0.01 | yaw: -0.01
+
+Time: 6.1651
+Sensor 1: 
+X: 6.28 | Y: 3.17 | Z: 7.92
+roll: 0.0 | pitch: 0.07 | yaw: -0.05
+Sensor 2: 
+X: -4.36 | Y: 3.63 | Z: 8.22
+roll: -0.04 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.1 | Y: 5.66 | Z: 7.24
+roll: -0.03 | pitch: -0.0 | yaw: -0.01
+Sensor 4: 
+X: -4.34 | Y: 6.63 | Z: 4.87
+roll: -0.06 | pitch: 0.03 | yaw: 0.02
+Sensor 5: 
+X: -5.71 | Y: 4.26 | Z: 6.4
+roll: -0.07 | pitch: 0.01 | yaw: -0.01
+
+Time: 6.666092
+Sensor 1: 
+X: 5.74 | Y: 3.18 | Z: 8.34
+roll: -0.02 | pitch: 0.06 | yaw: 0.0
+Sensor 2: 
+X: -4.66 | Y: 3.53 | Z: 8.05
+roll: -0.04 | pitch: 0.04 | yaw: 0.01
+Sensor 3: 
+X: -3.04 | Y: 5.56 | Z: 7.34
+roll: -0.01 | pitch: 0.02 | yaw: -0.02
+Sensor 4: 
+X: -4.29 | Y: 6.63 | Z: 4.91
+roll: -0.06 | pitch: 0.03 | yaw: 0.01
+Sensor 5: 
+X: -5.73 | Y: 4.24 | Z: 6.39
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 7.167075
+Sensor 1: 
+X: 5.79 | Y: 3.11 | Z: 8.36
+roll: 0.0 | pitch: 0.01 | yaw: -0.03
+Sensor 2: 
+X: -4.61 | Y: 3.56 | Z: 8.12
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.04 | Y: 5.58 | Z: 7.32
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.28 | Y: 6.62 | Z: 4.92
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.7 | Y: 4.25 | Z: 6.38
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 7.668079
+Sensor 1: 
+X: 5.85 | Y: 3.11 | Z: 8.32
+roll: 0.01 | pitch: -0.01 | yaw: -0.03
+Sensor 2: 
+X: -4.57 | Y: 3.55 | Z: 8.15
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.02 | Y: 5.58 | Z: 7.34
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.3 | Y: 6.62 | Z: 4.9
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.72 | Y: 4.24 | Z: 6.42
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 8.169096
+Sensor 1: 
+X: 6.08 | Y: 3.19 | Z: 8.04
+roll: 0.01 | pitch: 0.0 | yaw: -0.04
+Sensor 2: 
+X: -4.36 | Y: 3.61 | Z: 8.21
+roll: -0.03 | pitch: -0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.03 | Y: 5.58 | Z: 7.33
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.28 | Y: 6.63 | Z: 4.91
+roll: -0.06 | pitch: 0.03 | yaw: 0.01
+Sensor 5: 
+X: -5.72 | Y: 4.26 | Z: 6.39
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 8.670074
+Sensor 1: 
+X: 6.11 | Y: 3.13 | Z: 8.09
+roll: -0.02 | pitch: 0.02 | yaw: -0.03
+Sensor 2: 
+X: -4.43 | Y: 3.61 | Z: 8.19
+roll: -0.04 | pitch: 0.02 | yaw: 0.01
+Sensor 3: 
+X: -3.02 | Y: 5.59 | Z: 7.31
+roll: -0.01 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.28 | Y: 6.62 | Z: 4.91
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.72 | Y: 4.25 | Z: 6.4
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 9.173762
+Sensor 1: 
+X: 6.12 | Y: 3.11 | Z: 8.09
+roll: 0.0 | pitch: 0.0 | yaw: -0.03
+Sensor 2: 
+X: -4.42 | Y: 3.58 | Z: 8.2
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.04 | Y: 5.59 | Z: 7.32
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.3 | Y: 6.62 | Z: 4.91
+roll: -0.06 | pitch: 0.04 | yaw: 0.01
+Sensor 5: 
+X: -5.73 | Y: 4.25 | Z: 6.4
+roll: -0.06 | pitch: 0.01 | yaw: -0.02
+
+Time: 9.683111
+Sensor 1: 
+X: 6.14 | Y: 3.1 | Z: 8.07
+roll: 0.0 | pitch: -0.01 | yaw: -0.03
+Sensor 2: 
+X: -4.4 | Y: 3.58 | Z: 8.21
+roll: -0.04 | pitch: 0.0 | yaw: 0.03
+Sensor 3: 
+X: -3.03 | Y: 5.6 | Z: 7.31
+roll: -0.02 | pitch: 0.02 | yaw: 0.0
+Sensor 4: 
+X: -4.29 | Y: 6.62 | Z: 4.92
+roll: -0.06 | pitch: 0.03 | yaw: 0.02
+Sensor 5: 
+X: -5.73 | Y: 4.23 | Z: 6.38
+roll: -0.07 | pitch: 0.02 | yaw: -0.02
+
+Time: 10.193586
+Sensor 1: 
+X: 6.19 | Y: 3.08 | Z: 8.02
+roll: -0.0 | pitch: 0.0 | yaw: -0.03
+Sensor 2: 
+X: -4.34 | Y: 3.58 | Z: 8.25
+roll: -0.04 | pitch: -0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.02 | Y: 5.62 | Z: 7.3
+roll: -0.02 | pitch: 0.01 | yaw: -0.0
+Sensor 4: 
+X: -4.26 | Y: 6.63 | Z: 4.93
+roll: -0.07 | pitch: 0.01 | yaw: 0.03
+Sensor 5: 
+X: -5.71 | Y: 4.27 | Z: 6.38
+roll: -0.06 | pitch: 0.0 | yaw: -0.01
+
+Time: 10.711295
+Sensor 1: 
+X: 6.27 | Y: 3.07 | Z: 8.0
+roll: -0.0 | pitch: 0.03 | yaw: -0.04
+Sensor 2: 
+X: -4.31 | Y: 3.6 | Z: 8.26
+roll: -0.03 | pitch: 0.02 | yaw: 0.01
+Sensor 3: 
+X: -3.0 | Y: 5.62 | Z: 7.31
+roll: -0.02 | pitch: 0.02 | yaw: -0.02
+Sensor 4: 
+X: -4.2 | Y: 6.64 | Z: 4.96
+roll: -0.06 | pitch: 0.03 | yaw: 0.01
+Sensor 5: 
+X: -5.68 | Y: 4.3 | Z: 6.41
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 11.213091
+Sensor 1: 
+X: 6.24 | Y: 3.06 | Z: 7.99
+roll: 0.0 | pitch: -0.01 | yaw: -0.02
+Sensor 2: 
+X: -4.37 | Y: 3.59 | Z: 8.22
+roll: -0.05 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.03 | Y: 5.61 | Z: 7.29
+roll: -0.02 | pitch: 0.03 | yaw: -0.01
+Sensor 4: 
+X: -4.2 | Y: 6.61 | Z: 4.98
+roll: -0.07 | pitch: 0.02 | yaw: 0.02
+Sensor 5: 
+X: -5.68 | Y: 4.27 | Z: 6.4
+roll: -0.06 | pitch: 0.0 | yaw: 0.0
+
+Time: 11.725842
+Sensor 1: 
+X: 6.31 | Y: 3.06 | Z: 7.94
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.34 | Y: 3.62 | Z: 8.25
+roll: -0.03 | pitch: 0.02 | yaw: 0.01
+Sensor 3: 
+X: -3.05 | Y: 5.62 | Z: 7.3
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.24 | Y: 6.62 | Z: 4.96
+roll: -0.05 | pitch: 0.03 | yaw: 0.01
+Sensor 5: 
+X: -5.69 | Y: 4.28 | Z: 6.4
+roll: -0.07 | pitch: 0.02 | yaw: -0.03
+
+Time: 12.233077
+Sensor 1: 
+X: 6.33 | Y: 3.06 | Z: 7.93
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.33 | Y: 3.6 | Z: 8.24
+roll: -0.04 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.07 | Y: 5.63 | Z: 7.29
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.23 | Y: 6.6 | Z: 4.97
+roll: -0.06 | pitch: 0.02 | yaw: 0.02
+Sensor 5: 
+X: -5.68 | Y: 4.27 | Z: 6.4
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 12.743088
+Sensor 1: 
+X: 6.31 | Y: 3.08 | Z: 7.94
+roll: 0.0 | pitch: -0.02 | yaw: -0.02
+Sensor 2: 
+X: -4.32 | Y: 3.62 | Z: 8.26
+roll: -0.04 | pitch: 0.0 | yaw: 0.03
+Sensor 3: 
+X: -3.04 | Y: 5.62 | Z: 7.29
+roll: -0.03 | pitch: 0.02 | yaw: -0.0
+Sensor 4: 
+X: -4.26 | Y: 6.62 | Z: 4.95
+roll: -0.07 | pitch: 0.03 | yaw: 0.02
+Sensor 5: 
+X: -5.69 | Y: 4.25 | Z: 6.39
+roll: -0.06 | pitch: 0.01 | yaw: -0.01
+
+Time: 13.253074
+Sensor 1: 
+X: 6.33 | Y: 3.06 | Z: 7.94
+roll: 0.0 | pitch: 0.03 | yaw: -0.04
+Sensor 2: 
+X: -4.3 | Y: 3.64 | Z: 8.23
+roll: -0.04 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.02 | Y: 5.63 | Z: 7.28
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.25 | Y: 6.62 | Z: 4.94
+roll: -0.05 | pitch: 0.06 | yaw: 0.0
+Sensor 5: 
+X: -5.73 | Y: 4.28 | Z: 6.37
+roll: -0.07 | pitch: 0.0 | yaw: -0.01
+
+Time: 13.763766
+Sensor 1: 
+X: 6.32 | Y: 3.06 | Z: 7.92
+roll: 0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.3 | Y: 3.63 | Z: 8.26
+roll: -0.04 | pitch: 0.01 | yaw: 0.01
+Sensor 3: 
+X: -3.02 | Y: 5.63 | Z: 7.3
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.27 | Y: 6.61 | Z: 4.94
+roll: -0.06 | pitch: 0.05 | yaw: 0.01
+Sensor 5: 
+X: -5.69 | Y: 4.3 | Z: 6.37
+roll: -0.07 | pitch: 0.01 | yaw: -0.02
+
+Time: 14.275166
+Sensor 1: 
+X: 6.38 | Y: 3.04 | Z: 7.88
+roll: 0.01 | pitch: -0.03 | yaw: -0.02
+Sensor 2: 
+X: -4.27 | Y: 3.6 | Z: 8.26
+roll: -0.03 | pitch: 0.01 | yaw: 0.02
+Sensor 3: 
+X: -3.04 | Y: 5.62 | Z: 7.29
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.27 | Y: 6.61 | Z: 4.95
+roll: -0.06 | pitch: 0.05 | yaw: 0.01
+Sensor 5: 
+X: -5.66 | Y: 4.3 | Z: 6.4
+roll: -0.08 | pitch: 0.02 | yaw: -0.02
+
+Time: 14.78311
+Sensor 1: 
+X: 6.43 | Y: 3.07 | Z: 7.84
+roll: 0.0 | pitch: 0.02 | yaw: -0.05
+Sensor 2: 
+X: -4.3 | Y: 3.65 | Z: 8.26
+roll: -0.02 | pitch: 0.02 | yaw: 0.01
+Sensor 3: 
+X: -3.05 | Y: 5.64 | Z: 7.28
+roll: -0.01 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.3 | Y: 6.62 | Z: 4.92
+roll: -0.04 | pitch: 0.05 | yaw: 0.0
+Sensor 5: 
+X: -5.68 | Y: 4.3 | Z: 6.4
+roll: -0.07 | pitch: 0.03 | yaw: -0.04
+
+Time: 15.293078
+Sensor 1: 
+X: 6.42 | Y: 3.05 | Z: 7.84
+roll: -0.0 | pitch: 0.01 | yaw: -0.04
+Sensor 2: 
+X: -4.28 | Y: 3.62 | Z: 8.27
+roll: -0.04 | pitch: 0.01 | yaw: 0.01
+Sensor 3: 
+X: -3.05 | Y: 5.64 | Z: 7.28
+roll: -0.02 | pitch: 0.02 | yaw: -0.01
+Sensor 4: 
+X: -4.29 | Y: 6.63 | Z: 4.93
+roll: -0.06 | pitch: 0.02 | yaw: 0.02
+Sensor 5: 
+X: -5.7 | Y: 4.3 | Z: 6.39
+roll: -0.06 | pitch: 0.01 | yaw: -0.02
+
+Time: 15.803323
+Sensor 1: 
+X: 6.45 | Y: 3.04 | Z: 7.81
+roll: 0.01 | pitch: 0.03 | yaw: -0.05
+Sensor 2: 
+X: -4.27 | Y: 3.66 | Z: 8.27
+roll: -0.03 | pitch: 0.02 | yaw: 0.02
+Sensor 3: 
+X: -3.03 | Y: 5.65 | Z: 7.27
+roll: -0.01 | pitch: 0.03 | yaw: -0.01
+Sensor 4: 
+X: -4.27 | Y: 6.63 | Z: 4.91
+roll: -0.05 | pitch: 0.05 | yaw: 0.01
+Sensor 5: 
+X: -5.69 | Y: 4.3 | Z: 6.36
+roll: -0.08 | pitch: 0.02 | yaw: -0.02
+
