@@ -4,6 +4,7 @@ import sys
 import main          # make sure these exist
 import data
 from datetime import datetime
+from pynput import keyboard
 
 filename = "output.txt"
 
@@ -22,7 +23,7 @@ async def listen(uri):
                 print(f">> {message}")
                 sens_data = main.file_reading(message)
                 if sens_data is not None:
-                    out_file.write(f"Time: {(datetime.now() - start_time).total_seconds()}\n{sens_data}\n")
+                    out_file.write(f"Time:  {(datetime.now() - start_time).total_seconds()}\n{sens_data}\n")
                 print(sens_data)
 
     except websockets.exceptions.ConnectionClosedOK:

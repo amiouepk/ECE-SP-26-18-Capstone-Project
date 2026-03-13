@@ -105,7 +105,7 @@ def sample_input(path):
     except FileNotFoundError: 
         print('Please enter a valid file path')
     except Exception as e:
-        print(f"An erro rhas occured: {e}")
+        print(f"An error has occured: {e}")
     
 
 

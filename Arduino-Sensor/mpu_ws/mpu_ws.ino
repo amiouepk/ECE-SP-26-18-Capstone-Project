@@ -77,29 +77,29 @@ void setup() {
   setup_ap();
   setup_ws();
 
-  Wire.setSDA(0);
-  Wire.setSCL(1);
+  Wire.setSDA(4);
+  Wire.setSCL(5);
   Wire.begin();
 
   tcaselect(0); delay(5);
-  if (!mpu1.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #1"); while (1); }
+  if (!mpu1.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #1"); while (0); }
   configureSensor(mpu1, 1);
 
   tcaselect(1);
-  if (!mpu2.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #2"); while (1); }
+  if (!mpu2.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #2"); while (0); }
   configureSensor(mpu2, 2);
 
   tcaselect(2);
-  if (!mpu3.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #3"); while (1); }
+  if (!mpu3.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #3"); while (0); }
   configureSensor(mpu3, 3);
 
   tcaselect(3);
-  if (!mpu4.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #4"); while (1); }
+  if (!mpu4.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #4"); while (0); }
   configureSensor(mpu4, 4);
 
-  // tcaselect(4);
-  // if (!mpu5.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #5"); while (1); }
-  // configureSensor(mpu5, 5);
+  tcaselect(4);
+  if (!mpu5.begin(0x68, &Wire)) { Serial.println("Failed MPU6050 #5"); while (0); }
+  configureSensor(mpu5, 5);
 
   Serial.println("All sensors initialized!");
 }
@@ -130,15 +130,15 @@ void loop() {
       msg += "|" + String(a.acceleration.x) + "/" + String(a.acceleration.y) + "/" + String(a.acceleration.z) + "/" +
              String(g.gyro.x) + "/" + String(g.gyro.y) + "/" + String(g.gyro.z);
 
-      // tcaselect(3);
-      // mpu4.getEvent(&a, &g, &temp);
-      // msg += "|S4:" + String(a.acceleration.x) + "/" + String(a.acceleration.y) + "/" + String(a.acceleration.z) + "/" +
-      //        String(g.gyro.x) + "/" + String(g.gyro.y) + "/" + String(g.gyro.z);
+      tcaselect(3);
+      mpu4.getEvent(&a, &g, &temp);
+      msg += "|S4:" + String(a.acceleration.x) + "/" + String(a.acceleration.y) + "/" + String(a.acceleration.z) + "/" +
+             String(g.gyro.x) + "/" + String(g.gyro.y) + "/" + String(g.gyro.z);
 
-      // tcaselect(4);
-      // mpu5.getEvent(&a, &g, &temp);
-      // msg += "|S5:" + String(a.acceleration.x) + "/" + String(a.acceleration.y) + "/" + String(a.acceleration.z) + "/" +
-      //        String(g.gyro.x) + "/" + String(g.gyro.y) + "/" + String(g.gyro.z);
+      tcaselect(4);
+      mpu5.getEvent(&a, &g, &temp);
+      msg += "|S5:" + String(a.acceleration.x) + "/" + String(a.acceleration.y) + "/" + String(a.acceleration.z) + "/" +
+             String(g.gyro.x) + "/" + String(g.gyro.y) + "/" + String(g.gyro.z);
 
       msg += "|";
       webSocket.sendTXT(connectedClient, msg);
