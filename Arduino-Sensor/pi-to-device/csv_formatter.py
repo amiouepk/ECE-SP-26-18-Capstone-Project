@@ -37,6 +37,52 @@ def Both_data_reader(data_chunk, extracted_vals):
 def sensor_data_formatter():
     pass
 
+# def main_reader():
+#     curr_time = data_chunk[0][7:data_chunk[0].find('ms')]
+#     print(f"curr_time: {curr_time}")
+#     extracted_vals[0] = curr_time
+
+
+#     if mode == 0:
+#         Mpu_data_reader(curr_time, data_chunk)
+        
+#     elif mode == 1:
+#         Both_data_reader(data_chunk, extracted_vals)
+#     else:
+#         bno_data_reader(data_chunk, extracted_vals)
+
+#     data_chunk = [''] * num_lines
+#     contiue
+
+def read_chunk():
+    for line in in_file:
+        #print(f"line: {line}")
+        #print(f"{i} % {num_lines} = {i % num_lines}")
+        if line.strip() == '':
+            curr_time = data_chunk[0][7:data_chunk[0].find('ms')]
+            print(f"curr_time: {curr_time}")
+            extracted_vals[0] = curr_time
+
+            if mode == 0:
+                Mpu_data_reader(curr_time, data_chunk)
+                
+            elif mode == 1:
+                Both_data_reader(data_chunk, extracted_vals)
+            else:
+                bno_data_reader(data_chunk, extracted_vals)
+
+
+            data_chunk = [''] * num_lines
+            i = 0
+            continue
+            
+
+        
+        data_chunk[i] = line.strip()
+        i += 1
+    pass
+def process_chunk():
+    pass
 
 def File_io_manager(in_filename, out_filename, mode):
 
@@ -65,30 +111,12 @@ def File_io_manager(in_filename, out_filename, mode):
                 
                 data_chunk = [''] * num_lines
                 
+                i = 0
 
-                for i, line in enumerate(in_file):
-                    #print(f"line: {line}")
-                    print(f"{i} % {num_lines}")
-                    if i % mod_val == num_lines:
-                        
-                        curr_time = data_chunk[0][7:data_chunk[0].find('ms')]
-                        print(f"curr_time: {curr_time}")
-                        extracted_vals[0] = curr_time
+                for chunk in read_chunk(in_file):
+                    process_chunk
 
-
-                        if mode == 0:
-                            Mpu_data_reader(curr_time, data_chunk)
-                            
-                        elif mode == 1:
-                            Both_data_reader(data_chunk, extracted_vals)
-                        else:
-                            bno_data_reader(data_chunk, extracted_vals)
-
-                        data_chunk = [''] * num_lines
-                        continue
-
-                    
-                    data_chunk[i % num_lines] = line.strip()
+                
 
 
                 
