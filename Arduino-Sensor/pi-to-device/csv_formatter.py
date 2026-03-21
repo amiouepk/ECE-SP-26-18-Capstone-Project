@@ -13,91 +13,186 @@ def help():
     print("-c, --convert    need name of input file (txt)")
     print("                 option for output file name")
 
+def process_acceleration(accel_chunk):
+
+    #x_comp = str[str.find('X: ') + 3:str.find('Y: ') - 4]
+    x_comp = accel_chunk[3:accel_chunk.find('|') - 1]
+    y_comp = accel_chunk[accel_chunk.find('Y: ') + 3:accel_chunk.find('Z: ') - 3]
+    z_comp = accel_chunk[accel_chunk.find('Z: ') + 3::]
+
+    return [x_comp, y_comp, z_comp]
+
+def process_gyro(gryo_chunk):
+    #print(f"fing: {gryo_chunk.find('gyro_y:')}")
+    gyro_x = gryo_chunk[8:gryo_chunk.find('|') - 1]
+    gyro_y = gryo_chunk[gryo_chunk.find('gyro_y: ') + 8:gryo_chunk.find('gyro_z: ') - 3]
+    gyro_z = gryo_chunk[gryo_chunk.find('gyro_z: ') + 8::]
+
+    return [gyro_x, gyro_y, gyro_z]
+
+def process_magnet(mag_chunk):
+
+    mag_x = mag_chunk[7:mag_chunk.find('|') - 1]
+    mag_y = mag_chunk[mag_chunk.find('mag_y: ') + 7:mag_chunk.find('mag_z') - 3]
+    mag_z = mag_chunk[mag_chunk.find('mag_z') + 7::]
+
+    return [mag_x, mag_y, mag_z]
+
 def convert_text_csv():
     print("in convert_text_csv function")
 
-def mpu_convert_to_csv():
-    print("In mpu csv convet function")
-    pass
+def process_mpu(mpu_chunk):
+    
+    accel_data = process_acceleration(mpu_chunk[0])
+    gyro_data = process_gyro(mpu_chunk[1])
+    
+    return accel_data, gyro_data
+
+def process_bno(bno_chunk):
+
+    #print(bno_chunk)
+    accel_data = process_acceleration(bno_chunk[0])
+    gyro_data = process_gyro(bno_chunk[1])
+    #print(gyro_data)
+    mag_data = process_magnet(bno_chunk[2])
+
+    return accel_data, gyro_data, mag_data
 
 def Mpu_data_reader(in_file, out_file):
     
     pass
 
-def bno_data_reader():
-    pass
 
 def Bno_data_reader():
     pass
 
-def Both_data_reader(data_chunk, extracted_vals):
+def Both_data_reader(chunk, extracted_vals):
+
+    ev_len = len(extracted_vals)
+    print(f"ev_len: {ev_len}")
+
+    if ev_len != 40:
+        sys.stderr.write("Wrong array length, Must be for Both")
+        sys.exit(2)
+
+
+    accel_data, gyro_data, mag_data = process_bno(chunk[2:5])
+
+    i = 1
+    j = 0
+
+    # print(len(accel_data))
+    # print(f"accel_data: {accel_data}")
+    # print(f"gyro_data: {gyro_data}")
+    # print(f"mag_data: {mag_data}")
+    while j < 3:
+        
+        #print(accel_data[j], gyro_data[j], mag_data[j])
+        extracted_vals[i] = accel_data[j]
+        extracted_vals[i + 3] = gyro_data[j]
+        extracted_vals[i + 6] = mag_data[j]
+
+        i += 1
+        j += 1
+    
+    # print("extracted values")
+    # for val in extracted_vals:
+    #     print(val)
+
+
+    mpu_accel_data = []
+    mpu_gyro_data = []
+
+    mpu_num = 0
+
+    accel_line = 6
+    gyro_line = 7
+
+    print("MPU PROCESSING")
+    while mpu_num < 5:
+
+        mpu_accel_data.append(chunk[accel_line])
+        mpu_gyro_data.append(chunk[gyro_line])
+
+        print(accel_line)
+        print(gyro_line)
+
+        accel_line += 3
+        gyro_line += 3
+        mpu_num += 1
+
+
+    mpu_num = 0
+
+    while mpu_num < 5:
+        extracted_vals[i:i+3] = mpu_accel_data[mpu_num][0::]
+        i += 4
+        extracted_vals[i:i+3] = mpu_gyro_data[mpu_num][0::]
+        
+        i += 4
+        mpu_num += 1
+
+    #ISSUE
+    # print("extracted values")
+    # for val in extracted_vals:
+    #     print(val)
+
+    return extracted_vals
+
+
+    
     print("IN BOTH")
-    pass
+
+
+    return extracted_vals
 
 def sensor_data_formatter():
     pass
 
-# def main_reader():
-#     curr_time = data_chunk[0][7:data_chunk[0].find('ms')]
-#     print(f"curr_time: {curr_time}")
-#     extracted_vals[0] = curr_time
 
+def read_chunk(in_file):
+    chunk = []
 
-#     if mode == 0:
-#         Mpu_data_reader(curr_time, data_chunk)
-        
-#     elif mode == 1:
-#         Both_data_reader(data_chunk, extracted_vals)
-#     else:
-#         bno_data_reader(data_chunk, extracted_vals)
-
-#     data_chunk = [''] * num_lines
-#     contiue
-
-def read_chunk():
     for line in in_file:
         #print(f"line: {line}")
         #print(f"{i} % {num_lines} = {i % num_lines}")
+
+        stripped = line.strip()
         if line.strip() == '':
-            curr_time = data_chunk[0][7:data_chunk[0].find('ms')]
-            print(f"curr_time: {curr_time}")
-            extracted_vals[0] = curr_time
-
-            if mode == 0:
-                Mpu_data_reader(curr_time, data_chunk)
-                
-            elif mode == 1:
-                Both_data_reader(data_chunk, extracted_vals)
-            else:
-                bno_data_reader(data_chunk, extracted_vals)
-
-
-            data_chunk = [''] * num_lines
-            i = 0
-            continue
-            
-
+            yield chunk
+            chunk = []
+        else:
+            chunk.append(stripped)
         
-        data_chunk[i] = line.strip()
-        i += 1
-    pass
-def process_chunk():
-    pass
-
-def File_io_manager(in_filename, out_filename, mode):
 
     
+def process_chunk(chunk, extracted_vals, mode):
+
+    curr_time = chunk[0][7::]
+    #print(f"curr_time: {curr_time}")
+    extracted_vals[0] = curr_time
+
     if mode == 0:
-        num_lines = 17
+        extracted_vals = Mpu_data_reader(chunk, extracted_vals)
+    elif mode == 1:
+        extracted_vals = Both_data_reader(chunk, extracted_vals)
+    else:
+        extracted_vals = bno_data_reader(chunk, extracted_vals)
+
+    return extracted_vals
+    
+
+def file_io_manager(in_filename, out_filename, mode):
+
+    if mode == 0:
+        #num_lines = 17
         extracted_vals = [''] * 31
     elif mode == 1:
-        num_lines = 21
+        #num_lines = 21
         extracted_vals = [''] * 40
     else:
-        num_lines = 26
+        #num_lines = 26
         extracted_vals = [''] * 55
-
-    
 
     try:
         with open(in_filename, "r", encoding="utf-8") as in_file:
@@ -106,21 +201,20 @@ def File_io_manager(in_filename, out_filename, mode):
                 
                 csv.writer(out_file)
                 
-                curr_time = None
-                mod_val = num_lines + 1
-                
-                data_chunk = [''] * num_lines
                 
                 i = 0
 
                 for chunk in read_chunk(in_file):
-                    process_chunk
 
-                
+                    #print(chunn)
+                    extracted_vals = process_chunk(chunk, extracted_vals, mode)
+                    
+                    # for val in extracted_vals:
+                    #     print(val)
 
-
-                
-                
+                    #for i in extracted_vals:
+                        #print(i)
+                    
 
 
                 
@@ -179,7 +273,7 @@ if __name__ == "__main__":
             if args_len == tstr_min_len + 1:
                 out_filename = sys.argv[tstr_min_len] + '.csv'
 
-            File_io_manager(in_filename, out_filename, sensor_option)
+            file_io_manager(in_filename, out_filename, sensor_option)
                     
         # else:
         #     sys.stderr.write("You must have at least an input file (txt) with option for output file name")
