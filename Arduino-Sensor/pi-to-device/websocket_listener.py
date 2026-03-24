@@ -5,6 +5,7 @@ import formatter          # make sure these exist
 import data
 import contextlib
 import atexit
+import csv_formatter
 from datetime import datetime
 
 if sys.platform == "win32":
@@ -97,7 +98,6 @@ if __name__ == "__main__":
     if len(sys.argv) == 2:
         filename = sys.argv[1]  
     
-       
         
     try:
         asyncio.run(main())

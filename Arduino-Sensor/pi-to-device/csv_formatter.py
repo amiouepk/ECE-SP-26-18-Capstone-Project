@@ -81,10 +81,6 @@ def Both_data_reader(chunk, extracted_vals):
     i = 1
     j = 0
 
-    # print(len(accel_data))
-    # print(f"accel_data: {accel_data}")
-    # print(f"gyro_data: {gyro_data}")
-    # print(f"mag_data: {mag_data}")
     while j < 3:
         
         #print(accel_data[j], gyro_data[j], mag_data[j])
@@ -99,44 +95,49 @@ def Both_data_reader(chunk, extracted_vals):
     # for val in extracted_vals:
     #     print(val)
 
+    i = 10
+    j = 0
+    accel_data = []
+    gyro_data = []
 
-    mpu_accel_data = []
-    mpu_gyro_data = []
+    curr_accel_line = 6
+    curr_gyro_line = 7
 
-    mpu_num = 0
+    #print(f"index 6: {chunk[6]}")
+    #print(chun)
 
-    accel_line = 6
-    gyro_line = 7
-
-    print("MPU PROCESSING")
-    while mpu_num < 5:
-
-        mpu_accel_data.append(chunk[accel_line])
-        mpu_gyro_data.append(chunk[gyro_line])
-
-        print(accel_line)
-        print(gyro_line)
-
-        accel_line += 3
-        gyro_line += 3
-        mpu_num += 1
-
-
-    mpu_num = 0
-
-    while mpu_num < 5:
-        extracted_vals[i:i+3] = mpu_accel_data[mpu_num][0::]
-        i += 4
-        extracted_vals[i:i+3] = mpu_gyro_data[mpu_num][0::]
+    print('new loop')
+    while curr_gyro_line < len(chunk):
+        #print(f"chunk len: {len(chunk)}")
         
-        i += 4
-        mpu_num += 1
+        print(f"curr_gyro_line: {curr_gyro_line}")
+        #print(f"length: {len(chunk[curr_accel_line:curr_gyro_line])}")
+        #print(f"accel: {extracted_vals[curr_accel_line]}, gyro: {extracted_vals[curr_gyro_line]}")
+        accel_data, gyro_data = process_mpu([chunk[curr_accel_line], chunk[curr_gyro_line]])
+        #print(f"accel_data: {accel_data}, gyro_data: {gyro_data}")
 
-    #ISSUE
-    # print("extracted values")
-    # for val in extracted_vals:
-    #     print(val)
+        j = 0
+        while j < 3:
+            extracted_vals[i] = accel_data[j]
+            extracted_vals[i + 3] = gyro_data[j]
 
+            #print(f"i: {i}")
+            print(f"extracted_vals[{i}]: {extracted_vals[i]}")
+            print(f"extracted_vals[{i} + 3]: {extracted_vals[i + 3]}")
+
+            j += 1
+            i += 1
+            
+        i += 3
+       
+        curr_accel_line += 3
+        curr_gyro_line += 3
+
+        #i += 1
+
+
+    #print(extracted_vals)
+    
     return extracted_vals
 
 
@@ -199,7 +200,7 @@ def file_io_manager(in_filename, out_filename, mode):
             #convert_text_csv()
             with open("../../ML/ml-outputs/" + out_filename, "w+", newline='') as out_file:
                 
-                csv.writer(out_file)
+                data_writer = csv.writer(out_file)
                 
                 
                 i = 0
@@ -208,12 +209,8 @@ def file_io_manager(in_filename, out_filename, mode):
 
                     #print(chunn)
                     extracted_vals = process_chunk(chunk, extracted_vals, mode)
-                    
-                    # for val in extracted_vals:
-                    #     print(val)
-
-                    #for i in extracted_vals:
-                        #print(i)
+                    data_writer.writerow(extracted_vals)
+                    #print(extracted_vals)
                     
 
 
@@ -222,7 +219,7 @@ def file_io_manager(in_filename, out_filename, mode):
     except FileNotFoundError:
         sys.stderr.write("This File does not exist. Enter A file that does exist")
         sys.exit(2)
-
+ 
 
 #def main 
 

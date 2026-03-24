@@ -1,4 +1,4 @@
-Time:  0.502923
+PTime:  0.502923
 Sensor 1: 
 X: 6.53 | Y: 3.17 | Z: 7.71
 roll: 0.0 | pitch: 0.01 | yaw: -0.04
