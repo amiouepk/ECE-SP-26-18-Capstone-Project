@@ -2,6 +2,7 @@ import asyncio
 import websockets
 import sys
 import formatter          # make sure these exist
+import csv_formatter
 import data
 import contextlib
 import atexit
@@ -29,27 +30,46 @@ else:
         return ch
 
 filename = "default_output.txt"
+csv_filename = "output.csv"
 
 async def listen(uri):
     print(f"Connecting to {uri}...")
     try:
         async with websockets.connect(uri) as ws:
             print(f"Connected! Listening for messages...\n{'-'*40}")
-            num_sensors = 6
-            out_file = open(filename, 'w+')
 
             start_time = datetime.now()
-            relative_time = None    
 
-            async for message in ws:
-                print(f">> {message}")
+            with open(csv_filename, 'w+') as out_file:
 
 
-                sens_data = formatter.file_reading(message)
+                async for message in ws:
+                    print(f">> {message}")
+                    
 
-                if sens_data is not None:
-                    out_file.write(f"Time:  {(datetime.now() - start_time).total_seconds()}\n{sens_data}\n")
-                print(sens_data)
+                    #sens_data = csv_formatter.live_writer(message, out_file)
+
+                    if sens_data is not None:
+                        out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message}\n")
+                    print(sens_data)
+
+
+
+            # num_sensors = 6
+            # out_file = open(filename, 'w+')
+
+            # start_time = datetime.now()
+            # relative_time = None    
+
+            # async for message in ws:
+            #     print(f">> {message}")
+
+
+            #     sens_data = formatter.file_reading(message)
+
+            #     if sens_data is not None:
+            #         out_file.write(f"Time:  {(datetime.now() - start_time).total_seconds()}\n{sens_data}\n")
+            #     print(sens_data)
 
     except websockets.exceptions.ConnectionClosedOK:
         print("Connection closed.")

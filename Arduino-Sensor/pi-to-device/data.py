@@ -49,3 +49,5 @@ class bnoData:
         # print(f'X: {self.accel_x} | Y: {self.accel_y} | Z: {self.accel_z}')
         # print(f'gyro_x: {self.gyro_x} | gyro_y: {self.gyro_y} | gyro_z: {self.gyro_z}')
 
+# class mpu:
+#     self.init

@@ -1,6 +1,8 @@
 import sys
 import csv
 
+DEFAULT = 4
+
 def help():
     print("Options: ")
     print("-h, --help       Prints help text")
@@ -14,8 +16,6 @@ def help():
     print("                 option for output file name")
 
 def process_acceleration(accel_chunk):
-
-    #x_comp = str[str.find('X: ') + 3:str.find('Y: ') - 4]
     x_comp = accel_chunk[3:accel_chunk.find('|') - 1]
     y_comp = accel_chunk[accel_chunk.find('Y: ') + 3:accel_chunk.find('Z: ') - 3]
     z_comp = accel_chunk[accel_chunk.find('Z: ') + 3::]
@@ -23,7 +23,6 @@ def process_acceleration(accel_chunk):
     return [x_comp, y_comp, z_comp]
 
 def process_gyro(gryo_chunk):
-    #print(f"fing: {gryo_chunk.find('gyro_y:')}")
     gyro_x = gryo_chunk[8:gryo_chunk.find('|') - 1]
     gyro_y = gryo_chunk[gryo_chunk.find('gyro_y: ') + 8:gryo_chunk.find('gyro_z: ') - 3]
     gyro_z = gryo_chunk[gryo_chunk.find('gyro_z: ') + 8::]
@@ -31,18 +30,13 @@ def process_gyro(gryo_chunk):
     return [gyro_x, gyro_y, gyro_z]
 
 def process_magnet(mag_chunk):
-
     mag_x = mag_chunk[7:mag_chunk.find('|') - 1]
     mag_y = mag_chunk[mag_chunk.find('mag_y: ') + 7:mag_chunk.find('mag_z') - 3]
     mag_z = mag_chunk[mag_chunk.find('mag_z') + 7::]
 
     return [mag_x, mag_y, mag_z]
 
-def convert_text_csv():
-    print("in convert_text_csv function")
-
 def process_mpu(mpu_chunk):
-    
     accel_data = process_acceleration(mpu_chunk[0])
     gyro_data = process_gyro(mpu_chunk[1])
     
@@ -61,7 +55,6 @@ def process_bno(bno_chunk):
 def Mpu_data_reader(in_file, out_file):
     
     pass
-
 
 def Bno_data_reader():
     pass
@@ -181,7 +174,13 @@ def process_chunk(chunk, extracted_vals, mode):
         extracted_vals = bno_data_reader(chunk, extracted_vals)
 
     return extracted_vals
+
+def live_writer():
+
     
+
+    
+    return
 
 def file_io_manager(in_filename, out_filename, mode):
 
@@ -194,6 +193,7 @@ def file_io_manager(in_filename, out_filename, mode):
     else:
         #num_lines = 26
         extracted_vals = [''] * 55
+    
 
     try:
         with open(in_filename, "r", encoding="utf-8") as in_file:
@@ -246,13 +246,23 @@ if __name__ == "__main__":
         help()
         exit(0)
 
+    if args_len == 3:
+        if opt == 'live':
+            live_writer(argv[2])
+
+            sys.exit(0)
+   
+
     if args_len >= 4:
         if opt == "mpu":
             sensor_option = 0 # MPU only input
         elif opt == "both":
             sensor_option = 1 # 1 BNO + remaining MPU
         elif opt == "bno":
-            sensor_option = 2 # Only BNO            
+            sensor_option = 2 # Only BNO 
+    # elif args_len == 3:
+    #     if opt == "live":
+    #         sensor_option = 4
 
     if sensor_option != 3:
         opt = sys.argv[2]
