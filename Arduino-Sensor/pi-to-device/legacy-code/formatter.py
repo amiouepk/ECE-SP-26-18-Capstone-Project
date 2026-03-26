@@ -2,13 +2,6 @@ import sys
 import numpy as np
 import data 
 
-# def open_sensor_data_file(num_sensors):
-#     files = [open(f"sensor_{i+1}.txt", "a") for i in range(num_sensors)]
-#     return files
-
-# def write_data(f, data):
-#     f.write(data)
-#     f.flush()
 
 def bosch_reading():
 

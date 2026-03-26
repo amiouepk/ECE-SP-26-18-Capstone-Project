@@ -4,13 +4,13 @@ import sys
 import data
 import contextlib
 import atexit
-from run_model import load_model
 import numpy as np
 import torch
 from datetime import datetime
 import torch
 import torch.nn as nn
 import numpy as np
+import __main__ #???is needed???
 
 if sys.platform == "win32":
     import msvcrt
@@ -35,15 +35,8 @@ else:
 filename = "default_output.txt"
 csv_filename = "output.csv"
 
-import torch
-import torch.nn as nn
-import numpy as np
-import __main__
 
-# ==========================================
-# 1. PASTE YOUR MODEL CLASS HERE
-# ==========================================
-# (Copy this exact block from your training script/notebook)
+
 class SensorClassifier(nn.Module):
     def __init__(self, input_size, num_classes):
         super(SensorClassifier, self).__init__()
@@ -63,11 +56,7 @@ class SensorClassifier(nn.Module):
         out = self.relu2(out)
         out = self.output_layer(out)
         return out
-# ==========================================
-# 2. THE "__MAIN__" FIX
-# ==========================================
-# This tells Python: "When the unpickler looks for SensorClassifier 
-# in the main script, point it to the class defined right above."
+
 __main__.SensorClassifier = SensorClassifier
 
 # ==========================================
@@ -78,13 +67,13 @@ def load_model():
     print(f"Loading models to {device}...")
 
     # Load model
-    model = torch.load("model.pth", map_location=device, weights_only=False)
+    model = torch.load("../../ML/model.pth", map_location=device, weights_only=False)
     model.to(device)
     model.eval()
 
     # Load pre-processing objects
-    scaler = torch.load("scaler.pt", weights_only=False)
-    label_encoder = torch.load("encoder.pt", weights_only=False)
+    scaler = torch.load("../../ML/scaler.pt", weights_only=False)
+    label_encoder = torch.load("../../ML/encoder.pt", weights_only=False)
 
     return model, scaler, label_encoder, device
 
@@ -159,6 +148,7 @@ async def spacebar_listen():
     #print("Spacebar Pressed")
 
 async def main():
+    
     uri = "ws://192.168.4.1:81"
 
     ws_task = asyncio.create_task(listen(uri))
