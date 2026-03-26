@@ -1,16 +1,16 @@
 import asyncio
 import websockets
 import sys
-import formatter          # make sure these exist
-import csv_formatter
 import data
 import contextlib
 import atexit
-import csv_formatter
 from run_model import load_model
 import numpy as np
 import torch
 from datetime import datetime
+import torch
+import torch.nn as nn
+import numpy as np
 
 if sys.platform == "win32":
     import msvcrt
@@ -34,6 +34,59 @@ else:
 
 filename = "default_output.txt"
 csv_filename = "output.csv"
+
+import torch
+import torch.nn as nn
+import numpy as np
+import __main__
+
+# ==========================================
+# 1. PASTE YOUR MODEL CLASS HERE
+# ==========================================
+# (Copy this exact block from your training script/notebook)
+class SensorClassifier(nn.Module):
+    def __init__(self, input_size, num_classes):
+        super(SensorClassifier, self).__init__()
+        # Layer 1
+        self.layer1 = nn.Linear(input_size, 64)
+        self.relu1 = nn.ReLU()
+        # Layer 2
+        self.layer2 = nn.Linear(64, 32)
+        self.relu2 = nn.ReLU()
+        # Output Layer
+        self.output_layer = nn.Linear(32, num_classes)
+
+    def forward(self, x):
+        out = self.layer1(x)
+        out = self.relu1(out)
+        out = self.layer2(out)
+        out = self.relu2(out)
+        out = self.output_layer(out)
+        return out
+# ==========================================
+# 2. THE "__MAIN__" FIX
+# ==========================================
+# This tells Python: "When the unpickler looks for SensorClassifier 
+# in the main script, point it to the class defined right above."
+__main__.SensorClassifier = SensorClassifier
+
+# ==========================================
+# 3. YOUR EXISTING FUNCTIONS
+# ==========================================
+def load_model():
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Loading models to {device}...")
+
+    # Load model
+    model = torch.load("model.pth", map_location=device, weights_only=False)
+    model.to(device)
+    model.eval()
+
+    # Load pre-processing objects
+    scaler = torch.load("scaler.pt", weights_only=False)
+    label_encoder = torch.load("encoder.pt", weights_only=False)
+
+    return model, scaler, label_encoder, device
 
 async def listen(uri):
 
@@ -79,33 +132,10 @@ async def listen(uri):
 
                     print(f"Prediction: {predicted_label}")
 
-                    # --- Optional: Write to CSV ---
-                    # You can also write the prediction to the CSV if desired
+              
                     out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message},{predicted_label}\n")
 
-                    #sens_data = csv_formatter.live_writer(message, out_ile)
 
-                    if message is not None:
-                        out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message}\n")
-                    #print(message)
-
-
-
-            # num_sensors = 6
-            # out_file = open(filename, 'w+')
-
-            # start_time = datetime.now()
-            # relative_time = None    
-
-            # async for message in ws:
-            #     print(f">> {message}")
-
-
-            #     sens_data = formatter.file_reading(message)
-
-            #     if sens_data is not None:
-            #         out_file.write(f"Time:  {(datetime.now() - start_time).total_seconds()}\n{sens_data}\n")
-            #     print(sens_data)
 
     except websockets.exceptions.ConnectionClosedOK:
         print("Connection closed.")
