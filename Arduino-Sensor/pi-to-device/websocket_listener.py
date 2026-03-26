@@ -7,6 +7,8 @@ import data
 import contextlib
 import atexit
 import csv_formatter
+import run_model
+import numpy as np
 from datetime import datetime
 
 if sys.platform == "win32":
@@ -33,6 +35,10 @@ filename = "default_output.txt"
 csv_filename = "output.csv"
 
 async def listen(uri):
+
+    model, scaler, label_encoder, device = load_model()
+    features = 39
+
     print(f"Connecting to {uri}...")
     try:
         async with websockets.connect(uri) as ws:
@@ -45,9 +51,38 @@ async def listen(uri):
 
                 async for message in ws:
                     print(f">> {message}")
-                    
 
-                    #sens_data = csv_formatter.live_writer(message, out_file)
+                    #full_data = f"{(datetime.now() - start_time).total_seconds()},{message}\n"
+
+                    try:
+                        values = [float(x for x in message.split(','))]
+                    except ValueError:
+                        print("Skipping malformed message")
+                        continue
+                    
+                    if len(values) != n_features:
+                        print(f"Warning: expected {n_features} values, got {len(raw_values)}. Skipping.")
+                        continue
+
+
+                    input_array = np.array(values, dtype=np.float32).reshape(1, -1)
+                    scaled_input = scaler.transform(input_array)
+
+                    input_tensor = torch.FloatTensor(scaled_input).to(device)
+
+                    with torch.no_grad():
+                        outputs = model(input_tensor)
+                        pred_idx = torch.argmax(outputs, dim=1).item()
+
+                    predicted_label = label_encoder.inverse_transform([pred_idx])[0]
+
+                    print(f"Prediction: {predicted_label}")
+
+                    # --- Optional: Write to CSV ---
+                    # You can also write the prediction to the CSV if desired
+                    out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message},{predicted_label}\n")
+
+                    #sens_data = csv_formatter.live_writer(message, out_ile)
 
                     if sens_data is not None:
                         out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message}\n")
