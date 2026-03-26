@@ -7,8 +7,9 @@ import data
 import contextlib
 import atexit
 import csv_formatter
-import run_model
+from run_model import load_model
 import numpy as np
+import torch
 from datetime import datetime
 
 if sys.platform == "win32":
@@ -16,7 +17,7 @@ if sys.platform == "win32":
 
     def read_char():
         # msvcrt.getch() returns bytes, decode to string
-        return msvcrt.getch().decode('utf-8', errors='ignore')
+        return msvcrt.getch().decode('utf-8', errors='ignore') 
 else:
     import termios
     import tty
@@ -50,18 +51,18 @@ async def listen(uri):
 
 
                 async for message in ws:
-                    print(f">> {message}")
+                    #print(f">> {message}")
 
                     #full_data = f"{(datetime.now() - start_time).total_seconds()},{message}\n"
 
                     try:
-                        values = [float(x for x in message.split(','))]
+                        values = [float(x) for x in message.split(',')]
                     except ValueError:
                         print("Skipping malformed message")
                         continue
                     
-                    if len(values) != n_features:
-                        print(f"Warning: expected {n_features} values, got {len(raw_values)}. Skipping.")
+                    if len(values) != features:
+                        print(f"Warning: expected {features} values, got {len(values)}. Skipping.")
                         continue
 
 
@@ -84,9 +85,9 @@ async def listen(uri):
 
                     #sens_data = csv_formatter.live_writer(message, out_ile)
 
-                    if sens_data is not None:
+                    if message is not None:
                         out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message}\n")
-                    print(sens_data)
+                    #print(message)
 
 
 
