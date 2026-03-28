@@ -12,6 +12,7 @@ import torch.nn as nn
 import numpy as np
 import __main__ #???is needed???
 
+
 if sys.platform == "win32":
     import msvcrt
 
@@ -32,10 +33,14 @@ else:
             termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
         return ch
 
-filename = "default_output.txt"
-csv_filename = "output.csv"
+filename = "default_output.csv"
+#csv_filename = "output.csv"
 
-
+def error_message ():
+    print("Options: ")
+    print("-l for live reading from glove too model")
+    print("-w to only write data to glove")
+    print("1st arg: script, 2nd arg: option, 3rd arg: filename")
 
 class SensorClassifier(nn.Module):
     def __init__(self, input_size, num_classes):
@@ -59,25 +64,26 @@ class SensorClassifier(nn.Module):
 
 __main__.SensorClassifier = SensorClassifier
 
-# ==========================================
-# 3. YOUR EXISTING FUNCTIONS
-# ==========================================
+
 def load_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Loading models to {device}...")
 
-    # Load model
     model = torch.load("../../ML/model.pth", map_location=device, weights_only=False)
     model.to(device)
     model.eval()
 
-    # Load pre-processing objects
     scaler = torch.load("../../ML/scaler.pt", weights_only=False)
     label_encoder = torch.load("../../ML/encoder.pt", weights_only=False)
 
     return model, scaler, label_encoder, device
 
-async def listen(uri):
+async def live_listen(uri):
+
+    import torch
+    import torch.nn as nn
+    import numpy as np
+    import __main__ #???is needed???
 
     model, scaler, label_encoder, device = load_model()
     features = 39
@@ -89,7 +95,7 @@ async def listen(uri):
 
             start_time = datetime.now()
 
-            with open(csv_filename, 'w+') as out_file:
+            with open(filename, 'w+') as out_file:
 
 
                 async for message in ws:
@@ -133,6 +139,36 @@ async def listen(uri):
     except ConnectionRefusedError:
         print(f"Connection refused. Is the server running at {uri}?")
 
+async def write_listen(uri):
+    #model, scaler, label_encoder, device = load_model()
+    #features = 39
+
+    print(f"Connecting to {uri}...")
+    try:
+        async with websockets.connect(uri) as ws:
+            print(f"Connected! Listening for messages...\n{'-'*40}")
+
+            start_time = datetime.now()
+
+            with open(csv_filename, 'w+') as out_file:
+
+
+                async for message in ws:
+                    
+                    print(message)
+                    
+                    out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message}\n")
+
+
+
+    except websockets.exceptions.ConnectionClosedOK:
+        print("Connection closed.")
+    except websockets.exceptions.ConnectionClosedError as e:
+        print(f"Connection closed with error: {e}")
+    except ConnectionRefusedError:
+        print(f"Connection refused. Is the server running at {uri}?")
+
+
 async def spacebar_listen():
     loop = asyncio.get_running_loop()
 
@@ -148,10 +184,22 @@ async def spacebar_listen():
     #print("Spacebar Pressed")
 
 async def main():
-    
+
     uri = "ws://192.168.4.1:81"
 
-    ws_task = asyncio.create_task(listen(uri))
+    if sys.argv[1] == '-l':
+        print("Live option selected")
+        ws_task = asyncio.create_task(live_listen(uri))
+    elif sys.argv[1] == '-w':
+        print("Write option selected")
+        ws_task = asyncio.create_task(write_listen(uri))
+    else:
+        error_message()
+    
+    
+
+    
+    
     spacebar_task = asyncio.create_task(spacebar_listen())
     
     done, pending = await asyncio.wait([ws_task, spacebar_task], return_when = asyncio.FIRST_COMPLETED)
@@ -159,25 +207,39 @@ async def main():
     for task in pending:
         task.cancel()
 
-    # try:
-    #     asyncio.run(listen(uri))
-    # except
+
 
 
 async def clean_shutdown(event):
     print("clean shutdown funciton")
 
-
+def write():
+    pass
 
 if __name__ == "__main__":
     
-    if len(sys.argv) == 2:
-        filename = sys.argv[1]  
+    arg_len = len(sys.argv)
+
+    if arg_len != 3:
+        error_message()
+        exit()
+
+    if not sys.argv[2].endswith('.csv'):
+        filename = sys.argv[2] + '.csv'
+    else:
+        filename = sys.argv[2]
+
+
     
-        
+
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
         print("\nDisconnected.")
         exit()
+
+   
+    
+        
+    
     

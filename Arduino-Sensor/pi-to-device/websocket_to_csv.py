@@ -35,7 +35,7 @@ csv_filename = "output.csv"
 async def listen(uri):
 
     #model, scaler, label_encoder, device = load_model()
-    features = 39
+    #features = 39
 
     print(f"Connecting to {uri}...")
     try:
