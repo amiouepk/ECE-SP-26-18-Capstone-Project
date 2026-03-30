@@ -30,7 +30,8 @@ Adafruit_MPU6050 mpu1, mpu2;
 BNO08x bno1, bno2, bno3, bno4;
 
 #define TCAADDR     0x70
-#define BNO08X_ADDR 0x4A   // FIX: changed from 0x4B — default when ADR pin low
+#define BNO08X_ADDR 0x4B   // default address (ADR high)
+#define BNO08X_ADDR_ALT 0x4A // alternative address (ADR low)
 #define BNO08X_INT  -1
 #define BNO08X_RST  -1
 
@@ -56,49 +57,78 @@ void tcaselect(uint8_t channel) {
   Wire.beginTransmission(TCAADDR);
   Wire.write(1 << channel);
   Wire.endTransmission();
-  delayMicroseconds(500); // FIX: added settling time after every MUX switch
+  delay(5);  // Increased from 500µs to 5ms for reliable switching
 }
 
 void tcaDisable() {
   Wire.beginTransmission(TCAADDR);
   Wire.write(0x00);
   Wire.endTransmission();
+  delay(5);
 }
 
-// FIX: I2C bus scanner — run once in setup to confirm what's visible on each channel
+// Check if a device responds at the given address on the current channel
+bool probeAddress(uint8_t addr) {
+  Wire.beginTransmission(addr);
+  return (Wire.endTransmission() == 0);
+}
+
+// Scan a single channel, printing found devices
+void scanChannel(uint8_t ch) {
+  tcaselect(ch);
+  delay(10);
+  bool found = false;
+  Serial.printf("  Channel %d: ", ch);
+  for (uint8_t addr = 0x08; addr < 0x78; addr++) {
+    if (probeAddress(addr)) {
+      Serial.printf("0x%02X ", addr);
+      found = true;
+    }
+  }
+  if (!found) Serial.print("nothing found");
+  Serial.println();
+}
+
 void scanI2CBus() {
   Serial.println("\n=== I2C Bus Scan ===");
-  for (uint8_t ch = 0; ch < 8; ch++) {
-    tcaselect(ch);
-    delay(10);
-    bool found = false;
-    for (uint8_t addr = 0x08; addr < 0x78; addr++) {
-      Wire.beginTransmission(addr);
-      if (Wire.endTransmission() == 0) {
-        Serial.printf("  Channel %d: device at 0x%02X\n", ch, addr);
-        found = true;
-      }
-    }
-    if (!found) Serial.printf("  Channel %d: nothing found\n", ch);
+  for (uint8_t ch = 0; ch < 6; ch++) {
+    scanChannel(ch);
   }
   tcaDisable();
   Serial.println("=== Scan Complete ===\n");
 }
 
+// Read WHO_AM_I register of BNO08x (should return 0x19)
+bool checkBNO08x(BNO08x &bno, uint8_t addr) {
+  Wire.beginTransmission(addr);
+  Wire.write(0x00);  // WHO_AM_I register
+  if (Wire.endTransmission() != 0) return false;
+  Wire.requestFrom(addr, (uint8_t)1);
+  if (Wire.available()) {
+    uint8_t whoami = Wire.read();
+    Serial.printf("    WHO_AM_I = 0x%02X (expected 0x19)\n", whoami);
+    return (whoami == 0x19);
+  }
+  return false;
+}
+
 void setReports(void) {
+  tcaselect(2);
   bno1.enableAccelerometer(20);
   bno1.enableGyro(20);
   bno1.enableMagnetometer(20);
 
+  tcaselect(3);
   bno2.enableAccelerometer(20);
   bno2.enableGyro(20);
   bno2.enableMagnetometer(20);
 
+  tcaselect(4);
   bno3.enableAccelerometer(20);
   bno3.enableGyro(20);
   bno3.enableMagnetometer(20);
 
-  // FIX: was bno3 twice — corrected to bno4
+  tcaselect(5);
   bno4.enableAccelerometer(20);
   bno4.enableGyro(20);
   bno4.enableMagnetometer(20);
@@ -168,7 +198,6 @@ void loop1() {
       webSocket.broadcastTXT(msgToSend);
     }
   } else {
-    // No clients — drain queue to prevent stale data buildup
     mutex_enter_blocking(&queueMutex);
     while (!dataQueue.empty()) { dataQueue.pop(); }
     mutex_exit(&queueMutex);
@@ -184,19 +213,17 @@ void setup() {
 
   mutex_init(&queueMutex);
 
-  // FIX: Start at 100kHz for reliable init, bump to 400kHz after
   Wire.setSDA(4);
   Wire.setSCL(5);
-  Wire.setClock(100000); // 100kHz for safe init
+  Wire.setClock(50000);  // 50kHz for reliable initialisation
   Wire.begin();
-  Serial.println("I2C initialized at 100kHz for setup.");
+  Serial.println("I2C initialized at 50kHz for setup.");
 
-  delay(100); // Let bus settle before any communication
+  delay(2000);  // Extra power‑up time for all sensors
 
-  // Run I2C scan to confirm all sensors are visible before init
   scanI2CBus();
 
-  // ---- Initialize MPUs ----
+  // ---- Initialize MPUs (channels 0 and 1) ----
   tcaselect(0);
   delay(10);
   if (!mpu1.begin(0x68, &Wire)) {
@@ -213,48 +240,58 @@ void setup() {
   }
   configureSensor(mpu2, 2);
 
-  // ---- Initialize BNOs ----
-  // FIX: added delay(10) after each tcaselect before begin()
-  tcaselect(2);
-  delay(10);
-  if (bno1.begin(BNO08X_ADDR, Wire, BNO08X_INT, BNO08X_RST) == false) {
-    Serial.println("FATAL: BNO08x #1 not detected on channel 2. Check wiring and address.");
-    while (1) { delay(10); }
-  }
-  Serial.println("BNO1 OK");
+  // ---- Initialize BNOs (channels 2, 3, 4, 5) with retries & address fallback ----
+  #define BNO_RETRIES 3
+  #define BNO_RETRY_DELAY 100
 
-  tcaselect(3);
-  delay(10);
-  if (bno2.begin(BNO08X_ADDR, Wire, BNO08X_INT, BNO08X_RST) == false) {
-    Serial.println("FATAL: BNO08x #2 not detected on channel 3. Check wiring and address.");
-    while (1) { delay(10); }
-  }
-  Serial.println("BNO2 OK");
+  bool bno_ok[4] = {false, false, false, false};
+  uint8_t channels[4] = {2, 3, 4, 5};
+  BNO08x* bnoptr[4] = {&bno1, &bno2, &bno3, &bno4};
+  uint8_t used_addr[4];
 
-  tcaselect(4);
-  delay(10);
-  if (bno3.begin(BNO08X_ADDR, Wire, BNO08X_INT, BNO08X_RST) == false) {
-    Serial.println("FATAL: BNO08x #3 not detected on channel 4. Check wiring and address.");
-    while (1) { delay(10); }
+  for (int i = 0; i < 4; i++) {
+    Serial.printf("\n--- Initializing BNO%d (channel %d) ---\n", i+1, channels[i]);
+    bool ok = false;
+    uint8_t addr_to_try[2] = {BNO08X_ADDR, BNO08X_ADDR_ALT};
+    for (int a = 0; a < 2 && !ok; a++) {
+      uint8_t try_addr = addr_to_try[a];
+      for (int retry = 0; retry < BNO_RETRIES && !ok; retry++) {
+        tcaselect(channels[i]);
+        delay(50);  // Extra settling
+        Serial.printf("  Attempt %d, address 0x%02X: ", retry+1, try_addr);
+        if (bnoptr[i]->begin(try_addr, Wire, BNO08X_INT, BNO08X_RST)) {
+          // Verify with WHO_AM_I
+          if (checkBNO08x(*bnoptr[i], try_addr)) {
+            ok = true;
+            used_addr[i] = try_addr;
+            Serial.printf("SUCCESS (addr 0x%02X)\n", try_addr);
+          } else {
+            Serial.println("WHO_AM_I mismatch");
+          }
+        } else {
+          Serial.println("begin() failed");
+        }
+        delay(BNO_RETRY_DELAY);
+      }
+    }
+    bno_ok[i] = ok;
+    if (!ok) {
+      Serial.printf("FATAL: BNO%d not detected on channel %d after all attempts.\n", i+1, channels[i]);
+      while (1) { delay(10); }
+    }
   }
-  Serial.println("BNO3 OK");
 
-  tcaselect(5);
-  delay(10);
-  if (bno4.begin(BNO08X_ADDR, Wire, BNO08X_INT, BNO08X_RST) == false) {
-    Serial.println("FATAL: BNO08x #4 not detected on channel 5. Check wiring and address.");
-    while (1) { delay(10); }
-  }
-  Serial.println("BNO4 OK");
-
+  // After all BNOs are initialized, enable reports
   setReports();
   tcaDisable();
 
-  // FIX: Bump clock to 400kHz only AFTER all sensors successfully initialized
+  // Bump I2C clock to 400kHz for faster data transfer
   Wire.setClock(400000);
   Serial.println("I2C bumped to 400kHz for runtime.");
 
   Serial.println("\nAll sensors initialized successfully!");
+  Serial.printf("Used addresses: BNO1=0x%02X, BNO2=0x%02X, BNO3=0x%02X, BNO4=0x%02X\n",
+                used_addr[0], used_addr[1], used_addr[2], used_addr[3]);
   Serial.println(">> Type target frequency (e.g., 25, 50) in Serial Monitor <<");
 
   systemReady = true;
@@ -312,7 +349,6 @@ void loop() {
   tcaselect(0); mpu1.getEvent(&a1, &g1, &t1);
   tcaselect(1); mpu2.getEvent(&a2, &g2, &t2);
 
-  // Disable MUX after all reads
   tcaDisable();
 
   // ==========================================
