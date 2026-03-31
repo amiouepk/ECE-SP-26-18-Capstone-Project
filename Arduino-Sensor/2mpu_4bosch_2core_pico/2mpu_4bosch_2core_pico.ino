@@ -6,7 +6,6 @@
 
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
-#include "SparkFun_BNO08x_Arduino_Library.h"
 #include <Wire.h>
 
 // ==========================================
@@ -16,38 +15,44 @@ const char *ssid = "Rpi Pico";
 const char *password = "password";
 
 WebSocketsServer webSocket(81);
-volatile int activeClients = 0;
-volatile bool systemReady = false;
+volatile int activeClients = 0; 
+volatile bool systemReady = false; 
 
+// Pico Mutex
 mutex_t queueMutex;
 std::queue<String> dataQueue;
-const size_t MAX_QUEUE_SIZE = 50;
+const size_t MAX_QUEUE_SIZE = 50; 
 
 // ==========================================
-// HARDWARE SETTINGS
+// HARDWARE SETTINGS (4x BNO, 2x MPU)
 // ==========================================
-Adafruit_MPU6050 mpu1, mpu2;
-BNO08x bno1, bno2, bno3, bno4;
+#define BNOs        4           
+#define MPUs        2           
+#define BNO_MUX_OFFSET 2        // BNOs start at mux port 2
+#define TCAADDR     0x70        // I2C address of TCA9548
+#define BNO_ADDR    0x4B        // I2C address of BNO085
 
-#define TCAADDR     0x70
-#define BNO08X_ADDR 0x4B   // default address (ADR high)
-#define BNO08X_ADDR_ALT 0x4A // alternative address (ADR low)
-#define BNO08X_INT  -1
-#define BNO08X_RST  -1
+#define ACC_REPORT   0x01   
+#define GYRO_REPORT  0x02   
+#define MAG_REPORT   0x03   
+#define TIME_REPORT  0xFB   
 
-// BNO data variables
-float b1_x, b1_y, b1_z, b1_gx, b1_gy, b1_gz, b1_mx, b1_my, b1_mz;
-float b2_x, b2_y, b2_z, b2_gx, b2_gy, b2_gz, b2_mx, b2_my, b2_mz;
-float b3_x, b3_y, b3_z, b3_gx, b3_gy, b3_gz, b3_mx, b3_my, b3_mz;
-float b4_x, b4_y, b4_z, b4_gx, b4_gy, b4_gz, b4_mx, b4_my, b4_mz;
+Adafruit_MPU6050 mpu[MPUs];
 
-sensors_event_t a1, g1, t1;
-sensors_event_t a2, g2, t2;
+// Global Data Arrays (Updated by background loop)
+int16_t iax[BNOs], iay[BNOs], iaz[BNOs]; 
+int16_t igx[BNOs], igy[BNOs], igz[BNOs]; 
+int16_t imx[BNOs], imy[BNOs], imz[BNOs]; 
+sensors_event_t mpu_a[MPUs], mpu_g[MPUs], mpu_temp[MPUs];
 
 // Timing Configuration
 unsigned long lastQueueTime = 0;
-unsigned long queueInterval = 40;  // Default 25 Hz
-unsigned long lastBNOAcquisition = 0;
+unsigned long queueInterval = 19;  // Default ~50 Hz (Adjustable via Serial)
+
+// Scaling Factors for BNO
+const float kACC = 1.0/9.80665/256;
+const float kGYR = 180.0/M_PI/512;
+const float kMAG = 0.01/16;
 
 // ==========================================
 // HARDWARE HELPER FUNCTIONS
@@ -57,123 +62,110 @@ void tcaselect(uint8_t channel) {
   Wire.beginTransmission(TCAADDR);
   Wire.write(1 << channel);
   Wire.endTransmission();
-  delay(5);  // Increased from 500µs to 5ms for reliable switching
 }
 
-void tcaDisable() {
-  Wire.beginTransmission(TCAADDR);
-  Wire.write(0x00);
-  Wire.endTransmission();
-  delay(5);
+static void request_reports(uint8_t bno) {
+  tcaselect(bno + BNO_MUX_OFFSET);
+  
+  // Set BNO reporting rate to 10ms (100 Hz)
+  long SENSOR_US = 10000L;
+
+  static const uint8_t cmd_acc[]  = {21, 0, 2, 0, 0xFD, ACC_REPORT,  0, 0, 0, (SENSOR_US>>0)&255, (SENSOR_US>>8)&255, (SENSOR_US>>16)&255, (SENSOR_US>>24)&255, 0, 0, 0, 0, 0, 0, 0, 0};
+  Wire.beginTransmission(BNO_ADDR); Wire.write(cmd_acc, sizeof(cmd_acc)); Wire.endTransmission();
+
+  static const uint8_t cmd_gyro[] = {21, 0, 2, 0, 0xFD, GYRO_REPORT, 0, 0, 0, (SENSOR_US>>0)&255, (SENSOR_US>>8)&255, (SENSOR_US>>16)&255, (SENSOR_US>>24)&255, 0, 0, 0, 0, 0, 0, 0, 0};
+  Wire.beginTransmission(BNO_ADDR); Wire.write(cmd_gyro, sizeof(cmd_gyro)); Wire.endTransmission();
+
+  static const uint8_t cmd_mag[]  = {21, 0, 2, 0, 0xFD, MAG_REPORT,  0, 0, 0, (SENSOR_US>>0)&255, (SENSOR_US>>8)&255, (SENSOR_US>>16)&255, (SENSOR_US>>24)&255, 0, 0, 0, 0, 0, 0, 0, 0};
+  Wire.beginTransmission(BNO_ADDR); Wire.write(cmd_mag, sizeof(cmd_mag)); Wire.endTransmission();
 }
 
-// Check if a device responds at the given address on the current channel
-bool probeAddress(uint8_t addr) {
-  Wire.beginTransmission(addr);
-  return (Wire.endTransmission() == 0);
+static void ensure_read_available(int16_t length) {
+  if (!Wire.available()) {
+    Wire.requestFrom((uint16_t)BNO_ADDR, (uint8_t)(4+length));
+    Wire.read(); Wire.read(); Wire.read(); Wire.read();
+  }
 }
 
-// Scan a single channel, printing found devices
-void scanChannel(uint8_t ch) {
-  tcaselect(ch);
-  delay(10);
-  bool found = false;
-  Serial.printf("  Channel %d: ", ch);
-  for (uint8_t addr = 0x08; addr < 0x78; addr++) {
-    if (probeAddress(addr)) {
-      Serial.printf("0x%02X ", addr);
-      found = true;
+// Bare-metal SHTP parser (Fastest possible read)
+static void check_report(uint8_t bno) {
+  int16_t length;
+  uint8_t channel, seqnum;
+
+  tcaselect(bno + BNO_MUX_OFFSET);
+
+  Wire.requestFrom((uint16_t)BNO_ADDR, (uint8_t)5);
+  length  = Wire.read();
+  length |= (Wire.read() & 0x7F) << 8;
+  channel = Wire.read();
+  seqnum  = Wire.read();
+  length -= 4;
+
+  if (length <= 0 || length > 1000) return;
+
+  while (length) {
+    uint8_t buf[20];
+    uint16_t n = 0;
+
+    ensure_read_available(length);
+    buf[n++] = Wire.read();
+    length--;
+
+    if (channel==3 && buf[0]==TIME_REPORT && length >= 5-1) {
+      for (uint8_t i=1; i<5; i++) { ensure_read_available(length); buf[i] = Wire.read(); length--; }
+      continue;
+    }
+    if (channel==3 && buf[0]==ACC_REPORT && length >= 10-1) {
+      for (uint8_t i=1; i<10; i++) { ensure_read_available(length); buf[i] = Wire.read(); length--; }
+      iax[bno] = *(int16_t*)&buf[4]; iay[bno] = *(int16_t*)&buf[6]; iaz[bno] = *(int16_t*)&buf[8];
+      continue;
+    }
+    if (channel==3 && buf[0]==GYRO_REPORT && length >= 10-1) {
+      for (uint8_t i=1; i<10; i++) { ensure_read_available(length); buf[i] = Wire.read(); length--; }
+      igx[bno] = *(int16_t*)&buf[4]; igy[bno] = *(int16_t*)&buf[6]; igz[bno] = *(int16_t*)&buf[8];
+      continue;
+    }
+    if (channel==3 && buf[0]==MAG_REPORT && length >= 10-1) {
+      for (uint8_t i=1; i<10; i++) { ensure_read_available(length); buf[i] = Wire.read(); length--; }
+      imx[bno] = *(int16_t*)&buf[4]; imy[bno] = *(int16_t*)&buf[6]; imz[bno] = *(int16_t*)&buf[8];
+      continue; 
+    }
+
+    // Drain unknown packets to keep buffer clean
+    while (length) {
+      ensure_read_available(length);
+      Wire.read();
+      length--;
     }
   }
-  if (!found) Serial.print("nothing found");
-  Serial.println();
-}
-
-void scanI2CBus() {
-  Serial.println("\n=== I2C Bus Scan ===");
-  for (uint8_t ch = 0; ch < 6; ch++) {
-    scanChannel(ch);
-  }
-  tcaDisable();
-  Serial.println("=== Scan Complete ===\n");
-}
-
-// Read WHO_AM_I register of BNO08x (should return 0x19)
-bool checkBNO08x(BNO08x &bno, uint8_t addr) {
-  Wire.beginTransmission(addr);
-  Wire.write(0x00);  // WHO_AM_I register
-  if (Wire.endTransmission() != 0) return false;
-  Wire.requestFrom(addr, (uint8_t)1);
-  if (Wire.available()) {
-    uint8_t whoami = Wire.read();
-    Serial.printf("    WHO_AM_I = 0x%02X (expected 0x19)\n", whoami);
-    return (whoami == 0x19);
-  }
-  return false;
-}
-
-void setReports(void) {
-  tcaselect(2);
-  bno1.enableAccelerometer(20);
-  bno1.enableGyro(20);
-  bno1.enableMagnetometer(20);
-
-  tcaselect(3);
-  bno2.enableAccelerometer(20);
-  bno2.enableGyro(20);
-  bno2.enableMagnetometer(20);
-
-  tcaselect(4);
-  bno3.enableAccelerometer(20);
-  bno3.enableGyro(20);
-  bno3.enableMagnetometer(20);
-
-  tcaselect(5);
-  bno4.enableAccelerometer(20);
-  bno4.enableGyro(20);
-  bno4.enableMagnetometer(20);
-
-  Serial.println("BNO08x calibrated MEMS readings enabled at 50Hz");
-}
-
-void configureSensor(Adafruit_MPU6050 &mpu, int sensorNum) {
-  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
-  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
-  mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);
-  Serial.printf("MPU Sensor %d configured.\n", sensorNum);
 }
 
 // ==========================================
 // CORE 1: NETWORKING & CONSUMER
 // ==========================================
-void setup_ap() {
-  Serial.println("Configuring access point...");
-  WiFi.mode(WIFI_AP);
-  WiFi.softAP(ssid, password);
-  Serial.print("AP IP address: ");
-  Serial.println(WiFi.softAPIP());
-}
-
 void onWebSocketEvent(uint8_t clientNum, WStype_t type, uint8_t* payload, size_t length) {
   switch (type) {
     case WStype_DISCONNECTED:
+      if (activeClients > 0) activeClients--; 
       Serial.printf("[%u] Disconnected\n", clientNum);
-      if (activeClients > 0) activeClients--;
       break;
     case WStype_CONNECTED:
-      Serial.printf("[%u] Connected\n", clientNum);
       webSocket.sendTXT(clientNum, "IMU Server Connected");
-      activeClients++;
-      break;
-    case WStype_TEXT:
-      webSocket.broadcastTXT(payload, length);
+      activeClients++; 
+      Serial.printf("[%u] Connected\n", clientNum);
       break;
   }
 }
 
 void setup1() {
-  while (!systemReady) { delay(10); }
-  setup_ap();
+  while (!systemReady) { delay(10); } // Wait for Core 0 hardware setup
+  
+  Serial.println("Configuring access point...");
+  WiFi.mode(WIFI_AP);
+  WiFi.softAP(ssid, password);
+  Serial.print("AP IP address: ");
+  Serial.println(WiFi.softAPIP());
+
   webSocket.begin();
   webSocket.onEvent(onWebSocketEvent);
   Serial.println("Core 1: WiFi & WebSockets Ready");
@@ -186,22 +178,27 @@ void loop1() {
     String msgToSend = "";
     bool hasData = false;
 
+    // Lock Mutex, read queue, unlock Mutex
     mutex_enter_blocking(&queueMutex);
     if (!dataQueue.empty()) {
-      msgToSend = dataQueue.front();
-      dataQueue.pop();
+      msgToSend = dataQueue.front(); 
+      dataQueue.pop();               
       hasData = true;
     }
-    mutex_exit(&queueMutex);
+    mutex_exit(&queueMutex); 
 
     if (hasData) {
       webSocket.broadcastTXT(msgToSend);
     }
   } else {
+    // Keep queue empty if no one is listening
     mutex_enter_blocking(&queueMutex);
     while (!dataQueue.empty()) { dataQueue.pop(); }
     mutex_exit(&queueMutex);
   }
+
+  // for debuging
+  // delay(1);
 }
 
 // ==========================================
@@ -209,147 +206,71 @@ void loop1() {
 // ==========================================
 void setup() {
   Serial.begin(115200);
-  delay(5000);
+  delay(2000); 
 
+  // Initialize Pico Mutex
   mutex_init(&queueMutex);
 
+  // Initialize I2C
   Wire.setSDA(4);
   Wire.setSCL(5);
-  Wire.setClock(50000);  // 50kHz for reliable initialisation
+  Wire.setClock(400000); // 400kHz Fast Mode
   Wire.begin();
-  Serial.println("I2C initialized at 50kHz for setup.");
+  Serial.println("I2C initialized at 400kHz.");
 
-  delay(2000);  // Extra power‑up time for all sensors
-
-  scanI2CBus();
-
-  // ---- Initialize MPUs (channels 0 and 1) ----
-  tcaselect(0);
-  delay(10);
-  if (!mpu1.begin(0x68, &Wire)) {
-    Serial.println("FATAL: Failed to find MPU1 on channel 0");
-    while (1) { delay(10); }
-  }
-  configureSensor(mpu1, 1);
-
-  tcaselect(1);
-  delay(10);
-  if (!mpu2.begin(0x68, &Wire)) {
-    Serial.println("FATAL: Failed to find MPU2 on channel 1");
-    while (1) { delay(10); }
-  }
-  configureSensor(mpu2, 2);
-
-  // ---- Initialize BNOs (channels 2, 3, 4, 5) with retries & address fallback ----
-  #define BNO_RETRIES 3
-  #define BNO_RETRY_DELAY 100
-
-  bool bno_ok[4] = {false, false, false, false};
-  uint8_t channels[4] = {2, 3, 4, 5};
-  BNO08x* bnoptr[4] = {&bno1, &bno2, &bno3, &bno4};
-  uint8_t used_addr[4];
-
-  for (int i = 0; i < 4; i++) {
-    Serial.printf("\n--- Initializing BNO%d (channel %d) ---\n", i+1, channels[i]);
-    bool ok = false;
-    uint8_t addr_to_try[2] = {BNO08X_ADDR, BNO08X_ADDR_ALT};
-    for (int a = 0; a < 2 && !ok; a++) {
-      uint8_t try_addr = addr_to_try[a];
-      for (int retry = 0; retry < BNO_RETRIES && !ok; retry++) {
-        tcaselect(channels[i]);
-        delay(50);  // Extra settling
-        Serial.printf("  Attempt %d, address 0x%02X: ", retry+1, try_addr);
-        if (bnoptr[i]->begin(try_addr, Wire, BNO08X_INT, BNO08X_RST)) {
-          // Verify with WHO_AM_I
-          if (checkBNO08x(*bnoptr[i], try_addr)) {
-            ok = true;
-            used_addr[i] = try_addr;
-            Serial.printf("SUCCESS (addr 0x%02X)\n", try_addr);
-          } else {
-            Serial.println("WHO_AM_I mismatch");
-          }
-        } else {
-          Serial.println("begin() failed");
-        }
-        delay(BNO_RETRY_DELAY);
-      }
-    }
-    bno_ok[i] = ok;
-    if (!ok) {
-      Serial.printf("FATAL: BNO%d not detected on channel %d after all attempts.\n", i+1, channels[i]);
-      while (1) { delay(10); }
-    }
+  // Initialize MPUs on ports 0 and 1
+  for (uint8_t i=0; i<MPUs; i++) {
+    tcaselect(i);
+    if (!mpu[i].begin()) { Serial.printf("Failed MPU%d\n", i); while(1) delay(10); }
+    mpu[i].setAccelerometerRange(MPU6050_RANGE_8_G);
+    mpu[i].setGyroRange(MPU6050_RANGE_500_DEG);
+    mpu[i].setFilterBandwidth(MPU6050_BAND_21_HZ);
+    Serial.printf("MPU %d configured.\n", i);
   }
 
-  // After all BNOs are initialized, enable reports
-  setReports();
-  tcaDisable();
+  // Initialize BNO085s on ports 2-5
+  for (uint8_t bno=0; bno<BNOs; bno++) {
+    request_reports(bno);
+    Serial.printf("BNO %d configured.\n", bno);
+  }
 
-  // Bump I2C clock to 400kHz for faster data transfer
-  Wire.setClock(400000);
-  Serial.println("I2C bumped to 400kHz for runtime.");
-
-  Serial.println("\nAll sensors initialized successfully!");
-  Serial.printf("Used addresses: BNO1=0x%02X, BNO2=0x%02X, BNO3=0x%02X, BNO4=0x%02X\n",
-                used_addr[0], used_addr[1], used_addr[2], used_addr[3]);
+  // Signal Core 1 to start networking
+  systemReady = true; 
+  Serial.println("\nAll sensors initialized!");
   Serial.println(">> Type target frequency (e.g., 25, 50) in Serial Monitor <<");
-
-  systemReady = true;
-}
-
-void pollBNO(BNO08x &bno, float &ax, float &ay, float &az,
-                           float &gx, float &gy, float &gz,
-                           float &mx, float &my, float &mz) {
-  if (bno.wasReset()) setReports();
-  uint8_t drain = 0;
-  while (bno.getSensorEvent() && drain < 3) {
-    uint8_t id = bno.getSensorEventID();
-    if      (id == SENSOR_REPORTID_ACCELEROMETER)        { ax = bno.getAccelX(); ay = bno.getAccelY(); az = bno.getAccelZ(); }
-    else if (id == SENSOR_REPORTID_GYROSCOPE_CALIBRATED) { gx = bno.getGyroX();  gy = bno.getGyroY();  gz = bno.getGyroZ(); }
-    else if (id == SENSOR_REPORTID_MAGNETIC_FIELD)       { mx = bno.getMagX();   my = bno.getMagY();   mz = bno.getMagZ(); }
-    drain++;
-  }
 }
 
 void loop() {
   unsigned long now = millis();
 
-  // --- Dynamic Frequency Update via Serial ---
+  // --- Dynamic Frequency Update ---
   if (Serial.available() > 0) {
-    long inputHz = Serial.parseInt();
-    while (Serial.available() > 0) { Serial.read(); }
+    long inputHz = Serial.parseInt(); 
+    while(Serial.available() > 0) { Serial.read(); }
+
     if (inputHz > 0) {
-      queueInterval = 1000 / inputHz;
+      queueInterval = 1000 / inputHz; 
       Serial.printf("\n[UPDATED] Output Frequency: %ld Hz (Interval: %lu ms)\n", inputHz, queueInterval);
     }
   }
 
   // ==========================================
-  // ACQUISITION LOOP
+  // ACQUISITION LOOP (Runs as fast as physically possible)
   // ==========================================
-
-  // --- Poll BNO08x sensors (~66 Hz max) ---
-  if (now - lastBNOAcquisition >= 15) {
-    lastBNOAcquisition = now;
-
-    tcaselect(2);
-    pollBNO(bno1, b1_x, b1_y, b1_z, b1_gx, b1_gy, b1_gz, b1_mx, b1_my, b1_mz);
-
-    tcaselect(3);
-    pollBNO(bno2, b2_x, b2_y, b2_z, b2_gx, b2_gy, b2_gz, b2_mx, b2_my, b2_mz);
-
-    tcaselect(4);
-    pollBNO(bno3, b3_x, b3_y, b3_z, b3_gx, b3_gy, b3_gz, b3_mx, b3_my, b3_mz);
-
-    tcaselect(5);
-    pollBNO(bno4, b4_x, b4_y, b4_z, b4_gx, b4_gy, b4_gz, b4_mx, b4_my, b4_mz);
+  
+  // 1. Poll BNOs manually via SHTP
+  for (uint8_t bno=0; bno<BNOs; bno++) {
+    check_report(bno);
   }
 
-  // --- Poll MPU6050 sensors ---
-  tcaselect(0); mpu1.getEvent(&a1, &g1, &t1);
-  tcaselect(1); mpu2.getEvent(&a2, &g2, &t2);
+  // 2. Poll MPUs
+  for (uint8_t i=0; i<MPUs; i++) {
+    tcaselect(i);
+    mpu[i].getEvent(&mpu_a[i], &mpu_g[i], &mpu_temp[i]);
+  }
 
-  tcaDisable();
+  // Close MUX to keep bus quiet during string assembly
+  Wire.beginTransmission(TCAADDR); Wire.write(0x00); Wire.endTransmission();
 
   // ==========================================
   // TRANSMISSION LOOP
@@ -360,16 +281,22 @@ void loop() {
     if (activeClients > 0) {
       String syncMsg = "";
 
-      // BNO1–4 (9 fields each: ax,ay,az,gx,gy,gz,mx,my,mz)
-      syncMsg += String(b1_x)+","+String(b1_y)+","+String(b1_z)+","+String(b1_gx)+","+String(b1_gy)+","+String(b1_gz)+","+String(b1_mx)+","+String(b1_my)+","+String(b1_mz)+",";
-      syncMsg += String(b2_x)+","+String(b2_y)+","+String(b2_z)+","+String(b2_gx)+","+String(b2_gy)+","+String(b2_gz)+","+String(b2_mx)+","+String(b2_my)+","+String(b2_mz)+",";
-      syncMsg += String(b3_x)+","+String(b3_y)+","+String(b3_z)+","+String(b3_gx)+","+String(b3_gy)+","+String(b3_gz)+","+String(b3_mx)+","+String(b3_my)+","+String(b3_mz)+",";
-      syncMsg += String(b4_x)+","+String(b4_y)+","+String(b4_z)+","+String(b4_gx)+","+String(b4_gy)+","+String(b4_gz)+","+String(b4_mx)+","+String(b4_my)+","+String(b4_mz)+",";
+      // Format BNOs: Accel/Gyro/Mag
+      for (uint8_t bno=0; bno<BNOs; bno++) {
+        syncMsg += "B" + String(bno) + ":" + 
+                   String(kACC*iax[bno], 3) + "/" + String(-kACC*iay[bno], 3) + "/" + String(-kACC*iaz[bno], 3) + "/" +
+                   String(kGYR*igx[bno], 3) + "/" + String(-kGYR*igy[bno], 3) + "/" + String(-kGYR*igz[bno], 3) + "/" +
+                   String(kMAG*imx[bno], 3) + "/" + String(-kMAG*imy[bno], 3) + "/" + String(-kMAG*imz[bno], 3) + "|";
+      }
 
-      // MPU1–2 (6 fields each: ax,ay,az,gx,gy,gz)
-      syncMsg += String(a1.acceleration.x,2)+","+String(a1.acceleration.y,2)+","+String(a1.acceleration.z,2)+","+String(g1.gyro.x,2)+","+String(g1.gyro.y,2)+","+String(g1.gyro.z,2)+",";
-      syncMsg += String(a2.acceleration.x,2)+","+String(a2.acceleration.y,2)+","+String(a2.acceleration.z,2)+","+String(g2.gyro.x,2)+","+String(g2.gyro.y,2)+","+String(g2.gyro.z,2);
+      // Format MPUs: Accel/Gyro
+      for (uint8_t i=0; i<MPUs; i++) {
+        syncMsg += "M" + String(i) + ":" + 
+                   String(mpu_a[i].acceleration.x / 9.80665, 3) + "/" + String(mpu_a[i].acceleration.y / 9.80665, 3) + "/" + String(mpu_a[i].acceleration.z / 9.80665, 3) + "/" +
+                   String(mpu_g[i].gyro.x * 180.0 / M_PI, 3) + "/" + String(mpu_g[i].gyro.y * 180.0 / M_PI, 3) + "/" + String(mpu_g[i].gyro.z * 180.0 / M_PI, 3) + "|";
+      }
 
+      // Queue it up securely
       mutex_enter_blocking(&queueMutex);
       if (dataQueue.size() < MAX_QUEUE_SIZE) {
         dataQueue.push(syncMsg);
@@ -377,4 +304,6 @@ void loop() {
       mutex_exit(&queueMutex);
     }
   }
+  //debug
+  // delay(1);
 }
