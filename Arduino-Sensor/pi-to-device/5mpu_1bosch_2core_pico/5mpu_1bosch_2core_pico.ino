@@ -315,9 +315,7 @@ void loop() {
   // Disable MUX after all reads
   tcaDisable();
 
-  // ==========================================
-  // TRANSMISSION LOOP
-  // ==========================================
+
   if (now - lastQueueTime >= queueInterval) {
     lastQueueTime = now;
 
