@@ -150,7 +150,7 @@ async def write_listen(uri):
 
             start_time = datetime.now()
 
-            with open(csv_filename, 'w+') as out_file:
+            with open(filename, 'w+') as out_file:
 
 
                 async for message in ws:
