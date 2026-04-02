@@ -1,9 +1,6 @@
 import asyncio
 import websockets
 import sys
-import data
-import contextlib
-import atexit
 import numpy as np
 import torch
 from datetime import datetime
@@ -185,7 +182,7 @@ async def spacebar_listen():
 
 async def main():
 
-    uri = "ws://192.168.4.1:81"
+    uri = "ws://192.168.4.1:81/"
 
     if sys.argv[1] == '-l':
         print("Live option selected")

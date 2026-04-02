@@ -70,8 +70,7 @@ def on_message(ws, message):
     
     if len(values) != features:
         print(f"Warning: expected {features} values, got {len(values)}. Skipping.")
-        
-
+    
 
     input_array = np.array(values, dtype=np.float32).reshape(1, -1)
     scaled_input = scaler.transform(input_array)
