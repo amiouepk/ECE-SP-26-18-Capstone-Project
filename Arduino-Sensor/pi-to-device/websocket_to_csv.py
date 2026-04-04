@@ -1,107 +1,142 @@
-import asyncio
-import websockets
+import websocket
+import threading
 import sys
-import data
-import contextlib
-import atexit
-import numpy as np
+import time
+import array as arr
+#import select
 from datetime import datetime
 
 if sys.platform == "win32":
     import msvcrt
-
     def read_char():
-        # msvcrt.getch() returns bytes, decode to string
         return msvcrt.getch().decode('utf-8', errors='ignore') 
 else:
     import termios
     import tty
-
     def read_char():
         fd = sys.stdin.fileno()
         old_settings = termios.tcgetattr(fd)
         try:
-            tty.setcbreak(fd)  # Use cbreak instead of raw
+            tty.setcbreak(fd)  
             ch = sys.stdin.read(1)
         finally:
             termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
         return ch
 
-filename = "default_output.txt"
+
 csv_filename = "output.csv"
+out_file = None
+start_time = None
+label = None
+label_next = False
+default_label = ',none'
 
 
+# --- WebSocket Callbacks ---
+def on_message(ws, message):
+    global start_time, out_file, label_next
+    #print("Connecting to websocket")
+    if out_file and not out_file.closed:
+        elapsed = (datetime.now() - start_time).total_seconds()
+        
+        # Formats the time to 6 decimal places and appends the raw Pico string
 
-async def listen(uri):
+        if label_next:
+            #print("Detected in socket thread")
+            message = message + f',{label}'
+            #label_next = False
+        else:
+            message = message + f',{default_label}'
+            
+        out_file.write(f"{elapsed:.6f},{message}\n")
+        out_file.flush() 
 
-    #model, scaler, label_encoder, device = load_model()
-    #features = 39
+def on_open(ws):
+    global start_time
+    print(f"Connected! Listening for messages...\n{'-'*40}")
+    start_time = datetime.now()
 
-    print(f"Connecting to {uri}...")
-    try:
-        async with websockets.connect(uri) as ws:
-            print(f"Connected! Listening for messages...\n{'-'*40}")
+def on_close(ws, close_status_code, close_msg):
+    print("\nConnection closed safely.")
+    if out_file and not out_file.closed:
+        out_file.close()
+        print(f"Data successfully saved to {csv_filename}")
 
-            start_time = datetime.now()
+def on_error(ws, error):
+    print(f"\n[Error] {error}")
 
-            with open(csv_filename, 'w+') as out_file:
+# def set_label_next():
+#     global label_next
+#     if label_next:
+#         label_next = False
+#     else:
+#         label_next = True
+
+# --- Background Keyboard Thread ---
+def spacebar_listen(ws):
+    global label_next, label
+    print(">> Press SPACEBAR at any time to label <<\n")
+    while True:
+        ch = read_char()
+        if ch == '1':
+            label = 'rock'
+            label_next = True
+        elif ch == '2':
+            label = 'paper'
+            label_next = True
+        elif ch == '3':
+            label = 'scissors'
+            label_next = True
+        elif ch == ' ':
+            label_next = False
+        
+            #print("\n[!] Labeled")
+            
+
+            #ws.close() 
 
 
-                async for message in ws:
-                    
-                    print(message)
-                    
-                    out_file.write(f"{(datetime.now() - start_time).total_seconds()},{message}\n")
+# --- Main Execution ---
+if __name__ == "__main__":
 
+    arg_len = len(sys.argv)
 
-
-    except websockets.exceptions.ConnectionClosedOK:
-        print("Connection closed.")
-    except websockets.exceptions.ConnectionClosedError as e:
-        print(f"Connection closed with error: {e}")
-    except ConnectionRefusedError:
-        print(f"Connection refused. Is the server running at {uri}?")
-
-async def spacebar_listen():
-    loop = asyncio.get_running_loop()
-
-    try:
-        while True:
-            result = await loop.run_in_executor(None, read_char)
-            #result = await loop.run_in_executor(None, sys.stdin.read, 1)
-            if result == ' ':
-                print("Space has been pressed")
-                #break
-    except asyncio.CancelledError:
-        raise
-    #print("Spacebar Pressed")
-
-async def main():
+    if arg_len == 2:
+        csv_filename = sys.argv[1]
+    elif
+    else:
+        print('first arguement must be output file name and second should be label name')
     
+    try:
+        out_file = open(csv_filename, 'w+')
+    except Exception as e:
+        print(f"Failed to open {csv_filename}: {e}")
+        out_file.close()
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+        sys.exit(1)
+    
+
     uri = "ws://192.168.4.1:81"
 
-    ws_task = asyncio.create_task(listen(uri))
-    spacebar_task = asyncio.create_task(spacebar_listen())
-    
-    done, pending = await asyncio.wait([ws_task, spacebar_task], return_when = asyncio.FIRST_COMPLETED)
-    
-    for task in pending:
-        task.cancel()
+    websocket.enableTrace(False)
 
+    fd = sys.stdin.fileno()
+    old = termios.tcgetattr(fd)
+    #tty.setraw(fd)
 
+    print("Connecting to websocket")
+    ws = websocket.WebSocketApp(uri,
+                                on_open=on_open,
+                                on_message=on_message,
+                                on_error=on_error,
+                                on_close=on_close)
 
+    kb_thread = threading.Thread(target=spacebar_listen, args=(ws,))
+    kb_thread.daemon = True
+    kb_thread.start()
 
-
-
-if __name__ == "__main__":
-    
-    if len(sys.argv) == 2:
-        csv_filename = sys.argv[1]  
-    
-        
     try:
-        asyncio.run(main())
+        ws.run_forever() 
     except KeyboardInterrupt:
-        print("\nDisconnected.")
-        exit()
-    
+        print("\nDisconnected via KeyboardInterrupt.")
+        ws.close()
