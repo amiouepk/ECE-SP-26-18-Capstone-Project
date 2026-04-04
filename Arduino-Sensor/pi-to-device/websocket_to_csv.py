@@ -29,7 +29,7 @@ out_file = None
 start_time = None
 label = None
 label_next = False
-default_label = ',none'
+default_label = 'none'
 
 
 # --- WebSocket Callbacks ---
@@ -89,11 +89,14 @@ def spacebar_listen(ws):
             label_next = True
         elif ch == ' ':
             label_next = False
+
+        # if ch == '1':
+        #     label = ''
         
-            #print("\n[!] Labeled")
+        #     #print("\n[!] Labeled")
             
 
-            #ws.close() 
+        #     #ws.close() 
 
 
 # --- Main Execution ---
@@ -103,7 +106,7 @@ if __name__ == "__main__":
 
     if arg_len == 2:
         csv_filename = sys.argv[1]
-    elif
+
     else:
         print('first arguement must be output file name and second should be label name')
     
