@@ -106,7 +106,13 @@ if __name__ == "__main__":
 
     if arg_len == 2:
         csv_filename = sys.argv[1]
+<<<<<<< HEAD
 
+=======
+    # elif:
+    #     pass
+    
+>>>>>>> 23fca2b79e8a74f56241ad81e7bbdb82897366c7
     else:
         print('first arguement must be output file name and second should be label name')
     
