@@ -31,8 +31,13 @@ label = None
 label_next = False
 default_label = 'none'
 
+ch = ''
 
-# --- WebSocket Callbacks ---
+custom = False
+custom_opts = [] * 10
+custom_opts_len = 10
+
+
 def on_message(ws, message):
     global start_time, out_file, label_next
     #print("Connecting to websocket")
@@ -74,40 +79,85 @@ def on_error(ws, error):
 
 # --- Background Keyboard Thread ---
 def spacebar_listen(ws):
-    global label_next, label
+    global label_next, label, ch
     print(">> Press SPACEBAR at any time to label <<\n")
+
+    if custom == False:
+        while True:
+            ch = read_char()
+            if ch == '1':
+                label = 'rock'
+                label_next = True
+            elif ch == '2':
+                label = 'paper'
+                label_next = True
+            elif ch == '3':
+                label = 'scissors'
+                label_next = True
+            elif ch == ' ':
+                label_next = False
+
+            # if ch == '1':
+            #     label = ''
+            
+            #     #print("\n[!] Labeled")
+                
+
+            #     #ws.close() 
+
+    i = 0
     while True:
         ch = read_char()
-        if ch == '1':
-            label = 'rock'
-            label_next = True
-        elif ch == '2':
-            label = 'paper'
-            label_next = True
-        elif ch == '3':
-            label = 'scissors'
-            label_next = True
-        elif ch == ' ':
-            label_next = False
-
-        # if ch == '1':
-        #     label = ''
         
-        #     #print("\n[!] Labeled")
+        while i < custom_opts_len:
+            if ch == custom_opts[i]:
+                label = custom_opt[i]
+                label_next = True
+
+        i = 0
             
+        
 
-        #     #ws.close() 
+def custom_opt_copy (argv, j, arg_len):
 
+    lim = j + 10
+        
+    i = 0
+    while j < lim:
+        custom_opts[i] = argv[j]
+        j += 1
+
+    custom_opts_len = i + 1
+    
+    return j
 
 # --- Main Execution ---
 if __name__ == "__main__":
 
     arg_len = len(sys.argv)
 
+
+    if arg_len >= 3:
+        if sys.argv[1] == '-c':
+            if sys.argv[2].endswith('.csv') == True:
+                print('Error: Need custome named gestures with custom option')
+                sys.exit(2)
+            else:
+                j = custom_opt_copy(sys.argv, 2)
+                if sys.argv[j] == '-o':
+                    csv_filename = sys.argv[j + 1]
+        else:
+            print("Error: You must use -c command to use custom gestures")
+            sys.exit(2)
+
+                
+                
+            custom = True
+            #if sys.argv[]
+
     if arg_len == 2:
         csv_filename = sys.argv[1]
-    else:
-        print('first arguement must be output file name and second should be label name')
+    
     
     try:
         out_file = open(csv_filename, 'w+')
