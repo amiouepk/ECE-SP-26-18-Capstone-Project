@@ -1,19 +1,17 @@
 {
-    "input_features": 54,
-    "output_classes": 3,
+    "input_features": 36,
+    "output_classes": 4,
     "gesture_mapping": {
-        "0": "paper",
-        "1": "rock",
-        "2": "scissors"
+        "0": "none",
+        "1": "paper",
+        "2": "rock",
+        "3": "scissors"
     },
     "feature_names": [
         "BNO0_UnitAccX",
         "BNO0_UnitAccY",
         "BNO0_UnitAccZ",
         "BNO0_RawAccMag",
-        "BNO0_GyrX",
-        "BNO0_GyrY",
-        "BNO0_GyrZ",
         "BNO0_MagX",
         "BNO0_MagY",
         "BNO0_MagZ",
@@ -21,9 +19,6 @@
         "BNO1_UnitAccY",
         "BNO1_UnitAccZ",
         "BNO1_RawAccMag",
-        "BNO1_GyrX",
-        "BNO1_GyrY",
-        "BNO1_GyrZ",
         "BNO1_MagX",
         "BNO1_MagY",
         "BNO1_MagZ",
@@ -31,9 +26,6 @@
         "BNO2_UnitAccY",
         "BNO2_UnitAccZ",
         "BNO2_RawAccMag",
-        "BNO2_GyrX",
-        "BNO2_GyrY",
-        "BNO2_GyrZ",
         "BNO2_MagX",
         "BNO2_MagY",
         "BNO2_MagZ",
@@ -41,9 +33,6 @@
         "BNO3_UnitAccY",
         "BNO3_UnitAccZ",
         "BNO3_RawAccMag",
-        "BNO3_GyrX",
-        "BNO3_GyrY",
-        "BNO3_GyrZ",
         "BNO3_MagX",
         "BNO3_MagY",
         "BNO3_MagZ",
@@ -51,16 +40,10 @@
         "MPU0_UnitAccY",
         "MPU0_UnitAccZ",
         "MPU0_RawAccMag",
-        "MPU0_GyrX",
-        "MPU0_GyrY",
-        "MPU0_GyrZ",
         "MPU1_UnitAccX",
         "MPU1_UnitAccY",
         "MPU1_UnitAccZ",
-        "MPU1_RawAccMag",
-        "MPU1_GyrX",
-        "MPU1_GyrY",
-        "MPU1_GyrZ"
+        "MPU1_RawAccMag"
     ],
     "confidence_threshold": 0.82
 }
