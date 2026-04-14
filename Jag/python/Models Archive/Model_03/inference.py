@@ -18,7 +18,7 @@ KEEP_INDICES = [
 ]
 
 PICO_URI = "ws://192.168.4.1:81"
-CONFIDENCE_THRESHOLD = 0.82 
+CONFIDENCE_THRESHOLD = 0.4
 GESTURE_MAP = {0: "None", 1: "Paper", 2: "Rock", 3: "Scissors"}
 
 def run_live_inference_hardcoded(model):
