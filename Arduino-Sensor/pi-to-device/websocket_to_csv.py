@@ -27,15 +27,18 @@ else:
 csv_filename = "output.csv"
 out_file = None
 start_time = None
-label = None
+label = 'none'
 label_next = False
 default_label = 'none'
 
 ch = ''
 
 custom = False
-custom_opts = [] * 10
-custom_opts_len = 10
+custom_opts = [] * 9
+custom_opts_len = 9
+
+def line_move_up(lines):
+    sys.stdout.write(f'\r\033[{lines}F')
 
 
 def on_message(ws, message):
@@ -45,16 +48,27 @@ def on_message(ws, message):
         elapsed = (datetime.now() - start_time).total_seconds()
         
         # Formats the time to 6 decimal places and appends the raw Pico string
+        
+        labeled_message = message + f',{label}'
 
-        if label_next:
-            #print("Detected in socket thread")
-            message = message + f',{label}'
-            #label_next = False
-        else:
-            message = message + f',{default_label}'
+        # if label_next:
+        #     #print("Detected in socket thread")
+        #     labeled_message = message + f',{label}'
+        #     #label_next = False
+        # else:
+        #     labeled_message = message + f',{default_label}'
             
-        out_file.write(f"{elapsed:.6f},{message}\n")
-        out_file.flush() 
+        out_file.write(f"{elapsed:.6f},{labeled_message}\n")
+        out_file.flush()
+    
+        sys.stdout.write(f'\r\033[2KLabel: {label}\n')
+        sys.stdout.write(f'\r\033[2KMessage: {message}\n')
+        sys.stdout.write("Press Ctrl+C to stop at anytime\n")
+        sys.stdout.flush()
+
+        line_move_up(3)
+        
+        
 
 def on_open(ws):
     global start_time
@@ -87,15 +101,18 @@ def spacebar_listen(ws):
             ch = read_char()
             if ch == '1':
                 label = 'rock'
-                label_next = True
+                #label_next = True
             elif ch == '2':
                 label = 'paper'
-                label_next = True
+                #label_next = True
             elif ch == '3':
                 label = 'scissors'
-                label_next = True
+                #label_next = True
             elif ch == ' ':
-                label_next = False
+                #label_next = False
+                label == 'none'
+
+            #print(option)
 
             # if ch == '1':
             #     label = ''
@@ -110,9 +127,12 @@ def spacebar_listen(ws):
         ch = read_char()
         
         while i < custom_opts_len:
-            if ch == custom_opts[i]:
+            if ch == f'{i + 1}':
                 label = custom_opt[i]
                 label_next = True
+                break
+            if ch == ' ':
+                label_next = False
 
         i = 0
             
