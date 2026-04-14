@@ -60,10 +60,11 @@ def on_message(ws, message):
             
         out_file.write(f"{elapsed:.6f},{labeled_message}\n")
         out_file.flush()
-    
-        sys.stdout.write(f'\r\033[2KLabel: {label}\n')
-        sys.stdout.write(f'\r\033[2KMessage: {message}\n')
-        sys.stdout.write("Press Ctrl+C to stop at anytime\n")
+        
+        sys.stdout.write(f'\r\033[2KLabel: {label}\n\r\033[2KMessage: {message}\n\r\033[2KPress Ctrl+C to stop at anytime')
+        # sys.stdout.write(f'\r\033[2KLabel: {label}\n')
+        # sys.stdout.write(f'\r\033[2KMessage: {message}\n')
+        # sys.stdout.write("\r\033[2KPress Ctrl+C to stop at anytime\n")
         sys.stdout.flush()
 
         line_move_up(3)
@@ -100,17 +101,19 @@ def spacebar_listen(ws):
         while True:
             ch = read_char()
             if ch == '1':
-                label = 'rock'
-                #label_next = True
+                label = 'A'
+
             elif ch == '2':
-                label = 'paper'
-                #label_next = True
+                label = 'B'
+
             elif ch == '3':
-                label = 'scissors'
-                #label_next = True
+                label = 'X'
+
+            elif ch == '4':
+                label = 'Y'
+                
             elif ch == ' ':
-                #label_next = False
-                label == 'none'
+                label = 'none'
 
             #print(option)
 
