@@ -1,0 +1,4725 @@
+Time:  0.045251
+Sensor 1: 
+X: -0.054 | Y: 0.791 | Z: 0.610
+gyro_x: -0.044 | gyro_y: -0.706 | gyro_z: -0.706
+mag_x: 0.131 | mag_y: -0.947 | mag_z: -0.293
+Sensor 2: 
+X: 0.847 | Y: -0.497 | Z: 0.190
+gyro_x: -0.869 | gyro_y: 0.434 | gyro_z: -0.237
+Sensor 3: 
+X: 0.960 | Y: -0.011 | Z: 0.278
+gyro_x: -0.983 | gyro_y: -0.109 | gyro_z: -0.146
+Sensor 4: 
+X: 0.613 | Y: 0.366 | Z: 0.700
+gyro_x: -0.562 | gyro_y: -0.321 | gyro_z: -0.762
+Sensor 5: 
+X: 0.457 | Y: 0.497 | Z: 0.737
+gyro_x: -0.606 | gyro_y: -0.390 | gyro_z: -0.693
+Sensor 6: 
+X: 0.108 | Y: 0.960 | Z: 0.260
+gyro_x: -0.314 | gyro_y: -0.864 | gyro_z: -0.393
+
+Time:  0.045414
+Sensor 1: 
+X: -0.039 | Y: 0.798 | Z: 0.602
+gyro_x: 0.127 | gyro_y: -0.762 | gyro_z: -0.635
+mag_x: 0.138 | mag_y: -0.949 | mag_z: -0.283
+Sensor 2: 
+X: 0.841 | Y: -0.503 | Z: 0.198
+gyro_x: -0.813 | gyro_y: 0.529 | gyro_z: -0.244
+Sensor 3: 
+X: 0.957 | Y: -0.023 | Z: 0.288
+gyro_x: -0.991 | gyro_y: 0.076 | gyro_z: -0.114
+Sensor 4: 
+X: 0.635 | Y: 0.342 | Z: 0.692
+gyro_x: -0.616 | gyro_y: -0.352 | gyro_z: -0.704
+Sensor 5: 
+X: 0.483 | Y: 0.471 | Z: 0.738
+gyro_x: -0.651 | gyro_y: -0.391 | gyro_z: -0.651
+Sensor 6: 
+X: 0.124 | Y: 0.960 | Z: 0.250
+gyro_x: -0.293 | gyro_y: -0.879 | gyro_z: -0.377
+
+Time:  0.08718
+Sensor 1: 
+X: -0.046 | Y: 0.806 | Z: 0.590
+gyro_x: 0.000 | gyro_y: -0.735 | gyro_z: -0.678
+mag_x: 0.144 | mag_y: -0.950 | mag_z: -0.278
+Sensor 2: 
+X: 0.844 | Y: -0.500 | Z: 0.196
+gyro_x: -0.805 | gyro_y: 0.521 | gyro_z: -0.284
+Sensor 3: 
+X: 0.958 | Y: -0.017 | Z: 0.286
+gyro_x: -0.988 | gyro_y: 0.086 | gyro_z: -0.129
+Sensor 4: 
+X: 0.621 | Y: 0.356 | Z: 0.698
+gyro_x: -0.627 | gyro_y: -0.289 | gyro_z: -0.723
+Sensor 5: 
+X: 0.475 | Y: 0.480 | Z: 0.737
+gyro_x: -0.667 | gyro_y: -0.333 | gyro_z: -0.667
+Sensor 6: 
+X: 0.114 | Y: 0.960 | Z: 0.257
+gyro_x: -0.376 | gyro_y: -0.847 | gyro_z: -0.376
+
+Time:  0.500378
+Sensor 1: 
+X: -0.055 | Y: 0.793 | Z: 0.607
+gyro_x: 0.050 | gyro_y: -0.799 | gyro_z: -0.599
+mag_x: 0.177 | mag_y: -0.943 | mag_z: -0.282
+Sensor 2: 
+X: 0.845 | Y: -0.501 | Z: 0.186
+gyro_x: -0.774 | gyro_y: 0.547 | gyro_z: -0.319
+Sensor 3: 
+X: 0.961 | Y: -0.016 | Z: 0.275
+gyro_x: -0.988 | gyro_y: 0.086 | gyro_z: -0.129
+Sensor 4: 
+X: 0.619 | Y: 0.365 | Z: 0.695
+gyro_x: -0.680 | gyro_y: -0.272 | gyro_z: -0.680
+Sensor 5: 
+X: 0.466 | Y: 0.493 | Z: 0.735
+gyro_x: -0.710 | gyro_y: -0.355 | gyro_z: -0.608
+Sensor 6: 
+X: 0.106 | Y: 0.961 | Z: 0.257
+gyro_x: -0.362 | gyro_y: -0.859 | gyro_z: -0.362
+
+Time:  0.50052
+Sensor 1: 
+X: -0.043 | Y: 0.797 | Z: 0.602
+gyro_x: 0.047 | gyro_y: -0.793 | gyro_z: -0.607
+mag_x: 0.161 | mag_y: -0.944 | mag_z: -0.286
+Sensor 2: 
+X: 0.845 | Y: -0.501 | Z: 0.189
+gyro_x: -0.743 | gyro_y: 0.557 | gyro_z: -0.371
+Sensor 3: 
+X: 0.961 | Y: -0.017 | Z: 0.276
+gyro_x: -0.980 | gyro_y: 0.089 | gyro_z: -0.178
+Sensor 4: 
+X: 0.624 | Y: 0.357 | Z: 0.695
+gyro_x: -0.710 | gyro_y: -0.237 | gyro_z: -0.663
+Sensor 5: 
+X: 0.472 | Y: 0.484 | Z: 0.737
+gyro_x: -0.702 | gyro_y: -0.281 | gyro_z: -0.655
+Sensor 6: 
+X: 0.111 | Y: 0.960 | Z: 0.257
+gyro_x: -0.376 | gyro_y: -0.847 | gyro_z: -0.376
+
+Time:  0.500656
+Sensor 1: 
+X: -0.040 | Y: 0.796 | Z: 0.605
+gyro_x: 0.122 | gyro_y: -0.671 | gyro_z: -0.732
+mag_x: 0.166 | mag_y: -0.939 | mag_z: -0.300
+Sensor 2: 
+X: 0.843 | Y: -0.502 | Z: 0.193
+gyro_x: -0.802 | gyro_y: 0.535 | gyro_z: -0.267
+Sensor 3: 
+X: 0.960 | Y: -0.020 | Z: 0.280
+gyro_x: -0.998 | gyro_y: 0.048 | gyro_z: -0.048
+Sensor 4: 
+X: 0.633 | Y: 0.346 | Z: 0.693
+gyro_x: -0.609 | gyro_y: -0.332 | gyro_z: -0.720
+Sensor 5: 
+X: 0.484 | Y: 0.470 | Z: 0.738
+gyro_x: -0.692 | gyro_y: -0.346 | gyro_z: -0.634
+Sensor 6: 
+X: 0.118 | Y: 0.960 | Z: 0.253
+gyro_x: -0.318 | gyro_y: -0.848 | gyro_z: -0.424
+
+Time:  0.500789
+Sensor 1: 
+X: -0.039 | Y: 0.797 | Z: 0.603
+gyro_x: 0.145 | gyro_y: -0.582 | gyro_z: -0.800
+mag_x: 0.166 | mag_y: -0.939 | mag_z: -0.300
+Sensor 2: 
+X: 0.843 | Y: -0.502 | Z: 0.194
+gyro_x: -0.776 | gyro_y: 0.564 | gyro_z: -0.282
+Sensor 3: 
+X: 0.960 | Y: -0.022 | Z: 0.281
+gyro_x: -0.996 | gyro_y: 0.062 | gyro_z: 0.062
+Sensor 4: 
+X: 0.633 | Y: 0.343 | Z: 0.694
+gyro_x: -0.566 | gyro_y: -0.424 | gyro_z: -0.707
+Sensor 5: 
+X: 0.487 | Y: 0.468 | Z: 0.737
+gyro_x: -0.723 | gyro_y: -0.402 | gyro_z: -0.562
+Sensor 6: 
+X: 0.117 | Y: 0.961 | Z: 0.251
+gyro_x: -0.286 | gyro_y: -0.857 | gyro_z: -0.429
+
+Time:  0.50092
+Sensor 1: 
+X: -0.042 | Y: 0.782 | Z: 0.621
+gyro_x: -0.577 | gyro_y: -0.577 | gyro_z: -0.577
+mag_x: 0.161 | mag_y: -0.939 | mag_z: -0.304
+Sensor 2: 
+X: 0.852 | Y: -0.490 | Z: 0.182
+gyro_x: -0.766 | gyro_y: 0.287 | gyro_z: -0.575
+Sensor 3: 
+X: 0.962 | Y: -0.000 | Z: 0.274
+gyro_x: -0.992 | gyro_y: -0.090 | gyro_z: -0.090
+Sensor 4: 
+X: 0.613 | Y: 0.363 | Z: 0.702
+gyro_x: -0.555 | gyro_y: -0.000 | gyro_z: -0.832
+Sensor 5: 
+X: 0.466 | Y: 0.484 | Z: 0.741
+gyro_x: -0.707 | gyro_y: 0.000 | gyro_z: -0.707
+Sensor 6: 
+X: 0.099 | Y: 0.959 | Z: 0.267
+gyro_x: -0.605 | gyro_y: -0.518 | gyro_z: -0.605
+
+Time:  0.501053
+Sensor 1: 
+X: -0.046 | Y: 0.768 | Z: 0.639
+gyro_x: -0.707 | gyro_y: -0.424 | gyro_z: -0.566
+mag_x: 0.161 | mag_y: -0.939 | mag_z: -0.304
+Sensor 2: 
+X: 0.851 | Y: -0.499 | Z: 0.163
+gyro_x: -0.824 | gyro_y: 0.137 | gyro_z: -0.549
+Sensor 3: 
+X: 0.967 | Y: -0.009 | Z: 0.256
+gyro_x: -0.963 | gyro_y: -0.241 | gyro_z: 0.120
+Sensor 4: 
+X: 0.614 | Y: 0.376 | Z: 0.694
+gyro_x: -0.316 | gyro_y: -0.000 | gyro_z: -0.949
+Sensor 5: 
+X: 0.454 | Y: 0.505 | Z: 0.734
+gyro_x: -0.784 | gyro_y: 0.196 | gyro_z: -0.588
+Sensor 6: 
+X: 0.084 | Y: 0.962 | Z: 0.259
+gyro_x: -0.636 | gyro_y: -0.212 | gyro_z: -0.742
+
+Time:  0.501177
+Sensor 1: 
+X: -0.072 | Y: 0.771 | Z: 0.632
+gyro_x: -0.196 | gyro_y: 0.588 | gyro_z: -0.784
+mag_x: 0.161 | mag_y: -0.939 | mag_z: -0.304
+Sensor 2: 
+X: 0.849 | Y: -0.505 | Z: 0.153
+gyro_x: -0.802 | gyro_y: -0.267 | gyro_z: -0.535
+Sensor 3: 
+X: 0.970 | Y: -0.012 | Z: 0.243
+gyro_x: -0.811 | gyro_y: -0.324 | gyro_z: 0.487
+Sensor 4: 
+X: 0.616 | Y: 0.386 | Z: 0.687
+gyro_x: 0.000 | gyro_y: -0.243 | gyro_z: -0.970
+Sensor 5: 
+X: 0.458 | Y: 0.513 | Z: 0.726
+gyro_x: -0.816 | gyro_y: 0.408 | gyro_z: -0.408
+Sensor 6: 
+X: 0.077 | Y: 0.965 | Z: 0.251
+gyro_x: -0.555 | gyro_y: 0.000 | gyro_z: -0.832
+
+Time:  0.502736
+Sensor 1: 
+X: -0.038 | Y: 0.785 | Z: 0.618
+gyro_x: -0.164 | gyro_y: 0.986 | gyro_z: 0.000
+mag_x: 0.192 | mag_y: -0.939 | mag_z: -0.287
+Sensor 2: 
+X: 0.848 | Y: -0.501 | Z: 0.170
+gyro_x: 0.457 | gyro_y: -0.762 | gyro_z: -0.457
+Sensor 3: 
+X: 0.966 | Y: -0.016 | Z: 0.259
+gyro_x: 0.485 | gyro_y: -0.485 | gyro_z: 0.728
+Sensor 4: 
+X: 0.631 | Y: 0.353 | Z: 0.690
+gyro_x: 0.745 | gyro_y: 0.596 | gyro_z: 0.298
+Sensor 5: 
+X: 0.487 | Y: 0.478 | Z: 0.731
+gyro_x: 0.137 | gyro_y: 0.824 | gyro_z: 0.549
+Sensor 6: 
+X: 0.100 | Y: 0.963 | Z: 0.249
+gyro_x: -0.537 | gyro_y: 0.716 | gyro_z: -0.447
+
+Time:  0.502873
+Sensor 1: 
+X: -0.031 | Y: 0.775 | Z: 0.631
+gyro_x: -0.523 | gyro_y: 0.628 | gyro_z: 0.576
+mag_x: 0.192 | mag_y: -0.939 | mag_z: -0.287
+Sensor 2: 
+X: 0.865 | Y: -0.475 | Z: 0.163
+gyro_x: 0.548 | gyro_y: -0.685 | gyro_z: -0.480
+Sensor 3: 
+X: 0.967 | Y: 0.023 | Z: 0.255
+gyro_x: 0.961 | gyro_y: -0.262 | gyro_z: -0.087
+Sensor 4: 
+X: 0.591 | Y: 0.376 | Z: 0.713
+gyro_x: 0.574 | gyro_y: 0.790 | gyro_z: 0.215
+Sensor 5: 
+X: 0.440 | Y: 0.500 | Z: 0.746
+gyro_x: 0.198 | gyro_y: 0.923 | gyro_z: 0.330
+Sensor 6: 
+X: 0.079 | Y: 0.955 | Z: 0.286
+gyro_x: -0.541 | gyro_y: 0.787 | gyro_z: -0.295
+
+Time:  0.511948
+Sensor 1: 
+X: -0.018 | Y: 0.749 | Z: 0.662
+gyro_x: -0.526 | gyro_y: 0.526 | gyro_z: 0.669
+mag_x: 0.169 | mag_y: -0.938 | mag_z: -0.303
+Sensor 2: 
+X: 0.879 | Y: -0.452 | Z: 0.152
+gyro_x: 0.547 | gyro_y: -0.592 | gyro_z: -0.592
+Sensor 3: 
+X: 0.966 | Y: 0.051 | Z: 0.252
+gyro_x: 0.912 | gyro_y: -0.228 | gyro_z: -0.342
+Sensor 4: 
+X: 0.577 | Y: 0.377 | Z: 0.725
+gyro_x: 0.454 | gyro_y: 0.862 | gyro_z: 0.227
+Sensor 5: 
+X: 0.428 | Y: 0.497 | Z: 0.754
+gyro_x: 0.122 | gyro_y: 0.937 | gyro_z: 0.326
+Sensor 6: 
+X: 0.066 | Y: 0.949 | Z: 0.310
+gyro_x: -0.591 | gyro_y: 0.776 | gyro_z: -0.222
+
+Time:  0.55762
+Sensor 1: 
+X: -0.027 | Y: 0.730 | Z: 0.683
+gyro_x: -0.573 | gyro_y: 0.382 | gyro_z: 0.725
+mag_x: 0.191 | mag_y: -0.934 | mag_z: -0.302
+Sensor 2: 
+X: 0.890 | Y: -0.434 | Z: 0.141
+gyro_x: 0.556 | gyro_y: -0.471 | gyro_z: -0.685
+Sensor 3: 
+X: 0.967 | Y: 0.079 | Z: 0.242
+gyro_x: 0.870 | gyro_y: 0.054 | gyro_z: -0.490
+Sensor 4: 
+X: 0.527 | Y: 0.418 | Z: 0.740
+gyro_x: 0.279 | gyro_y: 0.931 | gyro_z: 0.233
+Sensor 5: 
+X: 0.359 | Y: 0.542 | Z: 0.760
+gyro_x: -0.042 | gyro_y: 0.967 | gyro_z: 0.252
+Sensor 6: 
+X: 0.037 | Y: 0.939 | Z: 0.341
+gyro_x: -0.717 | gyro_y: 0.682 | gyro_z: -0.143
+
+Time:  0.595673
+Sensor 1: 
+X: -0.038 | Y: 0.745 | Z: 0.666
+gyro_x: -0.441 | gyro_y: -0.165 | gyro_z: 0.882
+mag_x: 0.162 | mag_y: -0.929 | mag_z: -0.331
+Sensor 2: 
+X: 0.881 | Y: -0.449 | Z: 0.150
+gyro_x: 0.426 | gyro_y: -0.095 | gyro_z: -0.900
+Sensor 3: 
+X: 0.967 | Y: 0.057 | Z: 0.249
+gyro_x: 0.512 | gyro_y: 0.384 | gyro_z: -0.768
+Sensor 4: 
+X: 0.551 | Y: 0.404 | Z: 0.730
+gyro_x: -0.154 | gyro_y: 0.976 | gyro_z: 0.154
+Sensor 5: 
+X: 0.386 | Y: 0.530 | Z: 0.756
+gyro_x: -0.428 | gyro_y: 0.900 | gyro_z: 0.086
+Sensor 6: 
+X: 0.056 | Y: 0.947 | Z: 0.317
+gyro_x: -0.922 | gyro_y: 0.377 | gyro_z: -0.084
+
+Time:  1.009353
+Sensor 1: 
+X: -0.071 | Y: 0.818 | Z: 0.571
+gyro_x: -0.054 | gyro_y: -0.591 | gyro_z: 0.805
+mag_x: 0.144 | mag_y: -0.942 | mag_z: -0.304
+Sensor 2: 
+X: 0.838 | Y: -0.510 | Z: 0.193
+gyro_x: 0.421 | gyro_y: 0.187 | gyro_z: -0.888
+Sensor 3: 
+X: 0.960 | Y: -0.028 | Z: 0.278
+gyro_x: 0.306 | gyro_y: 0.673 | gyro_z: -0.673
+Sensor 4: 
+X: 0.633 | Y: 0.358 | Z: 0.687
+gyro_x: -0.434 | gyro_y: 0.868 | gyro_z: 0.241
+Sensor 5: 
+X: 0.488 | Y: 0.486 | Z: 0.725
+gyro_x: -0.611 | gyro_y: 0.774 | gyro_z: 0.163
+Sensor 6: 
+X: 0.116 | Y: 0.964 | Z: 0.238
+gyro_x: -0.969 | gyro_y: 0.211 | gyro_z: 0.126
+
+Time:  1.009865
+Sensor 1: 
+X: -0.079 | Y: 0.800 | Z: 0.594
+gyro_x: -0.196 | gyro_y: 0.000 | gyro_z: 0.981
+mag_x: 0.144 | mag_y: -0.942 | mag_z: -0.304
+Sensor 2: 
+X: 0.827 | Y: -0.532 | Z: 0.180
+gyro_x: 0.554 | gyro_y: 0.046 | gyro_z: -0.831
+Sensor 3: 
+X: 0.964 | Y: -0.052 | Z: 0.259
+gyro_x: 0.555 | gyro_y: 0.666 | gyro_z: -0.499
+Sensor 4: 
+X: 0.649 | Y: 0.365 | Z: 0.667
+gyro_x: -0.297 | gyro_y: 0.890 | gyro_z: 0.346
+Sensor 5: 
+X: 0.492 | Y: 0.498 | Z: 0.714
+gyro_x: -0.493 | gyro_y: 0.821 | gyro_z: 0.287
+Sensor 6: 
+X: 0.103 | Y: 0.970 | Z: 0.219
+gyro_x: -0.883 | gyro_y: 0.441 | gyro_z: 0.161
+
+Time:  1.01001
+Sensor 1: 
+X: -0.093 | Y: 0.700 | Z: 0.708
+gyro_x: -0.339 | gyro_y: 0.474 | gyro_z: 0.813
+mag_x: 0.144 | mag_y: -0.939 | mag_z: -0.314
+Sensor 2: 
+X: 0.876 | Y: -0.473 | Z: 0.094
+gyro_x: 0.470 | gyro_y: -0.134 | gyro_z: -0.873
+Sensor 3: 
+X: 0.981 | Y: 0.055 | Z: 0.185
+gyro_x: 0.572 | gyro_y: 0.667 | gyro_z: -0.477
+Sensor 4: 
+X: 0.496 | Y: 0.498 | Z: 0.712
+gyro_x: -0.355 | gyro_y: 0.924 | gyro_z: -0.142
+Sensor 5: 
+X: 0.295 | Y: 0.634 | Z: 0.715
+gyro_x: -0.431 | gyro_y: 0.861 | gyro_z: -0.269
+Sensor 6: 
+X: -0.008 | Y: 0.954 | Z: 0.299
+gyro_x: -0.832 | gyro_y: 0.555 | gyro_z: -0.000
+
+Time:  1.010144
+Sensor 1: 
+X: -0.094 | Y: 0.655 | Z: 0.749
+gyro_x: -0.477 | gyro_y: -0.667 | gyro_z: -0.572
+mag_x: 0.144 | mag_y: -0.939 | mag_z: -0.314
+Sensor 2: 
+X: 0.910 | Y: -0.412 | Z: 0.039
+gyro_x: -0.628 | gyro_y: 0.262 | gyro_z: -0.733
+Sensor 3: 
+X: 0.979 | Y: 0.140 | Z: 0.145
+gyro_x: -0.729 | gyro_y: 0.393 | gyro_z: -0.561
+Sensor 4: 
+X: 0.431 | Y: 0.539 | Z: 0.724
+gyro_x: -0.545 | gyro_y: 0.073 | gyro_z: -0.835
+Sensor 5: 
+X: 0.241 | Y: 0.648 | Z: 0.723
+gyro_x: -0.390 | gyro_y: 0.028 | gyro_z: -0.920
+Sensor 6: 
+X: -0.084 | Y: 0.923 | Z: 0.376
+gyro_x: -0.873 | gyro_y: -0.322 | gyro_z: -0.367
+
+Time:  1.010269
+Sensor 1: 
+X: -0.067 | Y: 0.698 | Z: 0.713
+gyro_x: 0.062 | gyro_y: -0.783 | gyro_z: -0.618
+mag_x: 0.144 | mag_y: -0.939 | mag_z: -0.314
+Sensor 2: 
+X: 0.907 | Y: -0.416 | Z: 0.066
+gyro_x: -0.814 | gyro_y: 0.528 | gyro_z: -0.242
+Sensor 3: 
+X: 0.976 | Y: 0.125 | Z: 0.179
+gyro_x: -0.978 | gyro_y: 0.021 | gyro_z: -0.208
+Sensor 4: 
+X: 0.446 | Y: 0.513 | Z: 0.734
+gyro_x: -0.595 | gyro_y: -0.278 | gyro_z: -0.754
+Sensor 5: 
+X: 0.263 | Y: 0.623 | Z: 0.737
+gyro_x: -0.439 | gyro_y: -0.298 | gyro_z: -0.847
+Sensor 6: 
+X: -0.044 | Y: 0.928 | Z: 0.370
+gyro_x: -0.194 | gyro_y: -0.926 | gyro_z: -0.323
+
+Time:  1.010391
+Sensor 1: 
+X: -0.041 | Y: 0.758 | Z: 0.651
+gyro_x: 0.128 | gyro_y: -0.784 | gyro_z: -0.608
+mag_x: 0.162 | mag_y: -0.929 | mag_z: -0.331
+Sensor 2: 
+X: 0.874 | Y: -0.465 | Z: 0.141
+gyro_x: -0.791 | gyro_y: 0.610 | gyro_z: -0.049
+Sensor 3: 
+X: 0.970 | Y: 0.039 | Z: 0.241
+gyro_x: -0.996 | gyro_y: 0.060 | gyro_z: -0.060
+Sensor 4: 
+X: 0.570 | Y: 0.411 | Z: 0.711
+gyro_x: -0.624 | gyro_y: -0.448 | gyro_z: -0.640
+Sensor 5: 
+X: 0.402 | Y: 0.533 | Z: 0.745
+gyro_x: -0.476 | gyro_y: -0.476 | gyro_z: -0.740
+Sensor 6: 
+X: 0.056 | Y: 0.953 | Z: 0.297
+gyro_x: 0.016 | gyro_y: -0.975 | gyro_z: -0.220
+
+Time:  1.010513
+Sensor 1: 
+X: -0.051 | Y: 0.828 | Z: 0.559
+gyro_x: 0.272 | gyro_y: -0.724 | gyro_z: -0.634
+mag_x: 0.138 | mag_y: -0.938 | mag_z: -0.318
+Sensor 2: 
+X: 0.827 | Y: -0.526 | Z: 0.199
+gyro_x: -0.802 | gyro_y: 0.597 | gyro_z: -0.037
+Sensor 3: 
+X: 0.958 | Y: -0.054 | Z: 0.282
+gyro_x: -0.992 | gyro_y: 0.120 | gyro_z: -0.034
+Sensor 4: 
+X: 0.662 | Y: 0.332 | Z: 0.672
+gyro_x: -0.631 | gyro_y: -0.451 | gyro_z: -0.631
+Sensor 5: 
+X: 0.504 | Y: 0.478 | Z: 0.719
+gyro_x: -0.476 | gyro_y: -0.446 | gyro_z: -0.758
+Sensor 6: 
+X: 0.138 | Y: 0.967 | Z: 0.213
+gyro_x: -0.038 | gyro_y: -0.981 | gyro_z: -0.189
+
+Time:  1.011247
+Sensor 1: 
+X: -0.058 | Y: 0.811 | Z: 0.582
+gyro_x: 0.222 | gyro_y: -0.732 | gyro_z: -0.644
+mag_x: 0.185 | mag_y: -0.936 | mag_z: -0.298
+Sensor 2: 
+X: 0.832 | Y: -0.522 | Z: 0.188
+gyro_x: -0.810 | gyro_y: 0.556 | gyro_z: -0.185
+Sensor 3: 
+X: 0.959 | Y: -0.044 | Z: 0.279
+gyro_x: -0.982 | gyro_y: 0.109 | gyro_z: -0.153
+Sensor 4: 
+X: 0.659 | Y: 0.334 | Z: 0.674
+gyro_x: -0.639 | gyro_y: -0.308 | gyro_z: -0.705
+Sensor 5: 
+X: 0.516 | Y: 0.457 | Z: 0.724
+gyro_x: -0.468 | gyro_y: -0.306 | gyro_z: -0.829
+Sensor 6: 
+X: 0.124 | Y: 0.965 | Z: 0.231
+gyro_x: -0.194 | gyro_y: -0.944 | gyro_z: -0.266
+
+Time:  1.011374
+Sensor 1: 
+X: -0.027 | Y: 0.793 | Z: 0.609
+gyro_x: 0.222 | gyro_y: -0.732 | gyro_z: -0.644
+mag_x: 0.167 | mag_y: -0.934 | mag_z: -0.316
+Sensor 2: 
+X: 0.843 | Y: -0.497 | Z: 0.204
+gyro_x: -0.856 | gyro_y: 0.497 | gyro_z: -0.138
+Sensor 3: 
+X: 0.954 | Y: -0.014 | Z: 0.299
+gyro_x: -0.963 | gyro_y: 0.265 | gyro_z: -0.048
+Sensor 4: 
+X: 0.615 | Y: 0.357 | Z: 0.703
+gyro_x: -0.596 | gyro_y: -0.426 | gyro_z: -0.681
+Sensor 5: 
+X: 0.448 | Y: 0.490 | Z: 0.748
+gyro_x: -0.488 | gyro_y: -0.519 | gyro_z: -0.702
+Sensor 6: 
+X: 0.122 | Y: 0.956 | Z: 0.268
+gyro_x: -0.177 | gyro_y: -0.973 | gyro_z: -0.147
+
+Time:  1.01493
+Sensor 1: 
+X: -0.019 | Y: 0.806 | Z: 0.592
+gyro_x: 0.167 | gyro_y: -0.724 | gyro_z: -0.669
+mag_x: 0.167 | mag_y: -0.934 | mag_z: -0.316
+Sensor 2: 
+X: 0.851 | Y: -0.485 | Z: 0.200
+gyro_x: -0.830 | gyro_y: 0.528 | gyro_z: -0.176
+Sensor 3: 
+X: 0.953 | Y: -0.002 | Z: 0.304
+gyro_x: -0.975 | gyro_y: 0.204 | gyro_z: -0.091
+Sensor 4: 
+X: 0.611 | Y: 0.345 | Z: 0.713
+gyro_x: -0.666 | gyro_y: -0.384 | gyro_z: -0.640
+Sensor 5: 
+X: 0.429 | Y: 0.494 | Z: 0.756
+gyro_x: -0.537 | gyro_y: -0.486 | gyro_z: -0.690
+Sensor 6: 
+X: 0.133 | Y: 0.951 | Z: 0.280
+gyro_x: -0.219 | gyro_y: -0.957 | gyro_z: -0.191
+
+Time:  1.054191
+Sensor 1: 
+X: -0.023 | Y: 0.812 | Z: 0.584
+gyro_x: 0.305 | gyro_y: -0.711 | gyro_z: -0.634
+mag_x: 0.167 | mag_y: -0.934 | mag_z: -0.316
+Sensor 2: 
+X: 0.836 | Y: -0.505 | Z: 0.214
+gyro_x: -0.782 | gyro_y: 0.620 | gyro_z: -0.054
+Sensor 3: 
+X: 0.950 | Y: -0.030 | Z: 0.312
+gyro_x: -0.981 | gyro_y: 0.191 | gyro_z: 0.024
+Sensor 4: 
+X: 0.633 | Y: 0.335 | Z: 0.698
+gyro_x: -0.637 | gyro_y: -0.504 | gyro_z: -0.584
+Sensor 5: 
+X: 0.469 | Y: 0.474 | Z: 0.745
+gyro_x: -0.516 | gyro_y: -0.593 | gyro_z: -0.619
+Sensor 6: 
+X: 0.148 | Y: 0.956 | Z: 0.254
+gyro_x: -0.087 | gyro_y: -0.981 | gyro_z: -0.173
+
+Time:  1.094808
+Sensor 1: 
+X: -0.040 | Y: 0.807 | Z: 0.590
+gyro_x: 0.215 | gyro_y: -0.675 | gyro_z: -0.706
+mag_x: 0.189 | mag_y: -0.929 | mag_z: -0.320
+Sensor 2: 
+X: 0.839 | Y: -0.504 | Z: 0.202
+gyro_x: -0.813 | gyro_y: 0.581 | gyro_z: -0.029
+Sensor 3: 
+X: 0.953 | Y: -0.025 | Z: 0.303
+gyro_x: -0.991 | gyro_y: 0.130 | gyro_z: 0.026
+Sensor 4: 
+X: 0.626 | Y: 0.348 | Z: 0.698
+gyro_x: -0.584 | gyro_y: -0.500 | gyro_z: -0.639
+Sensor 5: 
+X: 0.454 | Y: 0.490 | Z: 0.744
+gyro_x: -0.426 | gyro_y: -0.596 | gyro_z: -0.681
+Sensor 6: 
+X: 0.136 | Y: 0.956 | Z: 0.262
+gyro_x: -0.093 | gyro_y: -0.964 | gyro_z: -0.249
+
+Time:  1.519335
+Sensor 1: 
+X: -0.023 | Y: 0.808 | Z: 0.589
+gyro_x: 0.238 | gyro_y: -0.625 | gyro_z: -0.744
+mag_x: 0.189 | mag_y: -0.929 | mag_z: -0.320
+Sensor 2: 
+X: 0.837 | Y: -0.502 | Z: 0.219
+gyro_x: -0.840 | gyro_y: 0.540 | gyro_z: 0.060
+Sensor 3: 
+X: 0.947 | Y: -0.028 | Z: 0.319
+gyro_x: -0.995 | gyro_y: 0.054 | gyro_z: 0.081
+Sensor 4: 
+X: 0.632 | Y: 0.328 | Z: 0.702
+gyro_x: -0.537 | gyro_y: -0.537 | gyro_z: -0.650
+Sensor 5: 
+X: 0.460 | Y: 0.473 | Z: 0.752
+gyro_x: -0.282 | gyro_y: -0.666 | gyro_z: -0.691
+Sensor 6: 
+X: 0.155 | Y: 0.953 | Z: 0.261
+gyro_x: 0.000 | gyro_y: -0.942 | gyro_z: -0.336
+
+Time:  1.519884
+Sensor 1: 
+X: -0.007 | Y: 0.823 | Z: 0.568
+gyro_x: 0.185 | gyro_y: -0.554 | gyro_z: -0.812
+mag_x: 0.189 | mag_y: -0.929 | mag_z: -0.320
+Sensor 2: 
+X: 0.832 | Y: -0.503 | Z: 0.233
+gyro_x: -0.862 | gyro_y: 0.503 | gyro_z: 0.072
+Sensor 3: 
+X: 0.942 | Y: -0.036 | Z: 0.333
+gyro_x: -0.992 | gyro_y: -0.031 | gyro_z: 0.124
+Sensor 4: 
+X: 0.651 | Y: 0.299 | Z: 0.698
+gyro_x: -0.503 | gyro_y: -0.574 | gyro_z: -0.646
+Sensor 5: 
+X: 0.494 | Y: 0.445 | Z: 0.747
+gyro_x: -0.224 | gyro_y: -0.616 | gyro_z: -0.756
+Sensor 6: 
+X: 0.173 | Y: 0.951 | Z: 0.255
+gyro_x: 0.038 | gyro_y: -0.922 | gyro_z: -0.384
+
+Time:  1.520026
+Sensor 1: 
+X: -0.016 | Y: 0.821 | Z: 0.571
+gyro_x: 0.358 | gyro_y: -0.268 | gyro_z: -0.894
+mag_x: 0.189 | mag_y: -0.929 | mag_z: -0.320
+Sensor 2: 
+X: 0.833 | Y: -0.504 | Z: 0.230
+gyro_x: -0.835 | gyro_y: 0.483 | gyro_z: 0.264
+Sensor 3: 
+X: 0.943 | Y: -0.035 | Z: 0.330
+gyro_x: -0.942 | gyro_y: -0.072 | gyro_z: 0.326
+Sensor 4: 
+X: 0.648 | Y: 0.308 | Z: 0.697
+gyro_x: -0.413 | gyro_y: -0.703 | gyro_z: -0.579
+Sensor 5: 
+X: 0.484 | Y: 0.458 | Z: 0.746
+gyro_x: -0.246 | gyro_y: -0.703 | gyro_z: -0.668
+Sensor 6: 
+X: 0.164 | Y: 0.953 | Z: 0.256
+gyro_x: 0.246 | gyro_y: -0.886 | gyro_z: -0.394
+
+Time:  1.520155
+Sensor 1: 
+X: -0.034 | Y: 0.812 | Z: 0.582
+gyro_x: 0.331 | gyro_y: -0.331 | gyro_z: -0.883
+mag_x: 0.201 | mag_y: -0.926 | mag_z: -0.320
+Sensor 2: 
+X: 0.840 | Y: -0.499 | Z: 0.212
+gyro_x: -0.852 | gyro_y: 0.479 | gyro_z: 0.213
+Sensor 3: 
+X: 0.949 | Y: -0.022 | Z: 0.316
+gyro_x: -0.949 | gyro_y: -0.086 | gyro_z: 0.302
+Sensor 4: 
+X: 0.635 | Y: 0.326 | Z: 0.701
+gyro_x: -0.399 | gyro_y: -0.648 | gyro_z: -0.648
+Sensor 5: 
+X: 0.469 | Y: 0.477 | Z: 0.743
+gyro_x: -0.300 | gyro_y: -0.699 | gyro_z: -0.649
+Sensor 6: 
+X: 0.147 | Y: 0.953 | Z: 0.265
+gyro_x: 0.120 | gyro_y: -0.900 | gyro_z: -0.420
+
+Time:  1.520278
+Sensor 1: 
+X: -0.026 | Y: 0.818 | Z: 0.574
+gyro_x: 0.235 | gyro_y: -0.411 | gyro_z: -0.881
+mag_x: 0.225 | mag_y: -0.919 | mag_z: -0.325
+Sensor 2: 
+X: 0.835 | Y: -0.507 | Z: 0.216
+gyro_x: -0.885 | gyro_y: 0.442 | gyro_z: 0.147
+Sensor 3: 
+X: 0.948 | Y: -0.031 | Z: 0.318
+gyro_x: -0.937 | gyro_y: -0.110 | gyro_z: 0.331
+Sensor 4: 
+X: 0.642 | Y: 0.320 | Z: 0.696
+gyro_x: -0.331 | gyro_y: -0.745 | gyro_z: -0.579
+Sensor 5: 
+X: 0.478 | Y: 0.473 | Z: 0.740
+gyro_x: -0.359 | gyro_y: -0.598 | gyro_z: -0.717
+Sensor 6: 
+X: 0.154 | Y: 0.955 | Z: 0.255
+gyro_x: 0.000 | gyro_y: -0.819 | gyro_z: -0.573
+
+Time:  1.520398
+Sensor 1: 
+X: -0.039 | Y: 0.821 | Z: 0.569
+gyro_x: 0.206 | gyro_y: -0.309 | gyro_z: -0.928
+mag_x: 0.225 | mag_y: -0.919 | mag_z: -0.325
+Sensor 2: 
+X: 0.830 | Y: -0.512 | Z: 0.221
+gyro_x: -0.894 | gyro_y: 0.447 | gyro_z: -0.000
+Sensor 3: 
+X: 0.947 | Y: -0.039 | Z: 0.318
+gyro_x: -0.959 | gyro_y: -0.069 | gyro_z: 0.274
+Sensor 4: 
+X: 0.640 | Y: 0.329 | Z: 0.694
+gyro_x: -0.447 | gyro_y: -0.537 | gyro_z: -0.716
+Sensor 5: 
+X: 0.479 | Y: 0.478 | Z: 0.736
+gyro_x: -0.468 | gyro_y: -0.468 | gyro_z: -0.749
+Sensor 6: 
+X: 0.154 | Y: 0.956 | Z: 0.248
+gyro_x: -0.196 | gyro_y: -0.784 | gyro_z: -0.588
+
+Time:  1.520517
+Sensor 1: 
+X: -0.042 | Y: 0.821 | Z: 0.569
+gyro_x: 0.199 | gyro_y: -0.398 | gyro_z: -0.896
+mag_x: 0.235 | mag_y: -0.909 | mag_z: -0.344
+Sensor 2: 
+X: 0.824 | Y: -0.523 | Z: 0.217
+gyro_x: -0.894 | gyro_y: 0.447 | gyro_z: -0.000
+Sensor 3: 
+X: 0.947 | Y: -0.051 | Z: 0.316
+gyro_x: -0.894 | gyro_y: 0.000 | gyro_z: 0.447
+Sensor 4: 
+X: 0.652 | Y: 0.325 | Z: 0.686
+gyro_x: -0.333 | gyro_y: -0.667 | gyro_z: -0.667
+Sensor 5: 
+X: 0.489 | Y: 0.474 | Z: 0.732
+gyro_x: -0.802 | gyro_y: -0.535 | gyro_z: -0.267
+Sensor 6: 
+X: 0.158 | Y: 0.959 | Z: 0.235
+gyro_x: -0.298 | gyro_y: -0.596 | gyro_z: -0.745
+
+Time:  1.521396
+Sensor 1: 
+X: -0.043 | Y: 0.819 | Z: 0.572
+gyro_x: 0.384 | gyro_y: 0.512 | gyro_z: -0.768
+mag_x: 0.235 | mag_y: -0.909 | mag_z: -0.344
+Sensor 2: 
+X: 0.828 | Y: -0.519 | Z: 0.212
+gyro_x: -0.832 | gyro_y: 0.000 | gyro_z: 0.555
+Sensor 3: 
+X: 0.949 | Y: -0.046 | Z: 0.311
+gyro_x: -0.597 | gyro_y: -0.100 | gyro_z: 0.796
+Sensor 4: 
+X: 0.643 | Y: 0.334 | Z: 0.689
+gyro_x: 0.436 | gyro_y: -0.873 | gyro_z: -0.218
+Sensor 5: 
+X: 0.473 | Y: 0.494 | Z: 0.730
+gyro_x: 0.000 | gyro_y: -0.447 | gyro_z: 0.894
+Sensor 6: 
+X: 0.150 | Y: 0.959 | Z: 0.241
+gyro_x: -0.000 | gyro_y: 0.000 | gyro_z: -1.000
+
+Time:  1.521529
+Sensor 1: 
+X: -0.039 | Y: 0.805 | Z: 0.592
+gyro_x: 0.371 | gyro_y: 0.743 | gyro_z: -0.557
+mag_x: 0.225 | mag_y: -0.925 | mag_z: -0.308
+Sensor 2: 
+X: 0.832 | Y: -0.516 | Z: 0.202
+gyro_x: -0.577 | gyro_y: -0.577 | gyro_z: 0.577
+Sensor 3: 
+X: 0.953 | Y: -0.039 | Z: 0.302
+gyro_x: -0.492 | gyro_y: -0.123 | gyro_z: 0.862
+Sensor 4: 
+X: 0.642 | Y: 0.338 | Z: 0.688
+gyro_x: 0.707 | gyro_y: -0.707 | gyro_z: 0.000
+Sensor 5: 
+X: 0.471 | Y: 0.490 | Z: 0.733
+gyro_x: -0.243 | gyro_y: -0.000 | gyro_z: 0.970
+Sensor 6: 
+X: 0.139 | Y: 0.959 | Z: 0.246
+gyro_x: -0.371 | gyro_y: 0.557 | gyro_z: -0.743
+
+Time:  1.531089
+Sensor 1: 
+X: -0.068 | Y: 0.810 | Z: 0.583
+gyro_x: 0.156 | gyro_y: 0.937 | gyro_z: -0.312
+mag_x: 0.209 | mag_y: -0.921 | mag_z: -0.328
+Sensor 2: 
+X: 0.836 | Y: -0.513 | Z: 0.196
+gyro_x: 0.905 | gyro_y: -0.302 | gyro_z: 0.302
+Sensor 3: 
+X: 0.955 | Y: -0.030 | Z: 0.295
+gyro_x: -0.000 | gyro_y: 0.124 | gyro_z: 0.992
+Sensor 4: 
+X: 0.627 | Y: 0.358 | Z: 0.692
+gyro_x: 0.728 | gyro_y: -0.485 | gyro_z: 0.485
+Sensor 5: 
+X: 0.461 | Y: 0.506 | Z: 0.729
+gyro_x: -0.192 | gyro_y: 0.192 | gyro_z: 0.962
+Sensor 6: 
+X: 0.128 | Y: 0.960 | Z: 0.250
+gyro_x: -0.302 | gyro_y: 0.905 | gyro_z: -0.302
+
+Time:  1.569732
+Sensor 1: 
+X: -0.054 | Y: 0.800 | Z: 0.598
+gyro_x: -0.000 | gyro_y: 0.800 | gyro_z: 0.600
+mag_x: 0.209 | mag_y: -0.921 | mag_z: -0.328
+Sensor 2: 
+X: 0.839 | Y: -0.510 | Z: 0.190
+gyro_x: 0.894 | gyro_y: -0.000 | gyro_z: -0.447
+Sensor 3: 
+X: 0.956 | Y: -0.027 | Z: 0.293
+gyro_x: 0.000 | gyro_y: 0.371 | gyro_z: 0.928
+Sensor 4: 
+X: 0.625 | Y: 0.358 | Z: 0.694
+gyro_x: 0.236 | gyro_y: 0.236 | gyro_z: 0.943
+Sensor 5: 
+X: 0.445 | Y: 0.516 | Z: 0.732
+gyro_x: -0.384 | gyro_y: 0.512 | gyro_z: 0.768
+Sensor 6: 
+X: 0.122 | Y: 0.959 | Z: 0.254
+gyro_x: -0.700 | gyro_y: 0.700 | gyro_z: -0.140
+
+Time:  1.615135
+Sensor 1: 
+X: -0.039 | Y: 0.814 | Z: 0.580
+gyro_x: 0.625 | gyro_y: 0.469 | gyro_z: 0.625
+mag_x: 0.220 | mag_y: -0.922 | mag_z: -0.318
+Sensor 2: 
+X: 0.830 | Y: -0.520 | Z: 0.203
+gyro_x: 0.973 | gyro_y: -0.162 | gyro_z: -0.162
+Sensor 3: 
+X: 0.952 | Y: -0.042 | Z: 0.304
+gyro_x: 0.384 | gyro_y: 0.512 | gyro_z: 0.768
+Sensor 4: 
+X: 0.640 | Y: 0.342 | Z: 0.688
+gyro_x: 0.381 | gyro_y: 0.254 | gyro_z: 0.889
+Sensor 5: 
+X: 0.470 | Y: 0.495 | Z: 0.730
+gyro_x: -0.280 | gyro_y: 0.466 | gyro_z: 0.839
+Sensor 6: 
+X: 0.140 | Y: 0.960 | Z: 0.243
+gyro_x: -0.577 | gyro_y: 0.808 | gyro_z: 0.115
+
+Time:  2.031406
+Sensor 1: 
+X: -0.055 | Y: 0.807 | Z: 0.587
+gyro_x: 0.105 | gyro_y: 0.527 | gyro_z: 0.843
+mag_x: 0.220 | mag_y: -0.922 | mag_z: -0.318
+Sensor 2: 
+X: 0.833 | Y: -0.517 | Z: 0.197
+gyro_x: 0.930 | gyro_y: -0.116 | gyro_z: -0.349
+Sensor 3: 
+X: 0.954 | Y: -0.035 | Z: 0.299
+gyro_x: 0.485 | gyro_y: 0.728 | gyro_z: 0.485
+Sensor 4: 
+X: 0.630 | Y: 0.356 | Z: 0.690
+gyro_x: 0.115 | gyro_y: 0.577 | gyro_z: 0.808
+Sensor 5: 
+X: 0.462 | Y: 0.506 | Z: 0.728
+gyro_x: -0.298 | gyro_y: 0.596 | gyro_z: 0.745
+Sensor 6: 
+X: 0.131 | Y: 0.960 | Z: 0.248
+gyro_x: -0.655 | gyro_y: 0.737 | gyro_z: 0.164
+
+Time:  2.031556
+Sensor 1: 
+X: -0.059 | Y: 0.812 | Z: 0.581
+gyro_x: 0.105 | gyro_y: 0.527 | gyro_z: 0.843
+mag_x: 0.239 | mag_y: -0.920 | mag_z: -0.311
+Sensor 2: 
+X: 0.829 | Y: -0.525 | Z: 0.195
+gyro_x: 0.909 | gyro_y: -0.101 | gyro_z: -0.404
+Sensor 3: 
+X: 0.954 | Y: -0.046 | Z: 0.298
+gyro_x: 0.640 | gyro_y: 0.640 | gyro_z: 0.426
+Sensor 4: 
+X: 0.647 | Y: 0.343 | Z: 0.681
+gyro_x: 0.191 | gyro_y: 0.477 | gyro_z: 0.858
+Sensor 5: 
+X: 0.472 | Y: 0.501 | Z: 0.725
+gyro_x: -0.204 | gyro_y: 0.543 | gyro_z: 0.815
+Sensor 6: 
+X: 0.136 | Y: 0.961 | Z: 0.239
+gyro_x: -0.608 | gyro_y: 0.760 | gyro_z: 0.228
+
+Time:  2.031701
+Sensor 1: 
+X: -0.067 | Y: 0.808 | Z: 0.585
+gyro_x: 0.328 | gyro_y: 0.786 | gyro_z: 0.524
+mag_x: 0.239 | mag_y: -0.920 | mag_z: -0.311
+Sensor 2: 
+X: 0.836 | Y: -0.515 | Z: 0.188
+gyro_x: 0.961 | gyro_y: -0.262 | gyro_z: -0.087
+Sensor 3: 
+X: 0.956 | Y: -0.029 | Z: 0.291
+gyro_x: 0.681 | gyro_y: 0.426 | gyro_z: 0.596
+Sensor 4: 
+X: 0.621 | Y: 0.370 | Z: 0.691
+gyro_x: 0.323 | gyro_y: 0.323 | gyro_z: 0.889
+Sensor 5: 
+X: 0.449 | Y: 0.521 | Z: 0.726
+gyro_x: -0.134 | gyro_y: 0.470 | gyro_z: 0.873
+Sensor 6: 
+X: 0.121 | Y: 0.960 | Z: 0.251
+gyro_x: -0.368 | gyro_y: 0.882 | gyro_z: 0.294
+
+Time:  2.031825
+Sensor 1: 
+X: -0.066 | Y: 0.800 | Z: 0.596
+gyro_x: 0.333 | gyro_y: 0.667 | gyro_z: 0.667
+mag_x: 0.219 | mag_y: -0.919 | mag_z: -0.329
+Sensor 2: 
+X: 0.835 | Y: -0.517 | Z: 0.186
+gyro_x: 0.976 | gyro_y: -0.098 | gyro_z: -0.195
+Sensor 3: 
+X: 0.956 | Y: -0.035 | Z: 0.291
+gyro_x: 0.609 | gyro_y: 0.508 | gyro_z: 0.609
+Sensor 4: 
+X: 0.631 | Y: 0.360 | Z: 0.687
+gyro_x: 0.302 | gyro_y: 0.302 | gyro_z: 0.905
+Sensor 5: 
+X: 0.459 | Y: 0.512 | Z: 0.726
+gyro_x: -0.218 | gyro_y: 0.436 | gyro_z: 0.873
+Sensor 6: 
+X: 0.124 | Y: 0.961 | Z: 0.247
+gyro_x: -0.498 | gyro_y: 0.830 | gyro_z: 0.249
+
+Time:  2.031955
+Sensor 1: 
+X: -0.039 | Y: 0.819 | Z: 0.572
+gyro_x: 0.248 | gyro_y: 0.744 | gyro_z: 0.620
+mag_x: 0.216 | mag_y: -0.924 | mag_z: -0.316
+Sensor 2: 
+X: 0.825 | Y: -0.525 | Z: 0.207
+gyro_x: 0.962 | gyro_y: -0.275 | gyro_z: -0.000
+Sensor 3: 
+X: 0.950 | Y: -0.049 | Z: 0.310
+gyro_x: 0.759 | gyro_y: 0.345 | gyro_z: 0.552
+Sensor 4: 
+X: 0.645 | Y: 0.339 | Z: 0.685
+gyro_x: 0.426 | gyro_y: 0.304 | gyro_z: 0.852
+Sensor 5: 
+X: 0.482 | Y: 0.489 | Z: 0.727
+gyro_x: 0.000 | gyro_y: 0.447 | gyro_z: 0.894
+Sensor 6: 
+X: 0.150 | Y: 0.960 | Z: 0.236
+gyro_x: -0.265 | gyro_y: 0.927 | gyro_z: 0.265
+
+Time:  2.032092
+Sensor 1: 
+X: -0.054 | Y: 0.828 | Z: 0.558
+gyro_x: 0.248 | gyro_y: 0.744 | gyro_z: 0.620
+mag_x: 0.207 | mag_y: -0.934 | mag_z: -0.292
+Sensor 2: 
+X: 0.823 | Y: -0.524 | Z: 0.217
+gyro_x: 0.900 | gyro_y: -0.420 | gyro_z: -0.120
+Sensor 3: 
+X: 0.946 | Y: -0.056 | Z: 0.319
+gyro_x: 0.911 | gyro_y: 0.130 | gyro_z: 0.391
+Sensor 4: 
+X: 0.657 | Y: 0.320 | Z: 0.682
+gyro_x: 0.464 | gyro_y: 0.464 | gyro_z: 0.754
+Sensor 5: 
+X: 0.496 | Y: 0.474 | Z: 0.728
+gyro_x: 0.096 | gyro_y: 0.574 | gyro_z: 0.813
+Sensor 6: 
+X: 0.164 | Y: 0.959 | Z: 0.232
+gyro_x: -0.314 | gyro_y: 0.943 | gyro_z: 0.105
+
+Time:  2.032235
+Sensor 1: 
+X: 0.004 | Y: 0.849 | Z: 0.528
+gyro_x: -0.201 | gyro_y: 0.771 | gyro_z: 0.604
+mag_x: 0.207 | mag_y: -0.934 | mag_z: -0.292
+Sensor 2: 
+X: 0.807 | Y: -0.535 | Z: 0.251
+gyro_x: 0.786 | gyro_y: -0.615 | gyro_z: -0.068
+Sensor 3: 
+X: 0.933 | Y: -0.086 | Z: 0.350
+gyro_x: 0.962 | gyro_y: -0.107 | gyro_z: 0.250
+Sensor 4: 
+X: 0.699 | Y: 0.257 | Z: 0.668
+gyro_x: 0.625 | gyro_y: 0.469 | gyro_z: 0.625
+Sensor 5: 
+X: 0.544 | Y: 0.414 | Z: 0.730
+gyro_x: 0.299 | gyro_y: 0.628 | gyro_z: 0.718
+Sensor 6: 
+X: 0.211 | Y: 0.954 | Z: 0.214
+gyro_x: -0.154 | gyro_y: 0.988 | gyro_z: -0.000
+
+Time:  2.033208
+Sensor 1: 
+X: -0.003 | Y: 0.854 | Z: 0.521
+gyro_x: -0.145 | gyro_y: 0.868 | gyro_z: 0.475
+mag_x: 0.188 | mag_y: -0.948 | mag_z: -0.255
+Sensor 2: 
+X: 0.806 | Y: -0.524 | Z: 0.273
+gyro_x: 0.752 | gyro_y: -0.655 | gyro_z: 0.073
+Sensor 3: 
+X: 0.926 | Y: -0.077 | Z: 0.370
+gyro_x: 0.939 | gyro_y: -0.173 | gyro_z: 0.297
+Sensor 4: 
+X: 0.683 | Y: 0.258 | Z: 0.683
+gyro_x: 0.703 | gyro_y: 0.363 | gyro_z: 0.612
+Sensor 5: 
+X: 0.534 | Y: 0.412 | Z: 0.739
+gyro_x: 0.424 | gyro_y: 0.558 | gyro_z: 0.714
+Sensor 6: 
+X: 0.222 | Y: 0.948 | Z: 0.227
+gyro_x: -0.023 | gyro_y: 0.999 | gyro_z: 0.023
+
+Time:  2.033341
+Sensor 1: 
+X: 0.020 | Y: 0.871 | Z: 0.491
+gyro_x: -0.156 | gyro_y: 0.830 | gyro_z: 0.536
+mag_x: 0.200 | mag_y: -0.941 | mag_z: -0.275
+Sensor 2: 
+X: 0.792 | Y: -0.530 | Z: 0.302
+gyro_x: 0.765 | gyro_y: -0.640 | gyro_z: 0.071
+Sensor 3: 
+X: 0.912 | Y: -0.100 | Z: 0.398
+gyro_x: 0.954 | gyro_y: -0.162 | gyro_z: 0.252
+Sensor 4: 
+X: 0.715 | Y: 0.208 | Z: 0.667
+gyro_x: 0.672 | gyro_y: 0.403 | gyro_z: 0.621
+Sensor 5: 
+X: 0.571 | Y: 0.373 | Z: 0.732
+gyro_x: 0.397 | gyro_y: 0.579 | gyro_z: 0.712
+Sensor 6: 
+X: 0.262 | Y: 0.943 | Z: 0.207
+gyro_x: -0.033 | gyro_y: 0.998 | gyro_z: 0.050
+
+Time:  2.033471
+Sensor 1: 
+X: 0.028 | Y: 0.882 | Z: 0.471
+gyro_x: -0.149 | gyro_y: 0.807 | gyro_z: 0.571
+mag_x: 0.200 | mag_y: -0.941 | mag_z: -0.275
+Sensor 2: 
+X: 0.776 | Y: -0.544 | Z: 0.321
+gyro_x: 0.774 | gyro_y: -0.630 | gyro_z: 0.066
+Sensor 3: 
+X: 0.904 | Y: -0.125 | Z: 0.410
+gyro_x: 0.961 | gyro_y: -0.145 | gyro_z: 0.237
+Sensor 4: 
+X: 0.737 | Y: 0.184 | Z: 0.651
+gyro_x: 0.666 | gyro_y: 0.402 | gyro_z: 0.628
+Sensor 5: 
+X: 0.598 | Y: 0.348 | Z: 0.722
+gyro_x: 0.418 | gyro_y: 0.578 | gyro_z: 0.701
+Sensor 6: 
+X: 0.284 | Y: 0.940 | Z: 0.187
+gyro_x: -0.012 | gyro_y: 0.996 | gyro_z: 0.087
+
+Time:  2.070563
+Sensor 1: 
+X: -0.003 | Y: 0.877 | Z: 0.481
+gyro_x: -0.117 | gyro_y: 0.822 | gyro_z: 0.558
+mag_x: 0.186 | mag_y: -0.941 | mag_z: -0.282
+Sensor 2: 
+X: 0.777 | Y: -0.549 | Z: 0.309
+gyro_x: 0.782 | gyro_y: -0.616 | gyro_z: 0.094
+Sensor 3: 
+X: 0.909 | Y: -0.124 | Z: 0.397
+gyro_x: 0.960 | gyro_y: -0.125 | gyro_z: 0.250
+Sensor 4: 
+X: 0.735 | Y: 0.207 | Z: 0.646
+gyro_x: 0.672 | gyro_y: 0.387 | gyro_z: 0.631
+Sensor 5: 
+X: 0.586 | Y: 0.376 | Z: 0.717
+gyro_x: 0.434 | gyro_y: 0.553 | gyro_z: 0.711
+Sensor 6: 
+X: 0.267 | Y: 0.946 | Z: 0.185
+gyro_x: 0.010 | gyro_y: 0.993 | gyro_z: 0.120
+
+Time:  2.10958
+Sensor 1: 
+X: -0.019 | Y: 0.875 | Z: 0.485
+gyro_x: -0.059 | gyro_y: 0.834 | gyro_z: 0.548
+mag_x: 0.175 | mag_y: -0.951 | mag_z: -0.253
+Sensor 2: 
+X: 0.765 | Y: -0.571 | Z: 0.297
+gyro_x: 0.790 | gyro_y: -0.597 | gyro_z: 0.140
+Sensor 3: 
+X: 0.912 | Y: -0.151 | Z: 0.381
+gyro_x: 0.949 | gyro_y: -0.123 | gyro_z: 0.290
+Sensor 4: 
+X: 0.760 | Y: 0.206 | Z: 0.616
+gyro_x: 0.665 | gyro_y: 0.341 | gyro_z: 0.665
+Sensor 5: 
+X: 0.617 | Y: 0.373 | Z: 0.693
+gyro_x: 0.432 | gyro_y: 0.515 | gyro_z: 0.740
+Sensor 6: 
+X: 0.262 | Y: 0.953 | Z: 0.155
+gyro_x: 0.068 | gyro_y: 0.987 | gyro_z: 0.145
+
+Time:  2.540284
+Sensor 1: 
+X: -0.056 | Y: 0.887 | Z: 0.458
+gyro_x: -0.042 | gyro_y: 0.847 | gyro_z: 0.530
+mag_x: 0.167 | mag_y: -0.953 | mag_z: -0.253
+Sensor 2: 
+X: 0.754 | Y: -0.591 | Z: 0.286
+gyro_x: 0.794 | gyro_y: -0.581 | gyro_z: 0.177
+Sensor 3: 
+X: 0.916 | Y: -0.166 | Z: 0.365
+gyro_x: 0.943 | gyro_y: -0.110 | gyro_z: 0.314
+Sensor 4: 
+X: 0.763 | Y: 0.240 | Z: 0.600
+gyro_x: 0.675 | gyro_y: 0.316 | gyro_z: 0.667
+Sensor 5: 
+X: 0.620 | Y: 0.409 | Z: 0.669
+gyro_x: 0.459 | gyro_y: 0.473 | gyro_z: 0.752
+Sensor 6: 
+X: 0.248 | Y: 0.960 | Z: 0.128
+gyro_x: 0.093 | gyro_y: 0.982 | gyro_z: 0.165
+
+Time:  2.54043
+Sensor 1: 
+X: -0.066 | Y: 0.891 | Z: 0.448
+gyro_x: -0.044 | gyro_y: 0.832 | gyro_z: 0.553
+mag_x: 0.106 | mag_y: -0.962 | mag_z: -0.251
+Sensor 2: 
+X: 0.738 | Y: -0.608 | Z: 0.291
+gyro_x: 0.811 | gyro_y: -0.564 | gyro_z: 0.152
+Sensor 3: 
+X: 0.911 | Y: -0.193 | Z: 0.365
+gyro_x: 0.954 | gyro_y: -0.076 | gyro_z: 0.291
+Sensor 4: 
+X: 0.792 | Y: 0.219 | Z: 0.570
+gyro_x: 0.647 | gyro_y: 0.336 | gyro_z: 0.684
+Sensor 5: 
+X: 0.661 | Y: 0.390 | Z: 0.641
+gyro_x: 0.420 | gyro_y: 0.492 | gyro_z: 0.762
+Sensor 6: 
+X: 0.260 | Y: 0.961 | Z: 0.097
+gyro_x: 0.068 | gyro_y: 0.978 | gyro_z: 0.198
+
+Time:  2.540558
+Sensor 1: 
+X: -0.040 | Y: 0.914 | Z: 0.403
+gyro_x: -0.044 | gyro_y: 0.832 | gyro_z: 0.553
+mag_x: 0.106 | mag_y: -0.962 | mag_z: -0.251
+Sensor 2: 
+X: 0.740 | Y: -0.586 | Z: 0.330
+gyro_x: 0.825 | gyro_y: -0.556 | gyro_z: 0.101
+Sensor 3: 
+X: 0.898 | Y: -0.179 | Z: 0.403
+gyro_x: 0.969 | gyro_y: -0.045 | gyro_z: 0.241
+Sensor 4: 
+X: 0.784 | Y: 0.205 | Z: 0.586
+gyro_x: 0.617 | gyro_y: 0.382 | gyro_z: 0.688
+Sensor 5: 
+X: 0.661 | Y: 0.372 | Z: 0.651
+gyro_x: 0.368 | gyro_y: 0.539 | gyro_z: 0.758
+Sensor 6: 
+X: 0.295 | Y: 0.948 | Z: 0.118
+gyro_x: 0.017 | gyro_y: 0.978 | gyro_z: 0.210
+
+Time:  2.54068
+Sensor 1: 
+X: 0.009 | Y: 0.939 | Z: 0.345
+gyro_x: -0.107 | gyro_y: 0.752 | gyro_z: 0.650
+mag_x: 0.067 | mag_y: -0.976 | mag_z: -0.208
+Sensor 2: 
+X: 0.725 | Y: -0.580 | Z: 0.371
+gyro_x: 0.819 | gyro_y: -0.572 | gyro_z: 0.048
+Sensor 3: 
+X: 0.878 | Y: -0.185 | Z: 0.442
+gyro_x: 0.979 | gyro_y: -0.069 | gyro_z: 0.192
+Sensor 4: 
+X: 0.779 | Y: 0.203 | Z: 0.593
+gyro_x: 0.612 | gyro_y: 0.432 | gyro_z: 0.663
+Sensor 5: 
+X: 0.643 | Y: 0.358 | Z: 0.677
+gyro_x: 0.374 | gyro_y: 0.576 | gyro_z: 0.727
+Sensor 6: 
+X: 0.331 | Y: 0.934 | Z: 0.131
+gyro_x: -0.011 | gyro_y: 0.984 | gyro_z: 0.179
+
+Time:  2.540804
+Sensor 1: 
+X: -0.054 | Y: 0.941 | Z: 0.335
+gyro_x: -0.107 | gyro_y: 0.752 | gyro_z: 0.650
+mag_x: 0.056 | mag_y: -0.979 | mag_z: -0.197
+Sensor 2: 
+X: 0.680 | Y: -0.655 | Z: 0.330
+gyro_x: 0.794 | gyro_y: -0.583 | gyro_z: 0.173
+Sensor 3: 
+X: 0.882 | Y: -0.272 | Z: 0.384
+gyro_x: 0.946 | gyro_y: -0.110 | gyro_z: 0.305
+Sensor 4: 
+X: 0.833 | Y: 0.205 | Z: 0.513
+gyro_x: 0.684 | gyro_y: 0.306 | gyro_z: 0.663
+Sensor 5: 
+X: 0.697 | Y: 0.371 | Z: 0.614
+gyro_x: 0.476 | gyro_y: 0.460 | gyro_z: 0.750
+Sensor 6: 
+X: 0.300 | Y: 0.953 | Z: 0.027
+gyro_x: 0.114 | gyro_y: 0.978 | gyro_z: 0.176
+
+Time:  2.540925
+Sensor 1: 
+X: -0.151 | Y: 0.863 | Z: 0.482
+gyro_x: -0.005 | gyro_y: 0.870 | gyro_z: 0.493
+mag_x: 0.000 | mag_y: -0.986 | mag_z: -0.164
+Sensor 2: 
+X: 0.728 | Y: -0.647 | Z: 0.225
+gyro_x: 0.798 | gyro_y: -0.584 | gyro_z: 0.146
+Sensor 3: 
+X: 0.931 | Y: -0.219 | Z: 0.291
+gyro_x: 0.959 | gyro_y: -0.095 | gyro_z: 0.267
+Sensor 4: 
+X: 0.801 | Y: 0.282 | Z: 0.529
+gyro_x: 0.674 | gyro_y: 0.348 | gyro_z: 0.651
+Sensor 5: 
+X: 0.677 | Y: 0.442 | Z: 0.588
+gyro_x: 0.456 | gyro_y: 0.510 | gyro_z: 0.729
+Sensor 6: 
+X: 0.187 | Y: 0.981 | Z: 0.048
+gyro_x: 0.053 | gyro_y: 0.984 | gyro_z: 0.171
+
+Time:  2.541052
+Sensor 1: 
+X: -0.098 | Y: 0.810 | Z: 0.578
+gyro_x: -0.205 | gyro_y: 0.734 | gyro_z: 0.647
+mag_x: 0.006 | mag_y: -0.992 | mag_z: -0.125
+Sensor 2: 
+X: 0.819 | Y: -0.547 | Z: 0.171
+gyro_x: 0.797 | gyro_y: -0.604 | gyro_z: -0.025
+Sensor 3: 
+X: 0.962 | Y: -0.065 | Z: 0.264
+gyro_x: 0.993 | gyro_y: -0.050 | gyro_z: 0.108
+Sensor 4: 
+X: 0.678 | Y: 0.398 | Z: 0.618
+gyro_x: 0.606 | gyro_y: 0.495 | gyro_z: 0.623
+Sensor 5: 
+X: 0.512 | Y: 0.559 | Z: 0.652
+gyro_x: 0.369 | gyro_y: 0.640 | gyro_z: 0.673
+Sensor 6: 
+X: 0.092 | Y: 0.976 | Z: 0.198
+gyro_x: -0.101 | gyro_y: 0.981 | gyro_z: 0.165
+
+Time:  2.541969
+Sensor 1: 
+X: -0.050 | Y: 0.810 | Z: 0.585
+gyro_x: -0.225 | gyro_y: 0.655 | gyro_z: 0.721
+mag_x: 0.006 | mag_y: -0.992 | mag_z: -0.125
+Sensor 2: 
+X: 0.847 | Y: -0.506 | Z: 0.163
+gyro_x: 0.808 | gyro_y: -0.578 | gyro_z: -0.113
+Sensor 3: 
+X: 0.964 | Y: -0.013 | Z: 0.266
+gyro_x: 0.999 | gyro_y: -0.035 | gyro_z: 0.026
+Sensor 4: 
+X: 0.615 | Y: 0.442 | Z: 0.653
+gyro_x: 0.555 | gyro_y: 0.560 | gyro_z: 0.615
+Sensor 5: 
+X: 0.433 | Y: 0.586 | Z: 0.684
+gyro_x: 0.309 | gyro_y: 0.697 | gyro_z: 0.647
+Sensor 6: 
+X: 0.080 | Y: 0.965 | Z: 0.250
+gyro_x: -0.171 | gyro_y: 0.972 | gyro_z: 0.162
+
+Time:  2.542107
+Sensor 1: 
+X: -0.143 | Y: 0.833 | Z: 0.534
+gyro_x: -0.154 | gyro_y: 0.668 | gyro_z: 0.728
+mag_x: -0.135 | mag_y: -0.967 | mag_z: -0.218
+Sensor 2: 
+X: 0.774 | Y: -0.612 | Z: 0.161
+gyro_x: 0.846 | gyro_y: -0.527 | gyro_z: -0.074
+Sensor 3: 
+X: 0.958 | Y: -0.150 | Z: 0.242
+gyro_x: 0.996 | gyro_y: 0.018 | gyro_z: 0.083
+Sensor 4: 
+X: 0.724 | Y: 0.409 | Z: 0.556
+gyro_x: 0.539 | gyro_y: 0.516 | gyro_z: 0.666
+Sensor 5: 
+X: 0.551 | Y: 0.572 | Z: 0.608
+gyro_x: 0.295 | gyro_y: 0.648 | gyro_z: 0.702
+Sensor 6: 
+X: 0.102 | Y: 0.989 | Z: 0.105
+gyro_x: -0.141 | gyro_y: 0.965 | gyro_z: 0.223
+
+Time:  2.542245
+Sensor 1: 
+X: -0.260 | Y: 0.841 | Z: 0.475
+gyro_x: -0.089 | gyro_y: 0.644 | gyro_z: 0.760
+mag_x: -0.265 | mag_y: -0.945 | mag_z: -0.190
+Sensor 2: 
+X: 0.731 | Y: -0.675 | Z: 0.104
+gyro_x: 0.856 | gyro_y: -0.499 | gyro_z: -0.132
+Sensor 3: 
+X: 0.961 | Y: -0.218 | Z: 0.168
+gyro_x: 0.998 | gyro_y: 0.053 | gyro_z: 0.026
+Sensor 4: 
+X: 0.763 | Y: 0.438 | Z: 0.475
+gyro_x: 0.488 | gyro_y: 0.575 | gyro_z: 0.657
+Sensor 5: 
+X: 0.618 | Y: 0.587 | Z: 0.524
+gyro_x: 0.233 | gyro_y: 0.694 | gyro_z: 0.681
+Sensor 6: 
+X: 0.063 | Y: 0.998 | Z: 0.010
+gyro_x: -0.206 | gyro_y: 0.950 | gyro_z: 0.232
+
+Time:  2.579411
+Sensor 1: 
+X: -0.290 | Y: 0.797 | Z: 0.529
+gyro_x: -0.111 | gyro_y: 0.657 | gyro_z: 0.746
+mag_x: -0.265 | mag_y: -0.945 | mag_z: -0.190
+Sensor 2: 
+X: 0.701 | Y: -0.708 | Z: 0.078
+gyro_x: 0.867 | gyro_y: -0.490 | gyro_z: -0.088
+Sensor 3: 
+X: 0.959 | Y: -0.249 | Z: 0.134
+gyro_x: 0.996 | gyro_y: 0.048 | gyro_z: 0.074
+Sensor 4: 
+X: 0.749 | Y: 0.517 | Z: 0.414
+gyro_x: 0.503 | gyro_y: 0.529 | gyro_z: 0.684
+Sensor 5: 
+X: 0.546 | Y: 0.681 | Z: 0.488
+gyro_x: 0.258 | gyro_y: 0.640 | gyro_z: 0.724
+Sensor 6: 
+X: 0.029 | Y: 1.000 | Z: -0.009
+gyro_x: -0.143 | gyro_y: 0.956 | gyro_z: 0.256
+
+Time:  2.625068
+Sensor 1: 
+X: -0.298 | Y: 0.831 | Z: 0.470
+gyro_x: 0.096 | gyro_y: 0.761 | gyro_z: 0.642
+mag_x: -0.303 | mag_y: -0.932 | mag_z: -0.197
+Sensor 2: 
+X: 0.675 | Y: -0.729 | Z: 0.119
+gyro_x: 0.885 | gyro_y: -0.456 | gyro_z: 0.091
+Sensor 3: 
+X: 0.941 | Y: -0.294 | Z: 0.169
+gyro_x: 0.965 | gyro_y: 0.055 | gyro_z: 0.255
+Sensor 4: 
+X: 0.806 | Y: 0.428 | Z: 0.409
+gyro_x: 0.545 | gyro_y: 0.366 | gyro_z: 0.755
+Sensor 5: 
+X: 0.646 | Y: 0.583 | Z: 0.493
+gyro_x: 0.314 | gyro_y: 0.496 | gyro_z: 0.810
+Sensor 6: 
+X: 0.100 | Y: 0.993 | Z: -0.055
+gyro_x: 0.018 | gyro_y: 0.950 | gyro_z: 0.312
+
+Time:  3.050275
+Sensor 1: 
+X: -0.233 | Y: 0.876 | Z: 0.422
+gyro_x: 0.038 | gyro_y: 0.791 | gyro_z: 0.611
+mag_x: -0.303 | mag_y: -0.932 | mag_z: -0.197
+Sensor 2: 
+X: 0.654 | Y: -0.743 | Z: 0.143
+gyro_x: 0.868 | gyro_y: -0.472 | gyro_z: 0.155
+Sensor 3: 
+X: 0.926 | Y: -0.329 | Z: 0.187
+gyro_x: 0.950 | gyro_y: 0.021 | gyro_z: 0.312
+Sensor 4: 
+X: 0.848 | Y: 0.366 | Z: 0.382
+gyro_x: 0.580 | gyro_y: 0.311 | gyro_z: 0.753
+Sensor 5: 
+X: 0.699 | Y: 0.523 | Z: 0.487
+gyro_x: 0.362 | gyro_y: 0.450 | gyro_z: 0.816
+Sensor 6: 
+X: 0.131 | Y: 0.988 | Z: -0.082
+gyro_x: 0.089 | gyro_y: 0.951 | gyro_z: 0.296
+
+Time:  3.05041
+Sensor 1: 
+X: -0.236 | Y: 0.828 | Z: 0.508
+gyro_x: 0.067 | gyro_y: 0.824 | gyro_z: 0.562
+mag_x: -0.303 | mag_y: -0.932 | mag_z: -0.197
+Sensor 2: 
+X: 0.720 | Y: -0.690 | Z: 0.078
+gyro_x: 0.851 | gyro_y: -0.491 | gyro_z: 0.186
+Sensor 3: 
+X: 0.961 | Y: -0.236 | Z: 0.142
+gyro_x: 0.942 | gyro_y: -0.008 | gyro_z: 0.335
+Sensor 4: 
+X: 0.778 | Y: 0.435 | Z: 0.453
+gyro_x: 0.607 | gyro_y: 0.290 | gyro_z: 0.740
+Sensor 5: 
+X: 0.635 | Y: 0.577 | Z: 0.513
+gyro_x: 0.390 | gyro_y: 0.431 | gyro_z: 0.814
+Sensor 6: 
+X: 0.051 | Y: 0.999 | Z: -0.008
+gyro_x: 0.106 | gyro_y: 0.956 | gyro_z: 0.273
+
+Time:  3.05055
+Sensor 1: 
+X: -0.238 | Y: 0.760 | Z: 0.605
+gyro_x: -0.004 | gyro_y: 0.806 | gyro_z: 0.592
+mag_x: -0.391 | mag_y: -0.900 | mag_z: -0.191
+Sensor 2: 
+X: 0.794 | Y: -0.608 | Z: 0.006
+gyro_x: 0.850 | gyro_y: -0.518 | gyro_z: 0.101
+Sensor 3: 
+X: 0.991 | Y: -0.101 | Z: 0.089
+gyro_x: 0.970 | gyro_y: -0.019 | gyro_z: 0.244
+Sensor 4: 
+X: 0.660 | Y: 0.544 | Z: 0.518
+gyro_x: 0.592 | gyro_y: 0.387 | gyro_z: 0.707
+Sensor 5: 
+X: 0.500 | Y: 0.676 | Z: 0.541
+gyro_x: 0.364 | gyro_y: 0.517 | gyro_z: 0.775
+Sensor 6: 
+X: -0.057 | Y: 0.993 | Z: 0.099
+gyro_x: 0.026 | gyro_y: 0.970 | gyro_z: 0.241
+
+Time:  3.050676
+Sensor 1: 
+X: -0.240 | Y: 0.720 | Z: 0.651
+gyro_x: -0.004 | gyro_y: 0.806 | gyro_z: 0.592
+mag_x: -0.402 | mag_y: -0.891 | mag_z: -0.208
+Sensor 2: 
+X: 0.814 | Y: -0.581 | Z: -0.019
+gyro_x: 0.864 | gyro_y: -0.501 | gyro_z: 0.042
+Sensor 3: 
+X: 0.996 | Y: -0.061 | Z: 0.066
+gyro_x: 0.981 | gyro_y: 0.011 | gyro_z: 0.195
+Sensor 4: 
+X: 0.618 | Y: 0.589 | Z: 0.521
+gyro_x: 0.552 | gyro_y: 0.432 | gyro_z: 0.713
+Sensor 5: 
+X: 0.435 | Y: 0.718 | Z: 0.543
+gyro_x: 0.324 | gyro_y: 0.554 | gyro_z: 0.767
+Sensor 6: 
+X: -0.090 | Y: 0.988 | Z: 0.127
+gyro_x: -0.030 | gyro_y: 0.966 | gyro_z: 0.258
+
+Time:  3.050798
+Sensor 1: 
+X: -0.251 | Y: 0.753 | Z: 0.608
+gyro_x: -0.066 | gyro_y: 0.719 | gyro_z: 0.692
+mag_x: -0.487 | mag_y: -0.843 | mag_z: -0.226
+Sensor 2: 
+X: 0.788 | Y: -0.616 | Z: -0.004
+gyro_x: 0.866 | gyro_y: -0.498 | gyro_z: 0.036
+Sensor 3: 
+X: 0.992 | Y: -0.109 | Z: 0.071
+gyro_x: 0.982 | gyro_y: 0.020 | gyro_z: 0.189
+Sensor 4: 
+X: 0.646 | Y: 0.584 | Z: 0.492
+gyro_x: 0.547 | gyro_y: 0.432 | gyro_z: 0.717
+Sensor 5: 
+X: 0.455 | Y: 0.721 | Z: 0.523
+gyro_x: 0.315 | gyro_y: 0.558 | gyro_z: 0.767
+Sensor 6: 
+X: -0.071 | Y: 0.993 | Z: 0.091
+gyro_x: -0.035 | gyro_y: 0.965 | gyro_z: 0.262
+
+Time:  3.050918
+Sensor 1: 
+X: -0.277 | Y: 0.771 | Z: 0.573
+gyro_x: 0.000 | gyro_y: 0.745 | gyro_z: 0.668
+mag_x: -0.487 | mag_y: -0.843 | mag_z: -0.226
+Sensor 2: 
+X: 0.761 | Y: -0.649 | Z: 0.025
+gyro_x: 0.878 | gyro_y: -0.472 | gyro_z: 0.082
+Sensor 3: 
+X: 0.983 | Y: -0.158 | Z: 0.093
+gyro_x: 0.971 | gyro_y: 0.033 | gyro_z: 0.238
+Sensor 4: 
+X: 0.686 | Y: 0.555 | Z: 0.470
+gyro_x: 0.544 | gyro_y: 0.383 | gyro_z: 0.746
+Sensor 5: 
+X: 0.504 | Y: 0.693 | Z: 0.516
+gyro_x: 0.318 | gyro_y: 0.509 | gyro_z: 0.800
+Sensor 6: 
+X: -0.031 | Y: 0.998 | Z: 0.050
+gyro_x: 0.012 | gyro_y: 0.957 | gyro_z: 0.289
+
+Time:  3.051046
+Sensor 1: 
+X: -0.269 | Y: 0.833 | Z: 0.483
+gyro_x: 0.037 | gyro_y: 0.758 | gyro_z: 0.651
+mag_x: -0.533 | mag_y: -0.791 | mag_z: -0.300
+Sensor 2: 
+X: 0.702 | Y: -0.710 | Z: 0.061
+gyro_x: 0.872 | gyro_y: -0.473 | gyro_z: 0.123
+Sensor 3: 
+X: 0.960 | Y: -0.256 | Z: 0.116
+gyro_x: 0.960 | gyro_y: 0.025 | gyro_z: 0.279
+Sensor 4: 
+X: 0.773 | Y: 0.481 | Z: 0.414
+gyro_x: 0.569 | gyro_y: 0.340 | gyro_z: 0.749
+Sensor 5: 
+X: 0.618 | Y: 0.621 | Z: 0.482
+gyro_x: 0.349 | gyro_y: 0.472 | gyro_z: 0.809
+Sensor 6: 
+X: 0.034 | Y: 0.998 | Z: -0.045
+gyro_x: 0.053 | gyro_y: 0.956 | gyro_z: 0.289
+
+Time:  3.052133
+Sensor 1: 
+X: -0.314 | Y: 0.796 | Z: 0.518
+gyro_x: 0.027 | gyro_y: 0.808 | gyro_z: 0.588
+mag_x: -0.524 | mag_y: -0.788 | mag_z: -0.324
+Sensor 2: 
+X: 0.711 | Y: -0.702 | Z: 0.038
+gyro_x: 0.857 | gyro_y: -0.489 | gyro_z: 0.164
+Sensor 3: 
+X: 0.967 | Y: -0.235 | Z: 0.097
+gyro_x: 0.949 | gyro_y: 0.004 | gyro_z: 0.315
+Sensor 4: 
+X: 0.747 | Y: 0.508 | Z: 0.429
+gyro_x: 0.592 | gyro_y: 0.304 | gyro_z: 0.746
+Sensor 5: 
+X: 0.577 | Y: 0.654 | Z: 0.489
+gyro_x: 0.372 | gyro_y: 0.443 | gyro_z: 0.815
+Sensor 6: 
+X: -0.004 | Y: 1.000 | Z: -0.021
+gyro_x: 0.091 | gyro_y: 0.955 | gyro_z: 0.284
+
+Time:  3.052264
+Sensor 1: 
+X: -0.285 | Y: 0.792 | Z: 0.539
+gyro_x: 0.027 | gyro_y: 0.808 | gyro_z: 0.588
+mag_x: -0.524 | mag_y: -0.779 | mag_z: -0.344
+Sensor 2: 
+X: 0.749 | Y: -0.661 | Z: 0.038
+gyro_x: 0.859 | gyro_y: -0.492 | gyro_z: 0.145
+Sensor 3: 
+X: 0.979 | Y: -0.175 | Z: 0.105
+gyro_x: 0.955 | gyro_y: 0.008 | gyro_z: 0.297
+Sensor 4: 
+X: 0.705 | Y: 0.526 | Z: 0.476
+gyro_x: 0.582 | gyro_y: 0.328 | gyro_z: 0.744
+Sensor 5: 
+X: 0.546 | Y: 0.658 | Z: 0.519
+gyro_x: 0.351 | gyro_y: 0.472 | gyro_z: 0.808
+Sensor 6: 
+X: -0.014 | Y: 0.999 | Z: 0.038
+gyro_x: 0.068 | gyro_y: 0.959 | gyro_z: 0.275
+
+Time:  3.052392
+Sensor 1: 
+X: -0.236 | Y: 0.852 | Z: 0.468
+gyro_x: 0.062 | gyro_y: 0.782 | gyro_z: 0.620
+mag_x: -0.515 | mag_y: -0.766 | mag_z: -0.385
+Sensor 2: 
+X: 0.735 | Y: -0.669 | Z: 0.108
+gyro_x: 0.871 | gyro_y: -0.461 | gyro_z: 0.168
+Sensor 3: 
+X: 0.964 | Y: -0.202 | Z: 0.170
+gyro_x: 0.945 | gyro_y: 0.033 | gyro_z: 0.326
+Sensor 4: 
+X: 0.728 | Y: 0.486 | Z: 0.484
+gyro_x: 0.559 | gyro_y: 0.306 | gyro_z: 0.771
+Sensor 5: 
+X: 0.545 | Y: 0.642 | Z: 0.539
+gyro_x: 0.332 | gyro_y: 0.439 | gyro_z: 0.835
+Sensor 6: 
+X: 0.057 | Y: 0.998 | Z: 0.035
+gyro_x: 0.096 | gyro_y: 0.945 | gyro_z: 0.314
+
+Time:  3.088118
+Sensor 1: 
+X: -0.242 | Y: 0.864 | Z: 0.442
+gyro_x: 0.111 | gyro_y: 0.794 | gyro_z: 0.598
+mag_x: -0.515 | mag_y: -0.766 | mag_z: -0.385
+Sensor 2: 
+X: 0.712 | Y: -0.690 | Z: 0.130
+gyro_x: 0.875 | gyro_y: -0.444 | gyro_z: 0.194
+Sensor 3: 
+X: 0.954 | Y: -0.237 | Z: 0.185
+gyro_x: 0.933 | gyro_y: 0.043 | gyro_z: 0.357
+Sensor 4: 
+X: 0.766 | Y: 0.444 | Z: 0.465
+gyro_x: 0.559 | gyro_y: 0.273 | gyro_z: 0.782
+Sensor 5: 
+X: 0.612 | Y: 0.583 | Z: 0.534
+gyro_x: 0.330 | gyro_y: 0.414 | gyro_z: 0.848
+Sensor 6: 
+X: 0.093 | Y: 0.996 | Z: -0.005
+gyro_x: 0.120 | gyro_y: 0.938 | gyro_z: 0.325
+
+Time:  3.132387
+Sensor 1: 
+X: -0.245 | Y: 0.819 | Z: 0.519
+gyro_x: 0.071 | gyro_y: 0.809 | gyro_z: 0.583
+mag_x: -0.515 | mag_y: -0.766 | mag_z: -0.385
+Sensor 2: 
+X: 0.730 | Y: -0.677 | Z: 0.088
+gyro_x: 0.864 | gyro_y: -0.462 | gyro_z: 0.201
+Sensor 3: 
+X: 0.966 | Y: -0.211 | Z: 0.151
+gyro_x: 0.933 | gyro_y: 0.026 | gyro_z: 0.358
+Sensor 4: 
+X: 0.745 | Y: 0.467 | Z: 0.476
+gyro_x: 0.578 | gyro_y: 0.274 | gyro_z: 0.768
+Sensor 5: 
+X: 0.586 | Y: 0.602 | Z: 0.542
+gyro_x: 0.310 | gyro_y: 0.440 | gyro_z: 0.843
+Sensor 6: 
+X: 0.047 | Y: 0.999 | Z: 0.017
+gyro_x: 0.127 | gyro_y: 0.941 | gyro_z: 0.314
+
+Time:  3.559339
+Sensor 1: 
+X: -0.220 | Y: 0.758 | Z: 0.614
+gyro_x: -0.004 | gyro_y: 0.827 | gyro_z: 0.562
+mag_x: -0.524 | mag_y: -0.744 | mag_z: -0.414
+Sensor 2: 
+X: 0.811 | Y: -0.584 | Z: 0.033
+gyro_x: 0.847 | gyro_y: -0.500 | gyro_z: 0.180
+Sensor 3: 
+X: 0.991 | Y: -0.064 | Z: 0.116
+gyro_x: 0.945 | gyro_y: -0.004 | gyro_z: 0.328
+Sensor 4: 
+X: 0.618 | Y: 0.554 | Z: 0.558
+gyro_x: 0.594 | gyro_y: 0.317 | gyro_z: 0.739
+Sensor 5: 
+X: 0.432 | Y: 0.675 | Z: 0.598
+gyro_x: 0.294 | gyro_y: 0.497 | gyro_z: 0.817
+Sensor 6: 
+X: -0.040 | Y: 0.987 | Z: 0.156
+gyro_x: 0.117 | gyro_y: 0.953 | gyro_z: 0.280
+
+Time:  3.559933
+Sensor 1: 
+X: -0.196 | Y: 0.769 | Z: 0.609
+gyro_x: 0.005 | gyro_y: 0.834 | gyro_z: 0.551
+mag_x: -0.524 | mag_y: -0.744 | mag_z: -0.414
+Sensor 2: 
+X: 0.824 | Y: -0.561 | Z: 0.071
+gyro_x: 0.834 | gyro_y: -0.502 | gyro_z: 0.228
+Sensor 3: 
+X: 0.984 | Y: -0.047 | Z: 0.169
+gyro_x: 0.922 | gyro_y: -0.026 | gyro_z: 0.386
+Sensor 4: 
+X: 0.573 | Y: 0.555 | Z: 0.603
+gyro_x: 0.629 | gyro_y: 0.237 | gyro_z: 0.740
+Sensor 5: 
+X: 0.340 | Y: 0.676 | Z: 0.654
+gyro_x: 0.344 | gyro_y: 0.420 | gyro_z: 0.840
+Sensor 6: 
+X: 0.004 | Y: 0.981 | Z: 0.194
+gyro_x: 0.184 | gyro_y: 0.946 | gyro_z: 0.268
+
+Time:  3.560081
+Sensor 1: 
+X: -0.138 | Y: 0.880 | Z: 0.455
+gyro_x: 0.154 | gyro_y: 0.864 | gyro_z: 0.479
+mag_x: -0.468 | mag_y: -0.711 | mag_z: -0.524
+Sensor 2: 
+X: 0.769 | Y: -0.611 | Z: 0.187
+gyro_x: 0.820 | gyro_y: -0.493 | gyro_z: 0.292
+Sensor 3: 
+X: 0.949 | Y: -0.156 | Z: 0.273
+gyro_x: 0.898 | gyro_y: -0.052 | gyro_z: 0.437
+Sensor 4: 
+X: 0.723 | Y: 0.368 | Z: 0.585
+gyro_x: 0.652 | gyro_y: 0.164 | gyro_z: 0.740
+Sensor 5: 
+X: 0.583 | Y: 0.472 | Z: 0.661
+gyro_x: 0.371 | gyro_y: 0.354 | gyro_z: 0.858
+Sensor 6: 
+X: 0.160 | Y: 0.982 | Z: 0.096
+gyro_x: 0.239 | gyro_y: 0.937 | gyro_z: 0.256
+
+Time:  3.560215
+Sensor 1: 
+X: -0.116 | Y: 0.882 | Z: 0.456
+gyro_x: 0.022 | gyro_y: 0.851 | gyro_z: 0.525
+mag_x: -0.468 | mag_y: -0.711 | mag_z: -0.524
+Sensor 2: 
+X: 0.765 | Y: -0.613 | Z: 0.196
+gyro_x: 0.809 | gyro_y: -0.552 | gyro_z: 0.202
+Sensor 3: 
+X: 0.946 | Y: -0.163 | Z: 0.280
+gyro_x: 0.936 | gyro_y: -0.077 | gyro_z: 0.345
+Sensor 4: 
+X: 0.740 | Y: 0.339 | Z: 0.581
+gyro_x: 0.673 | gyro_y: 0.269 | gyro_z: 0.689
+Sensor 5: 
+X: 0.586 | Y: 0.460 | Z: 0.667
+gyro_x: 0.401 | gyro_y: 0.432 | gyro_z: 0.808
+Sensor 6: 
+X: 0.169 | Y: 0.981 | Z: 0.097
+gyro_x: 0.140 | gyro_y: 0.971 | gyro_z: 0.193
+
+Time:  3.560347
+Sensor 1: 
+X: -0.108 | Y: 0.780 | Z: 0.616
+gyro_x: -0.087 | gyro_y: 0.825 | gyro_z: 0.558
+mag_x: -0.468 | mag_y: -0.711 | mag_z: -0.524
+Sensor 2: 
+X: 0.851 | Y: -0.510 | Z: 0.125
+gyro_x: 0.808 | gyro_y: -0.568 | gyro_z: 0.158
+Sensor 3: 
+X: 0.972 | Y: -0.003 | Z: 0.235
+gyro_x: 0.950 | gyro_y: -0.071 | gyro_z: 0.306
+Sensor 4: 
+X: 0.577 | Y: 0.467 | Z: 0.670
+gyro_x: 0.672 | gyro_y: 0.322 | gyro_z: 0.667
+Sensor 5: 
+X: 0.357 | Y: 0.591 | Z: 0.724
+gyro_x: 0.441 | gyro_y: 0.441 | gyro_z: 0.782
+Sensor 6: 
+X: 0.047 | Y: 0.968 | Z: 0.248
+gyro_x: 0.086 | gyro_y: 0.981 | gyro_z: 0.177
+
+Time:  3.560475
+Sensor 1: 
+X: -0.104 | Y: 0.728 | Z: 0.678
+gyro_x: -0.099 | gyro_y: 0.784 | gyro_z: 0.613
+mag_x: -0.418 | mag_y: -0.687 | mag_z: -0.594
+Sensor 2: 
+X: 0.896 | Y: -0.436 | Z: 0.082
+gyro_x: 0.821 | gyro_y: -0.566 | gyro_z: 0.074
+Sensor 3: 
+X: 0.973 | Y: 0.099 | Z: 0.210
+gyro_x: 0.971 | gyro_y: -0.062 | gyro_z: 0.232
+Sensor 4: 
+X: 0.477 | Y: 0.511 | Z: 0.715
+gyro_x: 0.638 | gyro_y: 0.398 | gyro_z: 0.659
+Sensor 5: 
+X: 0.278 | Y: 0.610 | Z: 0.742
+gyro_x: 0.416 | gyro_y: 0.506 | gyro_z: 0.756
+Sensor 6: 
+X: -0.009 | Y: 0.943 | Z: 0.332
+gyro_x: -0.007 | gyro_y: 0.986 | gyro_z: 0.167
+
+Time:  3.560597
+Sensor 1: 
+X: -0.123 | Y: 0.741 | Z: 0.660
+gyro_x: -0.147 | gyro_y: 0.730 | gyro_z: 0.668
+mag_x: -0.398 | mag_y: -0.710 | mag_z: -0.581
+Sensor 2: 
+X: 0.877 | Y: -0.473 | Z: 0.089
+gyro_x: 0.863 | gyro_y: -0.504 | gyro_z: -0.009
+Sensor 3: 
+X: 0.976 | Y: 0.055 | Z: 0.213
+gyro_x: 0.983 | gyro_y: 0.017 | gyro_z: 0.183
+Sensor 4: 
+X: 0.503 | Y: 0.507 | Z: 0.700
+gyro_x: 0.558 | gyro_y: 0.462 | gyro_z: 0.689
+Sensor 5: 
+X: 0.298 | Y: 0.619 | Z: 0.726
+gyro_x: 0.338 | gyro_y: 0.560 | gyro_z: 0.756
+Sensor 6: 
+X: 0.004 | Y: 0.957 | Z: 0.291
+gyro_x: -0.085 | gyro_y: 0.973 | gyro_z: 0.213
+
+Time:  3.561349
+Sensor 1: 
+X: -0.184 | Y: 0.758 | Z: 0.626
+gyro_x: -0.147 | gyro_y: 0.730 | gyro_z: 0.668
+mag_x: -0.394 | mag_y: -0.648 | mag_z: -0.651
+Sensor 2: 
+X: 0.851 | Y: -0.524 | Z: 0.022
+gyro_x: 0.860 | gyro_y: -0.464 | gyro_z: -0.215
+Sensor 3: 
+X: 0.992 | Y: 0.010 | Z: 0.126
+gyro_x: 0.997 | gyro_y: 0.071 | gyro_z: -0.024
+Sensor 4: 
+X: 0.507 | Y: 0.575 | Z: 0.642
+gyro_x: 0.426 | gyro_y: 0.657 | gyro_z: 0.622
+Sensor 5: 
+X: 0.312 | Y: 0.674 | Z: 0.670
+gyro_x: 0.163 | gyro_y: 0.769 | gyro_z: 0.618
+Sensor 6: 
+X: -0.059 | Y: 0.973 | Z: 0.224
+gyro_x: -0.304 | gyro_y: 0.933 | gyro_z: 0.191
+
+Time:  3.561484
+Sensor 1: 
+X: -0.332 | Y: 0.688 | Z: 0.646
+gyro_x: -0.173 | gyro_y: 0.615 | gyro_z: 0.769
+mag_x: -0.394 | mag_y: -0.648 | mag_z: -0.651
+Sensor 2: 
+X: 0.799 | Y: -0.601 | Z: -0.016
+gyro_x: 0.900 | gyro_y: -0.422 | gyro_z: -0.110
+Sensor 3: 
+X: 0.994 | Y: -0.075 | Z: 0.079
+gyro_x: 0.985 | gyro_y: 0.101 | gyro_z: 0.141
+Sensor 4: 
+X: 0.549 | Y: 0.604 | Z: 0.577
+gyro_x: 0.372 | gyro_y: 0.634 | gyro_z: 0.678
+Sensor 5: 
+X: 0.330 | Y: 0.717 | Z: 0.615
+gyro_x: 0.066 | gyro_y: 0.788 | gyro_z: 0.613
+Sensor 6: 
+X: -0.082 | Y: 0.987 | Z: 0.139
+gyro_x: -0.225 | gyro_y: 0.938 | gyro_z: 0.263
+
+Time:  3.561607
+Sensor 1: 
+X: -0.228 | Y: 0.725 | Z: 0.649
+gyro_x: 0.117 | gyro_y: 0.409 | gyro_z: 0.905
+mag_x: -0.391 | mag_y: -0.650 | mag_z: -0.651
+Sensor 2: 
+X: 0.819 | Y: -0.573 | Z: -0.009
+gyro_x: 0.875 | gyro_y: -0.207 | gyro_z: -0.438
+Sensor 3: 
+X: 0.994 | Y: -0.050 | Z: 0.095
+gyro_x: 0.926 | gyro_y: 0.344 | gyro_z: -0.159
+Sensor 4: 
+X: 0.597 | Y: 0.536 | Z: 0.598
+gyro_x: 0.047 | gyro_y: 0.773 | gyro_z: 0.633
+Sensor 5: 
+X: 0.404 | Y: 0.649 | Z: 0.645
+gyro_x: -0.359 | gyro_y: 0.877 | gyro_z: 0.319
+Sensor 6: 
+X: -0.055 | Y: 0.987 | Z: 0.152
+gyro_x: -0.564 | gyro_y: 0.776 | gyro_z: 0.282
+
+Time:  3.597146
+Sensor 1: 
+X: -0.129 | Y: 0.699 | Z: 0.704
+gyro_x: -0.440 | gyro_y: 0.269 | gyro_z: 0.856
+mag_x: -0.391 | mag_y: -0.650 | mag_z: -0.651
+Sensor 2: 
+X: 0.838 | Y: -0.546 | Z: 0.007
+gyro_x: 0.806 | gyro_y: -0.516 | gyro_z: -0.290
+Sensor 3: 
+X: 0.994 | Y: -0.022 | Z: 0.109
+gyro_x: 0.999 | gyro_y: -0.037 | gyro_z: 0.000
+Sensor 4: 
+X: 0.507 | Y: 0.578 | Z: 0.639
+gyro_x: 0.466 | gyro_y: 0.699 | gyro_z: 0.543
+Sensor 5: 
+X: 0.235 | Y: 0.667 | Z: 0.707
+gyro_x: -0.249 | gyro_y: 0.968 | gyro_z: -0.028
+Sensor 6: 
+X: -0.051 | Y: 0.975 | Z: 0.216
+gyro_x: -0.287 | gyro_y: 0.956 | gyro_z: 0.064
+
+Time:  3.63862
+Sensor 1: 
+X: -0.116 | Y: 0.667 | Z: 0.736
+gyro_x: 0.117 | gyro_y: 0.986 | gyro_z: -0.117
+mag_x: -0.385 | mag_y: -0.648 | mag_z: -0.658
+Sensor 2: 
+X: 0.865 | Y: -0.501 | Z: -0.020
+gyro_x: 0.420 | gyro_y: -0.755 | gyro_z: 0.504
+Sensor 3: 
+X: 0.994 | Y: 0.029 | Z: 0.101
+gyro_x: 0.550 | gyro_y: -0.550 | gyro_z: 0.629
+Sensor 4: 
+X: 0.553 | Y: 0.507 | Z: 0.661
+gyro_x: 0.943 | gyro_y: -0.280 | gyro_z: 0.178
+Sensor 5: 
+X: 0.332 | Y: 0.578 | Z: 0.746
+gyro_x: 0.718 | gyro_y: 0.678 | gyro_z: -0.159
+Sensor 6: 
+X: -0.068 | Y: 0.967 | Z: 0.247
+gyro_x: 0.483 | gyro_y: 0.838 | gyro_z: -0.254
+
+Time:  4.070256
+Sensor 1: 
+X: -0.127 | Y: 0.651 | Z: 0.749
+gyro_x: -0.359 | gyro_y: 0.931 | gyro_z: 0.065
+mag_x: -0.359 | mag_y: -0.651 | mag_z: -0.669
+Sensor 2: 
+X: 0.912 | Y: -0.409 | Z: -0.018
+gyro_x: 0.316 | gyro_y: -0.927 | gyro_z: 0.203
+Sensor 3: 
+X: 0.981 | Y: 0.144 | Z: 0.127
+gyro_x: 0.745 | gyro_y: -0.596 | gyro_z: 0.298
+Sensor 4: 
+X: 0.452 | Y: 0.517 | Z: 0.727
+gyro_x: 0.993 | gyro_y: 0.113 | gyro_z: -0.023
+Sensor 5: 
+X: 0.226 | Y: 0.614 | Z: 0.756
+gyro_x: 0.612 | gyro_y: 0.759 | gyro_z: 0.220
+Sensor 6: 
+X: -0.088 | Y: 0.934 | Z: 0.347
+gyro_x: 0.062 | gyro_y: 0.916 | gyro_z: -0.396
+
+Time:  4.070393
+Sensor 1: 
+X: -0.057 | Y: 0.613 | Z: 0.788
+gyro_x: -0.741 | gyro_y: 0.604 | gyro_z: 0.292
+mag_x: -0.376 | mag_y: -0.637 | mag_z: -0.673
+Sensor 2: 
+X: 0.938 | Y: -0.346 | Z: -0.004
+gyro_x: -0.028 | gyro_y: -0.810 | gyro_z: -0.586
+Sensor 3: 
+X: 0.966 | Y: 0.212 | Z: 0.147
+gyro_x: 0.497 | gyro_y: -0.630 | gyro_z: -0.597
+Sensor 4: 
+X: 0.345 | Y: 0.549 | Z: 0.761
+gyro_x: 0.528 | gyro_y: 0.723 | gyro_z: -0.445
+Sensor 5: 
+X: 0.069 | Y: 0.617 | Z: 0.784
+gyro_x: 0.159 | gyro_y: 0.978 | gyro_z: -0.136
+Sensor 6: 
+X: -0.103 | Y: 0.898 | Z: 0.428
+gyro_x: -0.557 | gyro_y: 0.506 | gyro_z: -0.658
+
+Time:  4.070533
+Sensor 1: 
+X: -0.098 | Y: 0.773 | Z: 0.627
+gyro_x: 0.122 | gyro_y: -0.638 | gyro_z: -0.760
+mag_x: -0.361 | mag_y: -0.617 | mag_z: -0.699
+Sensor 2: 
+X: 0.879 | Y: -0.463 | Z: 0.116
+gyro_x: -0.995 | gyro_y: 0.071 | gyro_z: -0.071
+Sensor 3: 
+X: 0.968 | Y: 0.059 | Z: 0.246
+gyro_x: -0.972 | gyro_y: -0.227 | gyro_z: -0.065
+Sensor 4: 
+X: 0.490 | Y: 0.488 | Z: 0.723
+gyro_x: -0.035 | gyro_y: -0.389 | gyro_z: -0.920
+Sensor 5: 
+X: 0.207 | Y: 0.581 | Z: 0.787
+gyro_x: -0.110 | gyro_y: -0.331 | gyro_z: -0.937
+Sensor 6: 
+X: 0.041 | Y: 0.949 | Z: 0.314
+gyro_x: -0.062 | gyro_y: -0.806 | gyro_z: -0.589
+
+Time:  4.070671
+Sensor 1: 
+X: -0.126 | Y: 0.871 | Z: 0.475
+gyro_x: 0.238 | gyro_y: -0.640 | gyro_z: -0.731
+mag_x: -0.356 | mag_y: -0.665 | mag_z: -0.656
+Sensor 2: 
+X: 0.770 | Y: -0.586 | Z: 0.251
+gyro_x: -0.802 | gyro_y: 0.566 | gyro_z: 0.189
+Sensor 3: 
+X: 0.924 | Y: -0.148 | Z: 0.352
+gyro_x: -0.966 | gyro_y: 0.217 | gyro_z: 0.138
+Sensor 4: 
+X: 0.726 | Y: 0.286 | Z: 0.625
+gyro_x: -0.384 | gyro_y: -0.796 | gyro_z: -0.467
+Sensor 5: 
+X: 0.521 | Y: 0.433 | Z: 0.736
+gyro_x: -0.329 | gyro_y: -0.850 | gyro_z: -0.411
+Sensor 6: 
+X: 0.226 | Y: 0.966 | Z: 0.128
+gyro_x: 0.129 | gyro_y: -0.988 | gyro_z: -0.086
+
+Time:  4.070802
+Sensor 1: 
+X: -0.087 | Y: 0.939 | Z: 0.332
+gyro_x: 0.238 | gyro_y: -0.640 | gyro_z: -0.731
+mag_x: -0.354 | mag_y: -0.645 | mag_z: -0.677
+Sensor 2: 
+X: 0.683 | Y: -0.655 | Z: 0.323
+gyro_x: -0.104 | gyro_y: 0.777 | gyro_z: -0.621
+Sensor 3: 
+X: 0.873 | Y: -0.282 | Z: 0.398
+gyro_x: -0.533 | gyro_y: 0.821 | gyro_z: -0.205
+Sensor 4: 
+X: 0.831 | Y: 0.150 | Z: 0.536
+gyro_x: -0.771 | gyro_y: 0.450 | gyro_z: 0.450
+Sensor 5: 
+X: 0.683 | Y: 0.295 | Z: 0.668
+gyro_x: -0.799 | gyro_y: 0.376 | gyro_z: 0.470
+Sensor 6: 
+X: 0.341 | Y: 0.940 | Z: -0.002
+gyro_x: -0.644 | gyro_y: -0.644 | gyro_z: 0.414
+
+Time:  4.070925
+Sensor 1: 
+X: -0.072 | Y: 0.814 | Z: 0.576
+gyro_x: -0.447 | gyro_y: 0.425 | gyro_z: 0.787
+mag_x: -0.400 | mag_y: -0.649 | mag_z: -0.647
+Sensor 2: 
+X: 0.773 | Y: -0.597 | Z: 0.216
+gyro_x: 0.673 | gyro_y: -0.404 | gyro_z: -0.619
+Sensor 3: 
+X: 0.936 | Y: -0.152 | Z: 0.316
+gyro_x: 0.888 | gyro_y: 0.326 | gyro_z: -0.326
+Sensor 4: 
+X: 0.729 | Y: 0.297 | Z: 0.617
+gyro_x: 0.284 | gyro_y: 0.877 | gyro_z: 0.387
+Sensor 5: 
+X: 0.531 | Y: 0.420 | Z: 0.736
+gyro_x: -0.063 | gyro_y: 0.837 | gyro_z: 0.544
+Sensor 6: 
+X: 0.203 | Y: 0.972 | Z: 0.121
+gyro_x: -0.600 | gyro_y: 0.791 | gyro_z: 0.120
+
+Time:  4.07106
+Sensor 1: 
+X: -0.100 | Y: 0.659 | Z: 0.745
+gyro_x: -0.472 | gyro_y: 0.682 | gyro_z: 0.559
+mag_x: -0.348 | mag_y: -0.637 | mag_z: -0.688
+Sensor 2: 
+X: 0.897 | Y: -0.440 | Z: 0.030
+gyro_x: 0.556 | gyro_y: -0.715 | gyro_z: -0.424
+Sensor 3: 
+X: 0.980 | Y: 0.106 | Z: 0.171
+gyro_x: 0.976 | gyro_y: -0.122 | gyro_z: -0.183
+Sensor 4: 
+X: 0.416 | Y: 0.563 | Z: 0.714
+gyro_x: 0.594 | gyro_y: 0.763 | gyro_z: 0.254
+Sensor 5: 
+X: 0.134 | Y: 0.632 | Z: 0.764
+gyro_x: 0.280 | gyro_y: 0.814 | gyro_z: 0.509
+Sensor 6: 
+X: -0.054 | Y: 0.936 | Z: 0.349
+gyro_x: -0.433 | gyro_y: 0.890 | gyro_z: -0.144
+
+Time:  4.072112
+Sensor 1: 
+X: -0.128 | Y: 0.673 | Z: 0.729
+gyro_x: -0.345 | gyro_y: 0.552 | gyro_z: -0.759
+mag_x: -0.348 | mag_y: -0.637 | mag_z: -0.688
+Sensor 2: 
+X: 0.900 | Y: -0.432 | Z: 0.056
+gyro_x: -0.986 | gyro_y: -0.000 | gyro_z: 0.164
+Sensor 3: 
+X: 0.973 | Y: 0.108 | Z: 0.206
+gyro_x: -0.901 | gyro_y: -0.240 | gyro_z: 0.361
+Sensor 4: 
+X: 0.436 | Y: 0.534 | Z: 0.725
+gyro_x: 0.254 | gyro_y: -0.763 | gyro_z: -0.594
+Sensor 5: 
+X: 0.158 | Y: 0.621 | Z: 0.768
+gyro_x: 0.216 | gyro_y: -0.970 | gyro_z: -0.108
+Sensor 6: 
+X: -0.012 | Y: 0.940 | Z: 0.342
+gyro_x: 0.074 | gyro_y: -0.741 | gyro_z: -0.667
+
+Time:  4.07226
+Sensor 1: 
+X: -0.080 | Y: 0.837 | Z: 0.541
+gyro_x: 0.327 | gyro_y: -0.607 | gyro_z: -0.724
+mag_x: -0.354 | mag_y: -0.628 | mag_z: -0.693
+Sensor 2: 
+X: 0.825 | Y: -0.535 | Z: 0.184
+gyro_x: -0.825 | gyro_y: 0.521 | gyro_z: 0.217
+Sensor 3: 
+X: 0.949 | Y: -0.064 | Z: 0.310
+gyro_x: -0.965 | gyro_y: 0.103 | gyro_z: 0.241
+Sensor 4: 
+X: 0.654 | Y: 0.351 | Z: 0.670
+gyro_x: -0.392 | gyro_y: -0.785 | gyro_z: -0.480
+Sensor 5: 
+X: 0.445 | Y: 0.473 | Z: 0.760
+gyro_x: -0.310 | gyro_y: -0.841 | gyro_z: -0.443
+Sensor 6: 
+X: 0.159 | Y: 0.967 | Z: 0.197
+gyro_x: 0.125 | gyro_y: -0.960 | gyro_z: -0.250
+
+Time:  4.072427
+Sensor 1: 
+X: -0.063 | Y: 0.855 | Z: 0.515
+gyro_x: -0.424 | gyro_y: -0.848 | gyro_z: 0.318
+mag_x: -0.337 | mag_y: -0.647 | mag_z: -0.683
+Sensor 2: 
+X: 0.797 | Y: -0.560 | Z: 0.226
+gyro_x: -0.545 | gyro_y: 0.545 | gyro_z: -0.636
+Sensor 3: 
+X: 0.932 | Y: -0.108 | Z: 0.345
+gyro_x: -0.926 | gyro_y: 0.337 | gyro_z: -0.168
+Sensor 4: 
+X: 0.696 | Y: 0.300 | Z: 0.653
+gyro_x: -0.862 | gyro_y: 0.123 | gyro_z: -0.492
+Sensor 5: 
+X: 0.483 | Y: 0.432 | Z: 0.761
+gyro_x: -0.963 | gyro_y: 0.241 | gyro_z: -0.120
+Sensor 6: 
+X: 0.207 | Y: 0.963 | Z: 0.172
+gyro_x: -0.763 | gyro_y: -0.594 | gyro_z: -0.254
+
+Time:  4.101781
+Sensor 1: 
+X: -0.057 | Y: 0.831 | Z: 0.554
+gyro_x: -0.156 | gyro_y: -0.312 | gyro_z: 0.937
+mag_x: -0.387 | mag_y: -0.651 | mag_z: -0.653
+Sensor 2: 
+X: 0.811 | Y: -0.540 | Z: 0.227
+gyro_x: 0.130 | gyro_y: 0.911 | gyro_z: -0.391
+Sensor 3: 
+X: 0.934 | Y: -0.079 | Z: 0.347
+gyro_x: -0.520 | gyro_y: 0.780 | gyro_z: 0.347
+Sensor 4: 
+X: 0.651 | Y: 0.338 | Z: 0.680
+gyro_x: -0.885 | gyro_y: -0.147 | gyro_z: 0.442
+Sensor 5: 
+X: 0.421 | Y: 0.463 | Z: 0.780
+gyro_x: -0.980 | gyro_y: -0.089 | gyro_z: 0.178
+Sensor 6: 
+X: 0.194 | Y: 0.959 | Z: 0.208
+gyro_x: -0.816 | gyro_y: -0.408 | gyro_z: 0.408
+
+Time:  4.141961
+Sensor 1: 
+X: -0.063 | Y: 0.836 | Z: 0.545
+gyro_x: -0.156 | gyro_y: -0.312 | gyro_z: 0.937
+mag_x: -0.366 | mag_y: -0.630 | mag_z: -0.685
+Sensor 2: 
+X: 0.812 | Y: -0.543 | Z: 0.213
+gyro_x: 0.000 | gyro_y: 0.990 | gyro_z: -0.141
+Sensor 3: 
+X: 0.938 | Y: -0.078 | Z: 0.337
+gyro_x: -0.562 | gyro_y: 0.723 | gyro_z: 0.402
+Sensor 4: 
+X: 0.668 | Y: 0.329 | Z: 0.668
+gyro_x: -0.857 | gyro_y: -0.286 | gyro_z: 0.429
+Sensor 5: 
+X: 0.451 | Y: 0.449 | Z: 0.771
+gyro_x: -0.980 | gyro_y: -0.089 | gyro_z: 0.178
+Sensor 6: 
+X: 0.189 | Y: 0.962 | Z: 0.195
+gyro_x: -0.762 | gyro_y: -0.457 | gyro_z: 0.457
+
+Time:  4.338292
+Sensor 1: 
+X: -0.069 | Y: 0.821 | Z: 0.567
+gyro_x: 0.127 | gyro_y: 0.762 | gyro_z: 0.635
+mag_x: -0.385 | mag_y: -0.648 | mag_z: -0.658
+Sensor 2: 
+X: 0.822 | Y: -0.537 | Z: 0.189
+gyro_x: 0.845 | gyro_y: 0.169 | gyro_z: -0.507
+Sensor 3: 
+X: 0.946 | Y: -0.062 | Z: 0.317
+gyro_x: 0.174 | gyro_y: 0.696 | gyro_z: 0.696
+Sensor 4: 
+X: 0.651 | Y: 0.350 | Z: 0.673
+gyro_x: -0.136 | gyro_y: 0.272 | gyro_z: 0.953
+Sensor 5: 
+X: 0.401 | Y: 0.489 | Z: 0.774
+gyro_x: -0.902 | gyro_y: 0.386 | gyro_z: -0.193
+Sensor 6: 
+X: 0.160 | Y: 0.964 | Z: 0.210
+gyro_x: -0.680 | gyro_y: 0.680 | gyro_z: 0.272
+
+Time:  4.339974
+Sensor 1: 
+X: -0.097 | Y: 0.799 | Z: 0.593
+gyro_x: 0.557 | gyro_y: 0.371 | gyro_z: 0.743
+mag_x: -0.369 | mag_y: -0.630 | mag_z: -0.684
+Sensor 2: 
+X: 0.844 | Y: -0.510 | Z: 0.168
+gyro_x: 0.333 | gyro_y: 0.667 | gyro_z: -0.667
+Sensor 3: 
+X: 0.954 | Y: -0.017 | Z: 0.300
+gyro_x: -0.535 | gyro_y: 0.802 | gyro_z: 0.267
+Sensor 4: 
+X: 0.595 | Y: 0.403 | Z: 0.695
+gyro_x: -0.885 | gyro_y: 0.147 | gyro_z: 0.442
+Sensor 5: 
+X: 0.362 | Y: 0.510 | Z: 0.780
+gyro_x: -0.778 | gyro_y: 0.233 | gyro_z: -0.583
+Sensor 6: 
+X: 0.126 | Y: 0.960 | Z: 0.248
+gyro_x: -0.963 | gyro_y: -0.120 | gyro_z: 0.241
+
+Time:  4.340139
+Sensor 1: 
+X: -0.070 | Y: 0.803 | Z: 0.592
+gyro_x: 0.365 | gyro_y: -0.913 | gyro_z: 0.183
+mag_x: -0.390 | mag_y: -0.642 | mag_z: -0.660
+Sensor 2: 
+X: 0.816 | Y: -0.547 | Z: 0.185
+gyro_x: 0.391 | gyro_y: 0.651 | gyro_z: -0.651
+Sensor 3: 
+X: 0.947 | Y: -0.077 | Z: 0.311
+gyro_x: -0.429 | gyro_y: 0.857 | gyro_z: 0.286
+Sensor 4: 
+X: 0.666 | Y: 0.341 | Z: 0.663
+gyro_x: -0.596 | gyro_y: 0.298 | gyro_z: 0.745
+Sensor 5: 
+X: 0.464 | Y: 0.428 | Z: 0.775
+gyro_x: -0.862 | gyro_y: 0.503 | gyro_z: 0.072
+Sensor 6: 
+X: 0.168 | Y: 0.967 | Z: 0.189
+gyro_x: -0.990 | gyro_y: -0.000 | gyro_z: 0.141
+
+Time:  4.340318
+Sensor 1: 
+X: -0.093 | Y: 0.826 | Z: 0.556
+gyro_x: 0.248 | gyro_y: 0.910 | gyro_z: 0.331
+mag_x: -0.381 | mag_y: -0.644 | mag_z: -0.664
+Sensor 2: 
+X: 0.820 | Y: -0.543 | Z: 0.183
+gyro_x: 0.953 | gyro_y: -0.272 | gyro_z: -0.136
+Sensor 3: 
+X: 0.950 | Y: -0.064 | Z: 0.307
+gyro_x: 0.512 | gyro_y: 0.384 | gyro_z: 0.768
+Sensor 4: 
+X: 0.643 | Y: 0.370 | Z: 0.670
+gyro_x: 0.457 | gyro_y: 0.457 | gyro_z: 0.762
+Sensor 5: 
+X: 0.407 | Y: 0.487 | Z: 0.773
+gyro_x: -0.204 | gyro_y: 0.543 | gyro_z: 0.815
+Sensor 6: 
+X: 0.156 | Y: 0.967 | Z: 0.200
+gyro_x: -0.444 | gyro_y: 0.889 | gyro_z: 0.111
+
+Time:  4.350029
+Sensor 1: 
+X: -0.095 | Y: 0.802 | Z: 0.590
+gyro_x: 0.248 | gyro_y: 0.910 | gyro_z: 0.331
+mag_x: -0.385 | mag_y: -0.643 | mag_z: -0.662
+Sensor 2: 
+X: 0.831 | Y: -0.531 | Z: 0.167
+gyro_x: 0.937 | gyro_y: -0.312 | gyro_z: -0.156
+Sensor 3: 
+X: 0.954 | Y: -0.045 | Z: 0.297
+gyro_x: 0.442 | gyro_y: 0.147 | gyro_z: 0.885
+Sensor 4: 
+X: 0.636 | Y: 0.374 | Z: 0.675
+gyro_x: 0.507 | gyro_y: 0.169 | gyro_z: 0.845
+Sensor 5: 
+X: 0.389 | Y: 0.490 | Z: 0.780
+gyro_x: -0.287 | gyro_y: 0.575 | gyro_z: 0.766
+Sensor 6: 
+X: 0.140 | Y: 0.967 | Z: 0.215
+gyro_x: -0.391 | gyro_y: 0.911 | gyro_z: -0.130
+
+Time:  4.389925
+Sensor 1: 
+X: -0.074 | Y: 0.811 | Z: 0.580
+gyro_x: 0.389 | gyro_y: 0.874 | gyro_z: 0.291
+mag_x: -0.385 | mag_y: -0.643 | mag_z: -0.662
+Sensor 2: 
+X: 0.828 | Y: -0.530 | Z: 0.183
+gyro_x: 0.963 | gyro_y: -0.241 | gyro_z: 0.120
+Sensor 3: 
+X: 0.950 | Y: -0.049 | Z: 0.310
+gyro_x: 0.398 | gyro_y: 0.199 | gyro_z: 0.896
+Sensor 4: 
+X: 0.632 | Y: 0.370 | Z: 0.680
+gyro_x: 0.581 | gyro_y: -0.000 | gyro_z: 0.814
+Sensor 5: 
+X: 0.397 | Y: 0.482 | Z: 0.781
+gyro_x: -0.145 | gyro_y: 0.291 | gyro_z: 0.946
+Sensor 6: 
+X: 0.153 | Y: 0.964 | Z: 0.217
+gyro_x: -0.124 | gyro_y: 0.992 | gyro_z: 0.000
+
+Time:  4.580301
+Sensor 1: 
+X: -0.065 | Y: 0.806 | Z: 0.588
+gyro_x: 0.137 | gyro_y: 0.824 | gyro_z: 0.549
+mag_x: -0.385 | mag_y: -0.643 | mag_z: -0.662
+Sensor 2: 
+X: 0.831 | Y: -0.526 | Z: 0.181
+gyro_x: 0.937 | gyro_y: -0.312 | gyro_z: -0.156
+Sensor 3: 
+X: 0.950 | Y: -0.047 | Z: 0.309
+gyro_x: 0.429 | gyro_y: 0.286 | gyro_z: 0.857
+Sensor 4: 
+X: 0.635 | Y: 0.365 | Z: 0.681
+gyro_x: 0.535 | gyro_y: 0.267 | gyro_z: 0.802
+Sensor 5: 
+X: 0.396 | Y: 0.478 | Z: 0.784
+gyro_x: -0.080 | gyro_y: 0.477 | gyro_z: 0.875
+Sensor 6: 
+X: 0.149 | Y: 0.964 | Z: 0.219
+gyro_x: -0.447 | gyro_y: 0.894 | gyro_z: -0.000
+
+Time:  4.581924
+Sensor 1: 
+X: -0.085 | Y: 0.807 | Z: 0.584
+gyro_x: 0.127 | gyro_y: 0.762 | gyro_z: 0.635
+mag_x: -0.359 | mag_y: -0.639 | mag_z: -0.680
+Sensor 2: 
+X: 0.833 | Y: -0.526 | Z: 0.173
+gyro_x: 0.778 | gyro_y: -0.444 | gyro_z: -0.444
+Sensor 3: 
+X: 0.952 | Y: -0.042 | Z: 0.303
+gyro_x: 0.845 | gyro_y: 0.169 | gyro_z: 0.507
+Sensor 4: 
+X: 0.624 | Y: 0.379 | Z: 0.684
+gyro_x: 0.539 | gyro_y: 0.647 | gyro_z: 0.539
+Sensor 5: 
+X: 0.387 | Y: 0.486 | Z: 0.783
+gyro_x: 0.000 | gyro_y: 0.541 | gyro_z: 0.841
+Sensor 6: 
+X: 0.141 | Y: 0.965 | Z: 0.223
+gyro_x: -0.507 | gyro_y: 0.845 | gyro_z: -0.169
+
+Time:  4.582075
+Sensor 1: 
+X: -0.083 | Y: 0.788 | Z: 0.610
+gyro_x: -0.333 | gyro_y: 0.667 | gyro_z: 0.667
+mag_x: -0.359 | mag_y: -0.639 | mag_z: -0.680
+Sensor 2: 
+X: 0.846 | Y: -0.510 | Z: 0.156
+gyro_x: 0.596 | gyro_y: -0.298 | gyro_z: -0.745
+Sensor 3: 
+X: 0.956 | Y: -0.015 | Z: 0.292
+gyro_x: 0.577 | gyro_y: 0.577 | gyro_z: 0.577
+Sensor 4: 
+X: 0.596 | Y: 0.405 | Z: 0.693
+gyro_x: 0.236 | gyro_y: 0.943 | gyro_z: 0.236
+Sensor 5: 
+X: 0.348 | Y: 0.514 | Z: 0.784
+gyro_x: -0.398 | gyro_y: 0.697 | gyro_z: 0.597
+Sensor 6: 
+X: 0.116 | Y: 0.962 | Z: 0.246
+gyro_x: -0.784 | gyro_y: 0.588 | gyro_z: -0.196
+
+Time:  4.582201
+Sensor 1: 
+X: -0.091 | Y: 0.778 | Z: 0.621
+gyro_x: -0.236 | gyro_y: -0.943 | gyro_z: 0.236
+mag_x: -0.375 | mag_y: -0.636 | mag_z: -0.674
+Sensor 2: 
+X: 0.850 | Y: -0.510 | Z: 0.133
+gyro_x: -0.140 | gyro_y: 0.140 | gyro_z: -0.980
+Sensor 3: 
+X: 0.963 | Y: -0.008 | Z: 0.268
+gyro_x: -0.688 | gyro_y: 0.688 | gyro_z: -0.229
+Sensor 4: 
+X: 0.583 | Y: 0.427 | Z: 0.691
+gyro_x: -0.365 | gyro_y: 0.913 | gyro_z: -0.183
+Sensor 5: 
+X: 0.340 | Y: 0.530 | Z: 0.777
+gyro_x: -0.704 | gyro_y: 0.704 | gyro_z: 0.088
+Sensor 6: 
+X: 0.093 | Y: 0.965 | Z: 0.246
+gyro_x: -0.953 | gyro_y: 0.095 | gyro_z: -0.286
+
+Time:  4.604824
+Sensor 1: 
+X: -0.147 | Y: 0.710 | Z: 0.688
+gyro_x: -0.163 | gyro_y: -0.898 | gyro_z: -0.408
+mag_x: -0.375 | mag_y: -0.636 | mag_z: -0.674
+Sensor 2: 
+X: 0.872 | Y: -0.488 | Z: 0.048
+gyro_x: -0.629 | gyro_y: 0.457 | gyro_z: -0.629
+Sensor 3: 
+X: 0.981 | Y: 0.045 | Z: 0.191
+gyro_x: -0.873 | gyro_y: 0.312 | gyro_z: -0.374
+Sensor 4: 
+X: 0.506 | Y: 0.523 | Z: 0.686
+gyro_x: -0.736 | gyro_y: 0.061 | gyro_z: -0.674
+Sensor 5: 
+X: 0.244 | Y: 0.611 | Z: 0.753
+gyro_x: -0.743 | gyro_y: 0.229 | gyro_z: -0.629
+Sensor 6: 
+X: -0.011 | Y: 0.961 | Z: 0.276
+gyro_x: -0.732 | gyro_y: -0.620 | gyro_z: -0.282
+
+Time:  4.649344
+Sensor 1: 
+X: -0.207 | Y: 0.655 | Z: 0.727
+gyro_x: -0.163 | gyro_y: -0.898 | gyro_z: -0.408
+mag_x: -0.393 | mag_y: -0.654 | mag_z: -0.646
+Sensor 2: 
+X: 0.878 | Y: -0.479 | Z: -0.029
+gyro_x: -0.745 | gyro_y: 0.596 | gyro_z: -0.298
+Sensor 3: 
+X: 0.990 | Y: 0.074 | Z: 0.117
+gyro_x: -0.950 | gyro_y: 0.209 | gyro_z: -0.232
+Sensor 4: 
+X: 0.447 | Y: 0.602 | Z: 0.661
+gyro_x: -0.728 | gyro_y: -0.258 | gyro_z: -0.634
+Sensor 5: 
+X: 0.170 | Y: 0.687 | Z: 0.706
+gyro_x: -0.607 | gyro_y: -0.304 | gyro_z: -0.734
+Sensor 6: 
+X: -0.100 | Y: 0.955 | Z: 0.280
+gyro_x: -0.312 | gyro_y: -0.935 | gyro_z: -0.168
+
+Time:  5.089317
+Sensor 1: 
+X: -0.245 | Y: 0.638 | Z: 0.730
+gyro_x: 0.083 | gyro_y: -0.846 | gyro_z: -0.527
+mag_x: -0.393 | mag_y: -0.654 | mag_z: -0.646
+Sensor 2: 
+X: 0.869 | Y: -0.487 | Z: -0.085
+gyro_x: -0.777 | gyro_y: 0.572 | gyro_z: -0.264
+Sensor 3: 
+X: 0.995 | Y: 0.074 | Z: 0.061
+gyro_x: -0.939 | gyro_y: 0.171 | gyro_z: -0.299
+Sensor 4: 
+X: 0.436 | Y: 0.641 | Z: 0.631
+gyro_x: -0.697 | gyro_y: -0.261 | gyro_z: -0.668
+Sensor 5: 
+X: 0.178 | Y: 0.718 | Z: 0.673
+gyro_x: -0.529 | gyro_y: -0.338 | gyro_z: -0.779
+Sensor 6: 
+X: -0.148 | Y: 0.955 | Z: 0.256
+gyro_x: -0.284 | gyro_y: -0.938 | gyro_z: -0.199
+
+Time:  5.089846
+Sensor 1: 
+X: -0.267 | Y: 0.622 | Z: 0.736
+gyro_x: -0.040 | gyro_y: -0.855 | gyro_z: -0.517
+mag_x: -0.391 | mag_y: -0.650 | mag_z: -0.651
+Sensor 2: 
+X: 0.867 | Y: -0.482 | Z: -0.126
+gyro_x: -0.791 | gyro_y: 0.524 | gyro_z: -0.316
+Sensor 3: 
+X: 0.996 | Y: 0.084 | Z: 0.022
+gyro_x: -0.913 | gyro_y: 0.108 | gyro_z: -0.393
+Sensor 4: 
+X: 0.418 | Y: 0.671 | Z: 0.612
+gyro_x: -0.669 | gyro_y: -0.194 | gyro_z: -0.718
+Sensor 5: 
+X: 0.170 | Y: 0.740 | Z: 0.651
+gyro_x: -0.474 | gyro_y: -0.272 | gyro_z: -0.837
+Sensor 6: 
+X: -0.186 | Y: 0.950 | Z: 0.251
+gyro_x: -0.323 | gyro_y: -0.909 | gyro_z: -0.264
+
+Time:  5.089989
+Sensor 1: 
+X: -0.258 | Y: 0.643 | Z: 0.721
+gyro_x: -0.198 | gyro_y: -0.857 | gyro_z: -0.476
+mag_x: -0.391 | mag_y: -0.650 | mag_z: -0.651
+Sensor 2: 
+X: 0.870 | Y: -0.473 | Z: -0.135
+gyro_x: -0.816 | gyro_y: 0.408 | gyro_z: -0.408
+Sensor 3: 
+X: 0.995 | Y: 0.095 | Z: 0.014
+gyro_x: -0.857 | gyro_y: 0.007 | gyro_z: -0.516
+Sensor 4: 
+X: 0.416 | Y: 0.677 | Z: 0.607
+gyro_x: -0.598 | gyro_y: -0.085 | gyro_z: -0.797
+Sensor 5: 
+X: 0.156 | Y: 0.741 | Z: 0.653
+gyro_x: -0.387 | gyro_y: -0.168 | gyro_z: -0.906
+Sensor 6: 
+X: -0.193 | Y: 0.946 | Z: 0.260
+gyro_x: -0.378 | gyro_y: -0.848 | gyro_z: -0.371
+
+Time:  5.090125
+Sensor 1: 
+X: -0.197 | Y: 0.629 | Z: 0.752
+gyro_x: -0.057 | gyro_y: -0.782 | gyro_z: -0.621
+mag_x: -0.433 | mag_y: -0.657 | mag_z: -0.617
+Sensor 2: 
+X: 0.858 | Y: -0.507 | Z: -0.081
+gyro_x: -0.857 | gyro_y: 0.450 | gyro_z: -0.253
+Sensor 3: 
+X: 0.997 | Y: 0.048 | Z: 0.057
+gyro_x: -0.934 | gyro_y: -0.012 | gyro_z: -0.358
+Sensor 4: 
+X: 0.433 | Y: 0.677 | Z: 0.595
+gyro_x: -0.573 | gyro_y: -0.268 | gyro_z: -0.774
+Sensor 5: 
+X: 0.107 | Y: 0.745 | Z: 0.659
+gyro_x: -0.336 | gyro_y: -0.355 | gyro_z: -0.872
+Sensor 6: 
+X: -0.154 | Y: 0.956 | Z: 0.250
+gyro_x: -0.187 | gyro_y: -0.923 | gyro_z: -0.338
+
+Time:  5.090249
+Sensor 1: 
+X: -0.209 | Y: 0.701 | Z: 0.682
+gyro_x: 0.066 | gyro_y: -0.716 | gyro_z: -0.695
+mag_x: -0.458 | mag_y: -0.674 | mag_z: -0.579
+Sensor 2: 
+X: 0.856 | Y: -0.515 | Z: -0.044
+gyro_x: -0.866 | gyro_y: 0.492 | gyro_z: -0.096
+Sensor 3: 
+X: 0.995 | Y: 0.030 | Z: 0.094
+gyro_x: -0.976 | gyro_y: -0.000 | gyro_z: -0.219
+Sensor 4: 
+X: 0.502 | Y: 0.620 | Z: 0.603
+gyro_x: -0.558 | gyro_y: -0.396 | gyro_z: -0.730
+Sensor 5: 
+X: 0.231 | Y: 0.710 | Z: 0.665
+gyro_x: -0.308 | gyro_y: -0.484 | gyro_z: -0.819
+Sensor 6: 
+X: -0.100 | Y: 0.969 | Z: 0.224
+gyro_x: -0.074 | gyro_y: -0.954 | gyro_z: -0.290
+
+Time:  5.090401
+Sensor 1: 
+X: -0.189 | Y: 0.754 | Z: 0.629
+gyro_x: 0.066 | gyro_y: -0.716 | gyro_z: -0.695
+mag_x: -0.482 | mag_y: -0.671 | mag_z: -0.563
+Sensor 2: 
+X: 0.839 | Y: -0.545 | Z: 0.002
+gyro_x: -0.850 | gyro_y: 0.514 | gyro_z: -0.119
+Sensor 3: 
+X: 0.990 | Y: -0.026 | Z: 0.137
+gyro_x: -0.970 | gyro_y: 0.019 | gyro_z: -0.241
+Sensor 4: 
+X: 0.585 | Y: 0.555 | Z: 0.591
+gyro_x: -0.591 | gyro_y: -0.378 | gyro_z: -0.712
+Sensor 5: 
+X: 0.340 | Y: 0.654 | Z: 0.675
+gyro_x: -0.344 | gyro_y: -0.466 | gyro_z: -0.815
+Sensor 6: 
+X: -0.037 | Y: 0.983 | Z: 0.178
+gyro_x: -0.098 | gyro_y: -0.957 | gyro_z: -0.273
+
+Time:  5.090539
+Sensor 1: 
+X: -0.169 | Y: 0.781 | Z: 0.601
+gyro_x: 0.014 | gyro_y: -0.782 | gyro_z: -0.623
+mag_x: -0.506 | mag_y: -0.698 | mag_z: -0.506
+Sensor 2: 
+X: 0.822 | Y: -0.567 | Z: 0.048
+gyro_x: -0.843 | gyro_y: 0.518 | gyro_z: -0.144
+Sensor 3: 
+X: 0.983 | Y: -0.060 | Z: 0.176
+gyro_x: -0.964 | gyro_y: 0.028 | gyro_z: -0.265
+Sensor 4: 
+X: 0.627 | Y: 0.516 | Z: 0.584
+gyro_x: -0.598 | gyro_y: -0.360 | gyro_z: -0.716
+Sensor 5: 
+X: 0.387 | Y: 0.620 | Z: 0.682
+gyro_x: -0.355 | gyro_y: -0.447 | gyro_z: -0.821
+Sensor 6: 
+X: 0.013 | Y: 0.987 | Z: 0.159
+gyro_x: -0.114 | gyro_y: -0.956 | gyro_z: -0.270
+
+Time:  5.091493
+Sensor 1: 
+X: -0.162 | Y: 0.784 | Z: 0.599
+gyro_x: 0.014 | gyro_y: -0.782 | gyro_z: -0.623
+mag_x: -0.499 | mag_y: -0.695 | mag_z: -0.518
+Sensor 2: 
+X: 0.820 | Y: -0.570 | Z: 0.059
+gyro_x: -0.844 | gyro_y: 0.519 | gyro_z: -0.137
+Sensor 3: 
+X: 0.980 | Y: -0.068 | Z: 0.186
+gyro_x: -0.965 | gyro_y: 0.037 | gyro_z: -0.260
+Sensor 4: 
+X: 0.637 | Y: 0.505 | Z: 0.583
+gyro_x: -0.602 | gyro_y: -0.361 | gyro_z: -0.713
+Sensor 5: 
+X: 0.390 | Y: 0.610 | Z: 0.690
+gyro_x: -0.352 | gyro_y: -0.462 | gyro_z: -0.814
+Sensor 6: 
+X: 0.022 | Y: 0.987 | Z: 0.158
+gyro_x: -0.112 | gyro_y: -0.960 | gyro_z: -0.256
+
+Time:  5.091663
+Sensor 1: 
+X: -0.158 | Y: 0.770 | Z: 0.619
+gyro_x: 0.046 | gyro_y: -0.770 | gyro_z: -0.636
+mag_x: -0.508 | mag_y: -0.705 | mag_z: -0.495
+Sensor 2: 
+X: 0.828 | Y: -0.558 | Z: 0.050
+gyro_x: -0.844 | gyro_y: 0.520 | gyro_z: -0.131
+Sensor 3: 
+X: 0.982 | Y: -0.050 | Z: 0.181
+gyro_x: -0.967 | gyro_y: 0.041 | gyro_z: -0.253
+Sensor 4: 
+X: 0.620 | Y: 0.514 | Z: 0.593
+gyro_x: -0.597 | gyro_y: -0.370 | gyro_z: -0.712
+Sensor 5: 
+X: 0.375 | Y: 0.620 | Z: 0.690
+gyro_x: -0.354 | gyro_y: -0.469 | gyro_z: -0.809
+Sensor 6: 
+X: 0.015 | Y: 0.985 | Z: 0.169
+gyro_x: -0.111 | gyro_y: -0.962 | gyro_z: -0.251
+
+Time:  5.091822
+Sensor 1: 
+X: -0.157 | Y: 0.769 | Z: 0.620
+gyro_x: 0.027 | gyro_y: -0.801 | gyro_z: -0.598
+mag_x: -0.508 | mag_y: -0.705 | mag_z: -0.495
+Sensor 2: 
+X: 0.838 | Y: -0.544 | Z: 0.051
+gyro_x: -0.832 | gyro_y: 0.531 | gyro_z: -0.160
+Sensor 3: 
+X: 0.982 | Y: -0.036 | Z: 0.185
+gyro_x: -0.958 | gyro_y: 0.049 | gyro_z: -0.282
+Sensor 4: 
+X: 0.618 | Y: 0.507 | Z: 0.601
+gyro_x: -0.618 | gyro_y: -0.341 | gyro_z: -0.708
+Sensor 5: 
+X: 0.373 | Y: 0.618 | Z: 0.692
+gyro_x: -0.382 | gyro_y: -0.437 | gyro_z: -0.814
+Sensor 6: 
+X: 0.015 | Y: 0.983 | Z: 0.182
+gyro_x: -0.140 | gyro_y: -0.958 | gyro_z: -0.249
+
+Time:  5.106811
+Sensor 1: 
+X: -0.148 | Y: 0.786 | Z: 0.600
+gyro_x: -0.000 | gyro_y: -0.821 | gyro_z: -0.571
+mag_x: -0.508 | mag_y: -0.705 | mag_z: -0.495
+Sensor 2: 
+X: 0.827 | Y: -0.559 | Z: 0.064
+gyro_x: -0.823 | gyro_y: 0.535 | gyro_z: -0.193
+Sensor 3: 
+X: 0.980 | Y: -0.054 | Z: 0.193
+gyro_x: -0.949 | gyro_y: 0.058 | gyro_z: -0.310
+Sensor 4: 
+X: 0.625 | Y: 0.516 | Z: 0.586
+gyro_x: -0.638 | gyro_y: -0.312 | gyro_z: -0.704
+Sensor 5: 
+X: 0.373 | Y: 0.623 | Z: 0.688
+gyro_x: -0.397 | gyro_y: -0.410 | gyro_z: -0.821
+Sensor 6: 
+X: 0.023 | Y: 0.985 | Z: 0.169
+gyro_x: -0.164 | gyro_y: -0.956 | gyro_z: -0.244
+
+Time:  5.153308
+Sensor 1: 
+X: -0.248 | Y: 0.788 | Z: 0.564
+gyro_x: 0.081 | gyro_y: -0.794 | gyro_z: -0.603
+mag_x: -0.530 | mag_y: -0.779 | mag_z: -0.335
+Sensor 2: 
+X: 0.786 | Y: -0.617 | Z: 0.043
+gyro_x: -0.814 | gyro_y: 0.566 | gyro_z: -0.129
+Sensor 3: 
+X: 0.981 | Y: -0.121 | Z: 0.154
+gyro_x: -0.966 | gyro_y: 0.084 | gyro_z: -0.245
+Sensor 4: 
+X: 0.665 | Y: 0.538 | Z: 0.517
+gyro_x: -0.636 | gyro_y: -0.377 | gyro_z: -0.674
+Sensor 5: 
+X: 0.428 | Y: 0.649 | Z: 0.629
+gyro_x: -0.387 | gyro_y: -0.481 | gyro_z: -0.787
+Sensor 6: 
+X: 0.008 | Y: 0.996 | Z: 0.086
+gyro_x: -0.107 | gyro_y: -0.972 | gyro_z: -0.209
+
+Time:  5.190375
+Sensor 1: 
+X: -0.278 | Y: 0.811 | Z: 0.515
+gyro_x: 0.100 | gyro_y: -0.785 | gyro_z: -0.611
+mag_x: -0.530 | mag_y: -0.779 | mag_z: -0.335
+Sensor 2: 
+X: 0.737 | Y: -0.673 | Z: 0.061
+gyro_x: -0.815 | gyro_y: 0.568 | gyro_z: -0.115
+Sensor 3: 
+X: 0.966 | Y: -0.200 | Z: 0.162
+gyro_x: -0.970 | gyro_y: 0.080 | gyro_z: -0.231
+Sensor 4: 
+X: 0.733 | Y: 0.494 | Z: 0.467
+gyro_x: -0.632 | gyro_y: -0.388 | gyro_z: -0.670
+Sensor 5: 
+X: 0.516 | Y: 0.620 | Z: 0.591
+gyro_x: -0.389 | gyro_y: -0.492 | gyro_z: -0.779
+Sensor 6: 
+X: 0.044 | Y: 0.999 | Z: 0.008
+gyro_x: -0.093 | gyro_y: -0.975 | gyro_z: -0.203
+
+Time:  5.599653
+Sensor 1: 
+X: -0.236 | Y: 0.875 | Z: 0.423
+gyro_x: 0.076 | gyro_y: -0.808 | gyro_z: -0.584
+mag_x: -0.541 | mag_y: -0.807 | mag_z: -0.238
+Sensor 2: 
+X: 0.717 | Y: -0.686 | Z: 0.123
+gyro_x: -0.804 | gyro_y: 0.562 | gyro_z: -0.195
+Sensor 3: 
+X: 0.948 | Y: -0.235 | Z: 0.216
+gyro_x: -0.945 | gyro_y: 0.111 | gyro_z: -0.308
+Sensor 4: 
+X: 0.770 | Y: 0.429 | Z: 0.471
+gyro_x: -0.661 | gyro_y: -0.305 | gyro_z: -0.686
+Sensor 5: 
+X: 0.591 | Y: 0.550 | Z: 0.591
+gyro_x: -0.430 | gyro_y: -0.421 | gyro_z: -0.799
+Sensor 6: 
+X: 0.123 | Y: 0.992 | Z: -0.017
+gyro_x: -0.180 | gyro_y: -0.962 | gyro_z: -0.205
+
+Time:  5.600051
+Sensor 1: 
+X: -0.215 | Y: 0.868 | Z: 0.448
+gyro_x: 0.076 | gyro_y: -0.808 | gyro_z: -0.584
+mag_x: -0.519 | mag_y: -0.814 | mag_z: -0.263
+Sensor 2: 
+X: 0.712 | Y: -0.693 | Z: 0.109
+gyro_x: -0.832 | gyro_y: 0.505 | gyro_z: -0.229
+Sensor 3: 
+X: 0.950 | Y: -0.240 | Z: 0.200
+gyro_x: -0.935 | gyro_y: 0.064 | gyro_z: -0.350
+Sensor 4: 
+X: 0.752 | Y: 0.487 | Z: 0.445
+gyro_x: -0.619 | gyro_y: -0.280 | gyro_z: -0.734
+Sensor 5: 
+X: 0.531 | Y: 0.600 | Z: 0.598
+gyro_x: -0.371 | gyro_y: -0.393 | gyro_z: -0.842
+Sensor 6: 
+X: 0.093 | Y: 0.996 | Z: -0.009
+gyro_x: -0.194 | gyro_y: -0.944 | gyro_z: -0.267
+
+Time:  5.600199
+Sensor 1: 
+X: -0.287 | Y: 0.828 | Z: 0.481
+gyro_x: 0.095 | gyro_y: -0.750 | gyro_z: -0.655
+mag_x: -0.491 | mag_y: -0.845 | mag_z: -0.213
+Sensor 2: 
+X: 0.712 | Y: -0.695 | Z: 0.103
+gyro_x: -0.841 | gyro_y: 0.529 | gyro_z: -0.111
+Sensor 3: 
+X: 0.951 | Y: -0.239 | Z: 0.195
+gyro_x: -0.970 | gyro_y: 0.044 | gyro_z: -0.238
+Sensor 4: 
+X: 0.745 | Y: 0.499 | Z: 0.444
+gyro_x: -0.596 | gyro_y: -0.391 | gyro_z: -0.701
+Sensor 5: 
+X: 0.513 | Y: 0.632 | Z: 0.580
+gyro_x: -0.340 | gyro_y: -0.491 | gyro_z: -0.802
+Sensor 6: 
+X: 0.080 | Y: 0.997 | Z: -0.012
+gyro_x: -0.085 | gyro_y: -0.967 | gyro_z: -0.240
+
+Time:  5.600334
+Sensor 1: 
+X: -0.237 | Y: 0.882 | Z: 0.408
+gyro_x: 0.095 | gyro_y: -0.750 | gyro_z: -0.655
+mag_x: -0.495 | mag_y: -0.834 | mag_z: -0.242
+Sensor 2: 
+X: 0.692 | Y: -0.708 | Z: 0.141
+gyro_x: -0.838 | gyro_y: 0.539 | gyro_z: -0.088
+Sensor 3: 
+X: 0.935 | Y: -0.272 | Z: 0.227
+gyro_x: -0.975 | gyro_y: 0.043 | gyro_z: -0.219
+Sensor 4: 
+X: 0.790 | Y: 0.430 | Z: 0.436
+gyro_x: -0.601 | gyro_y: -0.407 | gyro_z: -0.688
+Sensor 5: 
+X: 0.593 | Y: 0.560 | Z: 0.578
+gyro_x: -0.341 | gyro_y: -0.509 | gyro_z: -0.790
+Sensor 6: 
+X: 0.137 | Y: 0.990 | Z: -0.042
+gyro_x: -0.067 | gyro_y: -0.969 | gyro_z: -0.237
+
+Time:  5.60046
+Sensor 1: 
+X: -0.194 | Y: 0.903 | Z: 0.383
+gyro_x: 0.085 | gyro_y: -0.744 | gyro_z: -0.663
+mag_x: -0.459 | mag_y: -0.872 | mag_z: -0.170
+Sensor 2: 
+X: 0.685 | Y: -0.702 | Z: 0.195
+gyro_x: -0.841 | gyro_y: 0.536 | gyro_z: -0.069
+Sensor 3: 
+X: 0.916 | Y: -0.284 | Z: 0.282
+gyro_x: -0.979 | gyro_y: 0.040 | gyro_z: -0.200
+Sensor 4: 
+X: 0.816 | Y: 0.362 | Z: 0.451
+gyro_x: -0.588 | gyro_y: -0.424 | gyro_z: -0.688
+Sensor 5: 
+X: 0.624 | Y: 0.499 | Z: 0.601
+gyro_x: -0.332 | gyro_y: -0.527 | gyro_z: -0.782
+Sensor 6: 
+X: 0.195 | Y: 0.980 | Z: -0.035
+gyro_x: -0.053 | gyro_y: -0.970 | gyro_z: -0.239
+
+Time:  5.600584
+Sensor 1: 
+X: -0.170 | Y: 0.880 | Z: 0.443
+gyro_x: 0.085 | gyro_y: -0.744 | gyro_z: -0.663
+mag_x: -0.432 | mag_y: -0.882 | mag_z: -0.187
+Sensor 2: 
+X: 0.730 | Y: -0.659 | Z: 0.184
+gyro_x: -0.842 | gyro_y: 0.528 | gyro_z: -0.113
+Sensor 3: 
+X: 0.933 | Y: -0.219 | Z: 0.286
+gyro_x: -0.968 | gyro_y: 0.033 | gyro_z: -0.248
+Sensor 4: 
+X: 0.768 | Y: 0.388 | Z: 0.509
+gyro_x: -0.604 | gyro_y: -0.376 | gyro_z: -0.703
+Sensor 5: 
+X: 0.578 | Y: 0.515 | Z: 0.633
+gyro_x: -0.354 | gyro_y: -0.481 | gyro_z: -0.802
+Sensor 6: 
+X: 0.172 | Y: 0.985 | Z: 0.030
+gyro_x: -0.096 | gyro_y: -0.963 | gyro_z: -0.251
+
+Time:  5.600706
+Sensor 1: 
+X: -0.220 | Y: 0.849 | Z: 0.480
+gyro_x: 0.032 | gyro_y: -0.808 | gyro_z: -0.589
+mag_x: -0.432 | mag_y: -0.882 | mag_z: -0.187
+Sensor 2: 
+X: 0.759 | Y: -0.636 | Z: 0.143
+gyro_x: -0.826 | gyro_y: 0.540 | gyro_z: -0.161
+Sensor 3: 
+X: 0.953 | Y: -0.171 | Z: 0.249
+gyro_x: -0.956 | gyro_y: 0.064 | gyro_z: -0.287
+Sensor 4: 
+X: 0.714 | Y: 0.469 | Z: 0.520
+gyro_x: -0.630 | gyro_y: -0.343 | gyro_z: -0.697
+Sensor 5: 
+X: 0.501 | Y: 0.593 | Z: 0.631
+gyro_x: -0.388 | gyro_y: -0.449 | gyro_z: -0.805
+Sensor 6: 
+X: 0.112 | Y: 0.992 | Z: 0.065
+gyro_x: -0.140 | gyro_y: -0.961 | gyro_z: -0.236
+
+Time:  5.601989
+Sensor 1: 
+X: -0.225 | Y: 0.846 | Z: 0.483
+gyro_x: 0.034 | gyro_y: -0.812 | gyro_z: -0.583
+mag_x: -0.387 | mag_y: -0.912 | mag_z: -0.136
+Sensor 2: 
+X: 0.745 | Y: -0.657 | Z: 0.115
+gyro_x: -0.822 | gyro_y: 0.543 | gyro_z: -0.174
+Sensor 3: 
+X: 0.956 | Y: -0.195 | Z: 0.218
+gyro_x: -0.951 | gyro_y: 0.069 | gyro_z: -0.302
+Sensor 4: 
+X: 0.738 | Y: 0.472 | Z: 0.483
+gyro_x: -0.636 | gyro_y: -0.331 | gyro_z: -0.697
+Sensor 5: 
+X: 0.533 | Y: 0.592 | Z: 0.604
+gyro_x: -0.398 | gyro_y: -0.437 | gyro_z: -0.807
+Sensor 6: 
+X: 0.093 | Y: 0.995 | Z: 0.030
+gyro_x: -0.154 | gyro_y: -0.961 | gyro_z: -0.231
+
+Time:  5.602122
+Sensor 1: 
+X: -0.226 | Y: 0.862 | Z: 0.454
+gyro_x: 0.023 | gyro_y: -0.799 | gyro_z: -0.600
+mag_x: -0.341 | mag_y: -0.930 | mag_z: -0.139
+Sensor 2: 
+X: 0.723 | Y: -0.681 | Z: 0.117
+gyro_x: -0.828 | gyro_y: 0.536 | gyro_z: -0.163
+Sensor 3: 
+X: 0.950 | Y: -0.228 | Z: 0.215
+gyro_x: -0.954 | gyro_y: 0.056 | gyro_z: -0.293
+Sensor 4: 
+X: 0.760 | Y: 0.468 | Z: 0.450
+gyro_x: -0.627 | gyro_y: -0.338 | gyro_z: -0.702
+Sensor 5: 
+X: 0.543 | Y: 0.596 | Z: 0.591
+gyro_x: -0.384 | gyro_y: -0.450 | gyro_z: -0.806
+Sensor 6: 
+X: 0.106 | Y: 0.994 | Z: -0.003
+gyro_x: -0.140 | gyro_y: -0.959 | gyro_z: -0.245
+
+Time:  5.603416
+Sensor 1: 
+X: -0.216 | Y: 0.884 | Z: 0.415
+gyro_x: 0.033 | gyro_y: -0.787 | gyro_z: -0.616
+mag_x: -0.313 | mag_y: -0.944 | mag_z: -0.100
+Sensor 2: 
+X: 0.692 | Y: -0.708 | Z: 0.143
+gyro_x: -0.843 | gyro_y: 0.519 | gyro_z: -0.141
+Sensor 3: 
+X: 0.932 | Y: -0.279 | Z: 0.232
+gyro_x: -0.960 | gyro_y: 0.034 | gyro_z: -0.280
+Sensor 4: 
+X: 0.800 | Y: 0.422 | Z: 0.427
+gyro_x: -0.600 | gyro_y: -0.355 | gyro_z: -0.717
+Sensor 5: 
+X: 0.617 | Y: 0.543 | Z: 0.570
+gyro_x: -0.355 | gyro_y: -0.459 | gyro_z: -0.814
+Sensor 6: 
+X: 0.144 | Y: 0.988 | Z: -0.049
+gyro_x: -0.122 | gyro_y: -0.957 | gyro_z: -0.263
+
+Time:  5.642384
+Sensor 1: 
+X: -0.260 | Y: 0.878 | Z: 0.401
+gyro_x: 0.033 | gyro_y: -0.787 | gyro_z: -0.616
+mag_x: -0.265 | mag_y: -0.957 | mag_z: -0.116
+Sensor 2: 
+X: 0.666 | Y: -0.732 | Z: 0.145
+gyro_x: -0.863 | gyro_y: 0.477 | gyro_z: -0.167
+Sensor 3: 
+X: 0.919 | Y: -0.319 | Z: 0.230
+gyro_x: -0.951 | gyro_y: -0.008 | gyro_z: -0.310
+Sensor 4: 
+X: 0.835 | Y: 0.372 | Z: 0.406
+gyro_x: -0.578 | gyro_y: -0.327 | gyro_z: -0.748
+Sensor 5: 
+X: 0.666 | Y: 0.497 | Z: 0.557
+gyro_x: -0.329 | gyro_y: -0.427 | gyro_z: -0.842
+Sensor 6: 
+X: 0.159 | Y: 0.984 | Z: -0.085
+gyro_x: -0.140 | gyro_y: -0.941 | gyro_z: -0.307
+
+Time:  5.687171
+Sensor 1: 
+X: -0.182 | Y: 0.865 | Z: 0.469
+gyro_x: 0.033 | gyro_y: -0.787 | gyro_z: -0.616
+mag_x: -0.191 | mag_y: -0.972 | mag_z: -0.137
+Sensor 2: 
+X: 0.702 | Y: -0.694 | Z: 0.159
+gyro_x: -0.866 | gyro_y: 0.471 | gyro_z: -0.167
+Sensor 3: 
+X: 0.928 | Y: -0.267 | Z: 0.261
+gyro_x: -0.951 | gyro_y: -0.009 | gyro_z: -0.310
+Sensor 4: 
+X: 0.812 | Y: 0.361 | Z: 0.459
+gyro_x: -0.577 | gyro_y: -0.319 | gyro_z: -0.752
+Sensor 5: 
+X: 0.610 | Y: 0.499 | Z: 0.615
+gyro_x: -0.338 | gyro_y: -0.425 | gyro_z: -0.840
+Sensor 6: 
+X: 0.170 | Y: 0.985 | Z: -0.016
+gyro_x: -0.146 | gyro_y: -0.938 | gyro_z: -0.314
+
+Time:  6.110372
+Sensor 1: 
+X: -0.043 | Y: 0.921 | Z: 0.386
+gyro_x: 0.112 | gyro_y: -0.726 | gyro_z: -0.679
+mag_x: -0.186 | mag_y: -0.975 | mag_z: -0.120
+Sensor 2: 
+X: 0.725 | Y: -0.632 | Z: 0.274
+gyro_x: -0.859 | gyro_y: 0.505 | gyro_z: -0.085
+Sensor 3: 
+X: 0.896 | Y: -0.220 | Z: 0.385
+gyro_x: -0.975 | gyro_y: 0.005 | gyro_z: -0.222
+Sensor 4: 
+X: 0.790 | Y: 0.284 | Z: 0.543
+gyro_x: -0.577 | gyro_y: -0.410 | gyro_z: -0.706
+Sensor 5: 
+X: 0.582 | Y: 0.424 | Z: 0.694
+gyro_x: -0.335 | gyro_y: -0.530 | gyro_z: -0.779
+Sensor 6: 
+X: 0.273 | Y: 0.960 | Z: 0.065
+gyro_x: -0.051 | gyro_y: -0.963 | gyro_z: -0.265
+
+Time:  6.110526
+Sensor 1: 
+X: -0.022 | Y: 0.963 | Z: 0.270
+gyro_x: 0.112 | gyro_y: -0.726 | gyro_z: -0.679
+mag_x: -0.186 | mag_y: -0.975 | mag_z: -0.120
+Sensor 2: 
+X: 0.669 | Y: -0.636 | Z: 0.385
+gyro_x: -0.826 | gyro_y: 0.561 | gyro_z: -0.056
+Sensor 3: 
+X: 0.827 | Y: -0.289 | Z: 0.482
+gyro_x: -0.980 | gyro_y: 0.070 | gyro_z: -0.185
+Sensor 4: 
+X: 0.842 | Y: 0.129 | Z: 0.523
+gyro_x: -0.611 | gyro_y: -0.439 | gyro_z: -0.658
+Sensor 5: 
+X: 0.700 | Y: 0.265 | Z: 0.663
+gyro_x: -0.375 | gyro_y: -0.560 | gyro_z: -0.739
+Sensor 6: 
+X: 0.411 | Y: 0.912 | Z: -0.000
+gyro_x: -0.046 | gyro_y: -0.978 | gyro_z: -0.203
+
+Time:  6.110686
+Sensor 1: 
+X: 0.021 | Y: 0.959 | Z: 0.281
+gyro_x: 0.120 | gyro_y: -0.756 | gyro_z: -0.644
+mag_x: -0.079 | mag_y: -0.992 | mag_z: -0.101
+Sensor 2: 
+X: 0.614 | Y: -0.664 | Z: 0.427
+gyro_x: -0.820 | gyro_y: 0.567 | gyro_z: -0.073
+Sensor 3: 
+X: 0.785 | Y: -0.352 | Z: 0.509
+gyro_x: -0.981 | gyro_y: 0.066 | gyro_z: -0.184
+Sensor 4: 
+X: 0.887 | Y: -0.004 | Z: 0.462
+gyro_x: -0.618 | gyro_y: -0.428 | gyro_z: -0.659
+Sensor 5: 
+X: 0.741 | Y: 0.156 | Z: 0.653
+gyro_x: -0.387 | gyro_y: -0.542 | gyro_z: -0.746
+Sensor 6: 
+X: 0.466 | Y: 0.884 | Z: -0.040
+gyro_x: -0.055 | gyro_y: -0.976 | gyro_z: -0.212
+
+Time:  6.110818
+Sensor 1: 
+X: 0.020 | Y: 0.885 | Z: 0.465
+gyro_x: 0.209 | gyro_y: -0.601 | gyro_z: -0.771
+mag_x: -0.079 | mag_y: -0.992 | mag_z: -0.101
+Sensor 2: 
+X: 0.714 | Y: -0.601 | Z: 0.359
+gyro_x: -0.834 | gyro_y: 0.552 | gyro_z: 0.000
+Sensor 3: 
+X: 0.850 | Y: -0.224 | Z: 0.477
+gyro_x: -0.994 | gyro_y: 0.051 | gyro_z: -0.092
+Sensor 4: 
+X: 0.805 | Y: 0.105 | Z: 0.584
+gyro_x: -0.552 | gyro_y: -0.500 | gyro_z: -0.667
+Sensor 5: 
+X: 0.635 | Y: 0.235 | Z: 0.736
+gyro_x: -0.342 | gyro_y: -0.595 | gyro_z: -0.727
+Sensor 6: 
+X: 0.379 | Y: 0.921 | Z: 0.086
+gyro_x: 0.000 | gyro_y: -0.972 | gyro_z: -0.235
+
+Time:  6.110938
+Sensor 1: 
+X: 0.023 | Y: 0.856 | Z: 0.516
+gyro_x: 0.118 | gyro_y: -0.555 | gyro_z: -0.824
+mag_x: -0.079 | mag_y: -0.992 | mag_z: -0.101
+Sensor 2: 
+X: 0.814 | Y: -0.505 | Z: 0.287
+gyro_x: -0.882 | gyro_y: 0.471 | gyro_z: -0.015
+Sensor 3: 
+X: 0.896 | Y: -0.071 | Z: 0.438
+gyro_x: -0.995 | gyro_y: -0.000 | gyro_z: -0.102
+Sensor 4: 
+X: 0.693 | Y: 0.207 | Z: 0.690
+gyro_x: -0.482 | gyro_y: -0.482 | gyro_z: -0.731
+Sensor 5: 
+X: 0.486 | Y: 0.324 | Z: 0.812
+gyro_x: -0.288 | gyro_y: -0.592 | gyro_z: -0.752
+Sensor 6: 
+X: 0.281 | Y: 0.932 | Z: 0.230
+gyro_x: -0.016 | gyro_y: -0.940 | gyro_z: -0.340
+
+Time:  6.111081
+Sensor 1: 
+X: 0.100 | Y: 0.816 | Z: 0.569
+gyro_x: -0.112 | gyro_y: -0.674 | gyro_z: -0.730
+mag_x: -0.003 | mag_y: -0.985 | mag_z: -0.174
+Sensor 2: 
+X: 0.847 | Y: -0.448 | Z: 0.287
+gyro_x: -0.897 | gyro_y: 0.425 | gyro_z: -0.118
+Sensor 3: 
+X: 0.892 | Y: -0.003 | Z: 0.453
+gyro_x: -0.987 | gyro_y: -0.045 | gyro_z: -0.157
+Sensor 4: 
+X: 0.633 | Y: 0.212 | Z: 0.745
+gyro_x: -0.501 | gyro_y: -0.406 | gyro_z: -0.764
+Sensor 5: 
+X: 0.421 | Y: 0.323 | Z: 0.848
+gyro_x: -0.337 | gyro_y: -0.492 | gyro_z: -0.803
+Sensor 6: 
+X: 0.269 | Y: 0.916 | Z: 0.299
+gyro_x: -0.149 | gyro_y: -0.894 | gyro_z: -0.422
+
+Time:  6.111204
+Sensor 1: 
+X: 0.113 | Y: 0.822 | Z: 0.559
+gyro_x: -0.037 | gyro_y: -0.777 | gyro_z: -0.629
+mag_x: 0.006 | mag_y: -0.990 | mag_z: -0.142
+Sensor 2: 
+X: 0.866 | Y: -0.413 | Z: 0.281
+gyro_x: -0.773 | gyro_y: 0.464 | gyro_z: -0.433
+Sensor 3: 
+X: 0.890 | Y: 0.044 | Z: 0.454
+gyro_x: -0.927 | gyro_y: 0.062 | gyro_z: -0.371
+Sensor 4: 
+X: 0.584 | Y: 0.244 | Z: 0.774
+gyro_x: -0.620 | gyro_y: -0.124 | gyro_z: -0.775
+Sensor 5: 
+X: 0.369 | Y: 0.343 | Z: 0.864
+gyro_x: -0.562 | gyro_y: -0.176 | gyro_z: -0.808
+Sensor 6: 
+X: 0.250 | Y: 0.907 | Z: 0.340
+gyro_x: -0.488 | gyro_y: -0.781 | gyro_z: -0.390
+
+Time:  6.112305
+Sensor 1: 
+X: -0.076 | Y: 0.823 | Z: 0.563
+gyro_x: 0.032 | gyro_y: -0.924 | gyro_z: -0.382
+mag_x: 0.006 | mag_y: -0.990 | mag_z: -0.142
+Sensor 2: 
+X: 0.826 | Y: -0.509 | Z: 0.243
+gyro_x: -0.673 | gyro_y: 0.673 | gyro_z: -0.306
+Sensor 3: 
+X: 0.915 | Y: -0.050 | Z: 0.400
+gyro_x: -0.917 | gyro_y: 0.344 | gyro_z: -0.201
+Sensor 4: 
+X: 0.640 | Y: 0.307 | Z: 0.704
+gyro_x: -0.772 | gyro_y: -0.309 | gyro_z: -0.556
+Sensor 5: 
+X: 0.398 | Y: 0.443 | Z: 0.804
+gyro_x: -0.732 | gyro_y: -0.414 | gyro_z: -0.541
+Sensor 6: 
+X: 0.210 | Y: 0.948 | Z: 0.238
+gyro_x: -0.398 | gyro_y: -0.918 | gyro_z: -0.000
+
+Time:  6.11244
+Sensor 1: 
+X: -0.127 | Y: 0.877 | Z: 0.464
+gyro_x: 0.605 | gyro_y: -0.768 | gyro_z: -0.209
+mag_x: 0.006 | mag_y: -0.987 | mag_z: -0.158
+Sensor 2: 
+X: 0.781 | Y: -0.576 | Z: 0.243
+gyro_x: -0.142 | gyro_y: 0.757 | gyro_z: -0.638
+Sensor 3: 
+X: 0.912 | Y: -0.139 | Z: 0.387
+gyro_x: -0.466 | gyro_y: 0.736 | gyro_z: -0.491
+Sensor 4: 
+X: 0.725 | Y: 0.275 | Z: 0.631
+gyro_x: -0.947 | gyro_y: 0.308 | gyro_z: -0.095
+Sensor 5: 
+X: 0.549 | Y: 0.399 | Z: 0.734
+gyro_x: -0.959 | gyro_y: 0.187 | gyro_z: -0.211
+Sensor 6: 
+X: 0.246 | Y: 0.961 | Z: 0.130
+gyro_x: -0.813 | gyro_y: -0.511 | gyro_z: 0.279
+
+Time:  6.11257
+Sensor 1: 
+X: -0.064 | Y: 0.835 | Z: 0.547
+gyro_x: 0.605 | gyro_y: -0.768 | gyro_z: -0.209
+mag_x: -0.015 | mag_y: -0.986 | mag_z: -0.163
+Sensor 2: 
+X: 0.783 | Y: -0.579 | Z: 0.227
+gyro_x: 0.087 | gyro_y: 0.328 | gyro_z: -0.941
+Sensor 3: 
+X: 0.921 | Y: -0.132 | Z: 0.365
+gyro_x: 0.025 | gyro_y: 0.572 | gyro_z: -0.820
+Sensor 4: 
+X: 0.711 | Y: 0.308 | Z: 0.632
+gyro_x: -0.647 | gyro_y: 0.759 | gyro_z: -0.067
+Sensor 5: 
+X: 0.502 | Y: 0.416 | Z: 0.758
+gyro_x: -0.706 | gyro_y: 0.706 | gyro_z: -0.044
+Sensor 6: 
+X: 0.230 | Y: 0.961 | Z: 0.151
+gyro_x: -0.988 | gyro_y: -0.086 | gyro_z: 0.129
+
+Time:  6.15047
+Sensor 1: 
+X: -0.068 | Y: 0.821 | Z: 0.567
+gyro_x: 0.605 | gyro_y: -0.768 | gyro_z: -0.209
+mag_x: -0.006 | mag_y: -0.988 | mag_z: -0.153
+Sensor 2: 
+X: 0.805 | Y: -0.559 | Z: 0.199
+gyro_x: 0.044 | gyro_y: 0.394 | gyro_z: -0.918
+Sensor 3: 
+X: 0.933 | Y: -0.093 | Z: 0.347
+gyro_x: -0.213 | gyro_y: 0.691 | gyro_z: -0.691
+Sensor 4: 
+X: 0.662 | Y: 0.355 | Z: 0.660
+gyro_x: -0.741 | gyro_y: 0.642 | gyro_z: -0.198
+Sensor 5: 
+X: 0.415 | Y: 0.456 | Z: 0.787
+gyro_x: -0.816 | gyro_y: 0.576 | gyro_z: -0.048
+Sensor 6: 
+X: 0.200 | Y: 0.961 | Z: 0.191
+gyro_x: -0.991 | gyro_y: -0.129 | gyro_z: 0.043
+
+Time:  6.189887
+Sensor 1: 
+X: -0.047 | Y: 0.837 | Z: 0.546
+gyro_x: 0.488 | gyro_y: 0.390 | gyro_z: -0.781
+mag_x: -0.016 | mag_y: -0.989 | mag_z: -0.148
+Sensor 2: 
+X: 0.800 | Y: -0.557 | Z: 0.221
+gyro_x: -0.512 | gyro_y: 0.384 | gyro_z: 0.768
+Sensor 3: 
+X: 0.924 | Y: -0.106 | Z: 0.368
+gyro_x: -0.653 | gyro_y: 0.218 | gyro_z: 0.725
+Sensor 4: 
+X: 0.691 | Y: 0.302 | Z: 0.656
+gyro_x: -0.168 | gyro_y: -0.926 | gyro_z: -0.337
+Sensor 5: 
+X: 0.453 | Y: 0.412 | Z: 0.790
+gyro_x: 0.241 | gyro_y: -0.884 | gyro_z: 0.402
+Sensor 6: 
+X: 0.225 | Y: 0.956 | Z: 0.187
+gyro_x: 0.577 | gyro_y: -0.577 | gyro_z: -0.577
+
+Time:  6.617193
+Sensor 1: 
+X: -0.018 | Y: 0.868 | Z: 0.495
+gyro_x: 0.623 | gyro_y: 0.623 | gyro_z: -0.474
+mag_x: -0.016 | mag_y: -0.989 | mag_z: -0.148
+Sensor 2: 
+X: 0.796 | Y: -0.546 | Z: 0.263
+gyro_x: 0.164 | gyro_y: -0.041 | gyro_z: 0.986
+Sensor 3: 
+X: 0.904 | Y: -0.108 | Z: 0.414
+gyro_x: -0.164 | gyro_y: 0.000 | gyro_z: 0.986
+Sensor 4: 
+X: 0.700 | Y: 0.255 | Z: 0.667
+gyro_x: 0.382 | gyro_y: -0.841 | gyro_z: 0.382
+Sensor 5: 
+X: 0.490 | Y: 0.383 | Z: 0.783
+gyro_x: 0.333 | gyro_y: -0.703 | gyro_z: 0.629
+Sensor 6: 
+X: 0.264 | Y: 0.946 | Z: 0.188
+gyro_x: 0.935 | gyro_y: 0.295 | gyro_z: 0.197
+
+Time:  6.620211
+Sensor 1: 
+X: 0.004 | Y: 0.851 | Z: 0.525
+gyro_x: 0.113 | gyro_y: 0.903 | gyro_z: 0.414
+mag_x: -0.016 | mag_y: -0.989 | mag_z: -0.148
+Sensor 2: 
+X: 0.822 | Y: -0.509 | Z: 0.256
+gyro_x: 0.762 | gyro_y: -0.381 | gyro_z: 0.524
+Sensor 3: 
+X: 0.907 | Y: -0.059 | Z: 0.416
+gyro_x: 0.514 | gyro_y: 0.043 | gyro_z: 0.857
+Sensor 4: 
+X: 0.672 | Y: 0.261 | Z: 0.693
+gyro_x: 0.636 | gyro_y: -0.212 | gyro_z: 0.742
+Sensor 5: 
+X: 0.470 | Y: 0.385 | Z: 0.794
+gyro_x: 0.330 | gyro_y: 0.000 | gyro_z: 0.944
+Sensor 6: 
+X: 0.244 | Y: 0.941 | Z: 0.232
+gyro_x: 0.272 | gyro_y: 0.953 | gyro_z: 0.136
+
+Time:  6.620347
+Sensor 1: 
+X: -0.083 | Y: 0.798 | Z: 0.597
+gyro_x: -0.147 | gyro_y: 0.699 | gyro_z: 0.699
+mag_x: -0.017 | mag_y: -0.990 | mag_z: -0.137
+Sensor 2: 
+X: 0.846 | Y: -0.500 | Z: 0.184
+gyro_x: 0.845 | gyro_y: -0.516 | gyro_z: -0.141
+Sensor 3: 
+X: 0.937 | Y: -0.013 | Z: 0.350
+gyro_x: 0.927 | gyro_y: 0.103 | gyro_z: 0.361
+Sensor 4: 
+X: 0.594 | Y: 0.382 | Z: 0.708
+gyro_x: 0.539 | gyro_y: 0.490 | gyro_z: 0.686
+Sensor 5: 
+X: 0.379 | Y: 0.485 | Z: 0.788
+gyro_x: 0.082 | gyro_y: 0.618 | gyro_z: 0.782
+Sensor 6: 
+X: 0.149 | Y: 0.954 | Z: 0.260
+gyro_x: -0.289 | gyro_y: 0.949 | gyro_z: 0.124
+
+Time:  6.620475
+Sensor 1: 
+X: -0.131 | Y: 0.749 | Z: 0.650
+gyro_x: -0.148 | gyro_y: 0.593 | gyro_z: 0.791
+mag_x: -0.014 | mag_y: -0.985 | mag_z: -0.174
+Sensor 2: 
+X: 0.857 | Y: -0.505 | Z: 0.104
+gyro_x: 0.875 | gyro_y: -0.080 | gyro_z: -0.477
+Sensor 3: 
+X: 0.962 | Y: 0.003 | Z: 0.274
+gyro_x: 0.677 | gyro_y: 0.677 | gyro_z: 0.290
+Sensor 4: 
+X: 0.563 | Y: 0.458 | Z: 0.688
+gyro_x: -0.000 | gyro_y: 0.659 | gyro_z: 0.753
+Sensor 5: 
+X: 0.310 | Y: 0.573 | Z: 0.759
+gyro_x: -0.530 | gyro_y: 0.662 | gyro_z: 0.530
+Sensor 6: 
+X: 0.067 | Y: 0.964 | Z: 0.256
+gyro_x: -0.641 | gyro_y: 0.712 | gyro_z: 0.285
+
+Time:  6.620608
+Sensor 1: 
+X: -0.170 | Y: 0.728 | Z: 0.665
+gyro_x: 0.406 | gyro_y: -0.914 | gyro_z: -0.000
+mag_x: -0.014 | mag_y: -0.985 | mag_z: -0.174
+Sensor 2: 
+X: 0.867 | Y: -0.497 | Z: 0.041
+gyro_x: -0.311 | gyro_y: 0.545 | gyro_z: -0.778
+Sensor 3: 
+X: 0.976 | Y: 0.028 | Z: 0.216
+gyro_x: -0.667 | gyro_y: 0.667 | gyro_z: -0.333
+Sensor 4: 
+X: 0.512 | Y: 0.526 | Z: 0.679
+gyro_x: -0.899 | gyro_y: 0.225 | gyro_z: -0.375
+Sensor 5: 
+X: 0.279 | Y: 0.617 | Z: 0.736
+gyro_x: -0.873 | gyro_y: 0.312 | gyro_z: -0.374
+Sensor 6: 
+X: -0.001 | Y: 0.964 | Z: 0.266
+gyro_x: -0.906 | gyro_y: -0.418 | gyro_z: -0.070
+
+Time:  6.620742
+Sensor 1: 
+X: -0.153 | Y: 0.683 | Z: 0.715
+gyro_x: -0.059 | gyro_y: -0.910 | gyro_z: -0.411
+mag_x: -0.032 | mag_y: -0.986 | mag_z: -0.163
+Sensor 2: 
+X: 0.884 | Y: -0.467 | Z: 0.002
+gyro_x: -0.712 | gyro_y: 0.548 | gyro_z: -0.438
+Sensor 3: 
+X: 0.981 | Y: 0.072 | Z: 0.183
+gyro_x: -0.878 | gyro_y: 0.266 | gyro_z: -0.399
+Sensor 4: 
+X: 0.467 | Y: 0.558 | Z: 0.686
+gyro_x: -0.744 | gyro_y: -0.080 | gyro_z: -0.664
+Sensor 5: 
+X: 0.218 | Y: 0.645 | Z: 0.732
+gyro_x: -0.618 | gyro_y: -0.173 | gyro_z: -0.767
+Sensor 6: 
+X: -0.049 | Y: 0.953 | Z: 0.299
+gyro_x: -0.513 | gyro_y: -0.837 | gyro_z: -0.189
+
+Time:  6.62087
+Sensor 1: 
+X: -0.160 | Y: 0.692 | Z: 0.704
+gyro_x: 0.016 | gyro_y: -0.863 | gyro_z: -0.505
+mag_x: -0.032 | mag_y: -0.986 | mag_z: -0.163
+Sensor 2: 
+X: 0.884 | Y: -0.467 | Z: -0.017
+gyro_x: -0.780 | gyro_y: 0.526 | gyro_z: -0.339
+Sensor 3: 
+X: 0.983 | Y: 0.077 | Z: 0.164
+gyro_x: -0.906 | gyro_y: 0.148 | gyro_z: -0.396
+Sensor 4: 
+X: 0.451 | Y: 0.578 | Z: 0.681
+gyro_x: -0.687 | gyro_y: -0.180 | gyro_z: -0.704
+Sensor 5: 
+X: 0.202 | Y: 0.667 | Z: 0.717
+gyro_x: -0.527 | gyro_y: -0.240 | gyro_z: -0.815
+Sensor 6: 
+X: -0.065 | Y: 0.953 | Z: 0.296
+gyro_x: -0.365 | gyro_y: -0.897 | gyro_z: -0.249
+
+Time:  6.621665
+Sensor 1: 
+X: -0.188 | Y: 0.650 | Z: 0.736
+gyro_x: -0.054 | gyro_y: -0.855 | gyro_z: -0.516
+mag_x: -0.013 | mag_y: -0.987 | mag_z: -0.158
+Sensor 2: 
+X: 0.891 | Y: -0.450 | Z: -0.061
+gyro_x: -0.800 | gyro_y: 0.461 | gyro_z: -0.384
+Sensor 3: 
+X: 0.987 | Y: 0.106 | Z: 0.122
+gyro_x: -0.869 | gyro_y: 0.076 | gyro_z: -0.489
+Sensor 4: 
+X: 0.436 | Y: 0.604 | Z: 0.668
+gyro_x: -0.659 | gyro_y: -0.115 | gyro_z: -0.743
+Sensor 5: 
+X: 0.185 | Y: 0.689 | Z: 0.701
+gyro_x: -0.468 | gyro_y: -0.169 | gyro_z: -0.867
+Sensor 6: 
+X: -0.115 | Y: 0.945 | Z: 0.305
+gyro_x: -0.404 | gyro_y: -0.862 | gyro_z: -0.306
+
+Time:  6.621799
+Sensor 1: 
+X: -0.169 | Y: 0.633 | Z: 0.755
+gyro_x: -0.179 | gyro_y: -0.851 | gyro_z: -0.494
+mag_x: -0.013 | mag_y: -0.987 | mag_z: -0.158
+Sensor 2: 
+X: 0.890 | Y: -0.447 | Z: -0.087
+gyro_x: -0.830 | gyro_y: 0.424 | gyro_z: -0.362
+Sensor 3: 
+X: 0.989 | Y: 0.112 | Z: 0.099
+gyro_x: -0.873 | gyro_y: -0.000 | gyro_z: -0.489
+Sensor 4: 
+X: 0.403 | Y: 0.635 | Z: 0.660
+gyro_x: -0.610 | gyro_y: -0.129 | gyro_z: -0.782
+Sensor 5: 
+X: 0.154 | Y: 0.695 | Z: 0.702
+gyro_x: -0.416 | gyro_y: -0.191 | gyro_z: -0.889
+Sensor 6: 
+X: -0.136 | Y: 0.942 | Z: 0.308
+gyro_x: -0.346 | gyro_y: -0.865 | gyro_z: -0.363
+
+Time:  6.621924
+Sensor 1: 
+X: -0.177 | Y: 0.641 | Z: 0.747
+gyro_x: -0.173 | gyro_y: -0.817 | gyro_z: -0.550
+mag_x: 0.062 | mag_y: -0.978 | mag_z: -0.202
+Sensor 2: 
+X: 0.887 | Y: -0.454 | Z: -0.081
+gyro_x: -0.874 | gyro_y: 0.426 | gyro_z: -0.234
+Sensor 3: 
+X: 0.989 | Y: 0.103 | Z: 0.102
+gyro_x: -0.925 | gyro_y: -0.035 | gyro_z: -0.378
+Sensor 4: 
+X: 0.416 | Y: 0.639 | Z: 0.647
+gyro_x: -0.546 | gyro_y: -0.253 | gyro_z: -0.799
+Sensor 5: 
+X: 0.160 | Y: 0.700 | Z: 0.696
+gyro_x: -0.316 | gyro_y: -0.345 | gyro_z: -0.884
+Sensor 6: 
+X: -0.131 | Y: 0.946 | Z: 0.296
+gyro_x: -0.218 | gyro_y: -0.899 | gyro_z: -0.379
+
+Time:  6.651561
+Sensor 1: 
+X: -0.170 | Y: 0.694 | Z: 0.699
+gyro_x: -0.062 | gyro_y: -0.730 | gyro_z: -0.680
+mag_x: 0.070 | mag_y: -0.981 | mag_z: -0.183
+Sensor 2: 
+X: 0.854 | Y: -0.520 | Z: -0.030
+gyro_x: -0.902 | gyro_y: 0.412 | gyro_z: -0.129
+Sensor 3: 
+X: 0.990 | Y: 0.010 | Z: 0.144
+gyro_x: -0.952 | gyro_y: -0.070 | gyro_z: -0.298
+Sensor 4: 
+X: 0.531 | Y: 0.575 | Z: 0.622
+gyro_x: -0.510 | gyro_y: -0.342 | gyro_z: -0.789
+Sensor 5: 
+X: 0.274 | Y: 0.668 | Z: 0.692
+gyro_x: -0.275 | gyro_y: -0.435 | gyro_z: -0.857
+Sensor 6: 
+X: -0.055 | Y: 0.973 | Z: 0.222
+gyro_x: -0.122 | gyro_y: -0.914 | gyro_z: -0.386
+
+Time:  6.696947
+Sensor 1: 
+X: -0.175 | Y: 0.752 | Z: 0.635
+gyro_x: -0.043 | gyro_y: -0.703 | gyro_z: -0.710
+mag_x: 0.124 | mag_y: -0.967 | mag_z: -0.224
+Sensor 2: 
+X: 0.842 | Y: -0.539 | Z: 0.031
+gyro_x: -0.905 | gyro_y: 0.410 | gyro_z: -0.116
+Sensor 3: 
+X: 0.979 | Y: -0.027 | Z: 0.202
+gyro_x: -0.955 | gyro_y: -0.066 | gyro_z: -0.288
+Sensor 4: 
+X: 0.587 | Y: 0.516 | Z: 0.623
+gyro_x: -0.508 | gyro_y: -0.335 | gyro_z: -0.793
+Sensor 5: 
+X: 0.357 | Y: 0.615 | Z: 0.703
+gyro_x: -0.280 | gyro_y: -0.434 | gyro_z: -0.856
+Sensor 6: 
+X: 0.012 | Y: 0.979 | Z: 0.204
+gyro_x: -0.123 | gyro_y: -0.916 | gyro_z: -0.381
+
+Time:  7.131454
+Sensor 1: 
+X: -0.149 | Y: 0.768 | Z: 0.623
+gyro_x: -0.036 | gyro_y: -0.745 | gyro_z: -0.667
+mag_x: 0.173 | mag_y: -0.947 | mag_z: -0.270
+Sensor 2: 
+X: 0.842 | Y: -0.535 | Z: 0.066
+gyro_x: -0.871 | gyro_y: 0.468 | gyro_z: -0.152
+Sensor 3: 
+X: 0.971 | Y: -0.030 | Z: 0.235
+gyro_x: -0.949 | gyro_y: 0.035 | gyro_z: -0.313
+Sensor 4: 
+X: 0.603 | Y: 0.480 | Z: 0.637
+gyro_x: -0.569 | gyro_y: -0.318 | gyro_z: -0.758
+Sensor 5: 
+X: 0.356 | Y: 0.602 | Z: 0.715
+gyro_x: -0.346 | gyro_y: -0.429 | gyro_z: -0.834
+Sensor 6: 
+X: 0.039 | Y: 0.976 | Z: 0.214
+gyro_x: -0.180 | gyro_y: -0.935 | gyro_z: -0.306
+
+Time:  7.131603
+Sensor 1: 
+X: -0.116 | Y: 0.773 | Z: 0.623
+gyro_x: 0.000 | gyro_y: -0.853 | gyro_z: -0.523
+mag_x: 0.186 | mag_y: -0.947 | mag_z: -0.262
+Sensor 2: 
+X: 0.852 | Y: -0.518 | Z: 0.079
+gyro_x: -0.812 | gyro_y: 0.537 | gyro_z: -0.229
+Sensor 3: 
+X: 0.966 | Y: -0.012 | Z: 0.258
+gyro_x: -0.924 | gyro_y: 0.089 | gyro_z: -0.371
+Sensor 4: 
+X: 0.597 | Y: 0.467 | Z: 0.652
+gyro_x: -0.653 | gyro_y: -0.259 | gyro_z: -0.712
+Sensor 5: 
+X: 0.361 | Y: 0.581 | Z: 0.729
+gyro_x: -0.449 | gyro_y: -0.370 | gyro_z: -0.813
+Sensor 6: 
+X: 0.058 | Y: 0.970 | Z: 0.234
+gyro_x: -0.246 | gyro_y: -0.938 | gyro_z: -0.246
+
+Time:  7.131745
+Sensor 1: 
+X: -0.090 | Y: 0.776 | Z: 0.624
+gyro_x: 0.005 | gyro_y: -0.868 | gyro_z: -0.496
+mag_x: 0.203 | mag_y: -0.927 | mag_z: -0.314
+Sensor 2: 
+X: 0.853 | Y: -0.514 | Z: 0.088
+gyro_x: -0.770 | gyro_y: 0.578 | gyro_z: -0.270
+Sensor 3: 
+X: 0.964 | Y: -0.013 | Z: 0.265
+gyro_x: -0.908 | gyro_y: 0.142 | gyro_z: -0.394
+Sensor 4: 
+X: 0.595 | Y: 0.463 | Z: 0.657
+gyro_x: -0.693 | gyro_y: -0.234 | gyro_z: -0.682
+Sensor 5: 
+X: 0.369 | Y: 0.569 | Z: 0.735
+gyro_x: -0.503 | gyro_y: -0.344 | gyro_z: -0.793
+Sensor 6: 
+X: 0.066 | Y: 0.969 | Z: 0.240
+gyro_x: -0.275 | gyro_y: -0.940 | gyro_z: -0.203
+
+Time:  7.131878
+Sensor 1: 
+X: -0.119 | Y: 0.754 | Z: 0.646
+gyro_x: -0.047 | gyro_y: -0.881 | gyro_z: -0.471
+mag_x: 0.203 | mag_y: -0.927 | mag_z: -0.314
+Sensor 2: 
+X: 0.868 | Y: -0.495 | Z: 0.041
+gyro_x: -0.771 | gyro_y: 0.556 | gyro_z: -0.311
+Sensor 3: 
+X: 0.975 | Y: 0.029 | Z: 0.219
+gyro_x: -0.888 | gyro_y: 0.117 | gyro_z: -0.444
+Sensor 4: 
+X: 0.531 | Y: 0.535 | Z: 0.658
+gyro_x: -0.686 | gyro_y: -0.194 | gyro_z: -0.701
+Sensor 5: 
+X: 0.300 | Y: 0.615 | Z: 0.730
+gyro_x: -0.489 | gyro_y: -0.296 | gyro_z: -0.821
+Sensor 6: 
+X: 0.009 | Y: 0.965 | Z: 0.262
+gyro_x: -0.313 | gyro_y: -0.919 | gyro_z: -0.241
+
+Time:  7.132014
+Sensor 1: 
+X: -0.176 | Y: 0.734 | Z: 0.656
+gyro_x: -0.064 | gyro_y: -0.861 | gyro_z: -0.505
+mag_x: 0.225 | mag_y: -0.909 | mag_z: -0.352
+Sensor 2: 
+X: 0.810 | Y: -0.584 | Z: 0.046
+gyro_x: -0.811 | gyro_y: 0.555 | gyro_z: -0.187
+Sensor 3: 
+X: 0.975 | Y: -0.082 | Z: 0.208
+gyro_x: -0.940 | gyro_y: 0.087 | gyro_z: -0.330
+Sensor 4: 
+X: 0.617 | Y: 0.539 | Z: 0.573
+gyro_x: -0.637 | gyro_y: -0.326 | gyro_z: -0.699
+Sensor 5: 
+X: 0.335 | Y: 0.656 | Z: 0.677
+gyro_x: -0.424 | gyro_y: -0.434 | gyro_z: -0.795
+Sensor 6: 
+X: 0.017 | Y: 0.986 | Z: 0.164
+gyro_x: -0.170 | gyro_y: -0.958 | gyro_z: -0.229
+
+Time:  7.132149
+Sensor 1: 
+X: -0.252 | Y: 0.848 | Z: 0.467
+gyro_x: 0.164 | gyro_y: -0.831 | gyro_z: -0.531
+mag_x: 0.194 | mag_y: -0.920 | mag_z: -0.341
+Sensor 2: 
+X: 0.791 | Y: -0.605 | Z: 0.094
+gyro_x: -0.755 | gyro_y: 0.615 | gyro_z: -0.228
+Sensor 3: 
+X: 0.961 | Y: -0.122 | Z: 0.247
+gyro_x: -0.914 | gyro_y: 0.179 | gyro_z: -0.363
+Sensor 4: 
+X: 0.681 | Y: 0.461 | Z: 0.568
+gyro_x: -0.715 | gyro_y: -0.269 | gyro_z: -0.645
+Sensor 5: 
+X: 0.523 | Y: 0.571 | Z: 0.632
+gyro_x: -0.521 | gyro_y: -0.380 | gyro_z: -0.765
+Sensor 6: 
+X: 0.089 | Y: 0.991 | Z: 0.096
+gyro_x: -0.253 | gyro_y: -0.954 | gyro_z: -0.161
+
+Time:  7.132266
+Sensor 1: 
+X: -0.228 | Y: 0.842 | Z: 0.490
+gyro_x: -0.018 | gyro_y: -0.919 | gyro_z: -0.394
+mag_x: 0.236 | mag_y: -0.891 | mag_z: -0.387
+Sensor 2: 
+X: 0.763 | Y: -0.640 | Z: 0.085
+gyro_x: -0.759 | gyro_y: 0.535 | gyro_z: -0.371
+Sensor 3: 
+X: 0.964 | Y: -0.155 | Z: 0.216
+gyro_x: -0.854 | gyro_y: 0.122 | gyro_z: -0.505
+Sensor 4: 
+X: 0.656 | Y: 0.569 | Z: 0.496
+gyro_x: -0.700 | gyro_y: -0.122 | gyro_z: -0.704
+Sensor 5: 
+X: 0.450 | Y: 0.650 | Z: 0.612
+gyro_x: -0.501 | gyro_y: -0.231 | gyro_z: -0.834
+Sensor 6: 
+X: 0.071 | Y: 0.995 | Z: 0.074
+gyro_x: -0.350 | gyro_y: -0.905 | gyro_z: -0.242
+
+Time:  7.133307
+Sensor 1: 
+X: -0.261 | Y: 0.862 | Z: 0.435
+gyro_x: 0.027 | gyro_y: -0.792 | gyro_z: -0.610
+mag_x: 0.236 | mag_y: -0.891 | mag_z: -0.387
+Sensor 2: 
+X: 0.672 | Y: -0.732 | Z: 0.111
+gyro_x: -0.832 | gyro_y: 0.533 | gyro_z: -0.153
+Sensor 3: 
+X: 0.930 | Y: -0.298 | Z: 0.215
+gyro_x: -0.948 | gyro_y: 0.056 | gyro_z: -0.313
+Sensor 4: 
+X: 0.784 | Y: 0.500 | Z: 0.368
+gyro_x: -0.606 | gyro_y: -0.346 | gyro_z: -0.716
+Sensor 5: 
+X: 0.568 | Y: 0.620 | Z: 0.541
+gyro_x: -0.367 | gyro_y: -0.446 | gyro_z: -0.817
+Sensor 6: 
+X: 0.121 | Y: 0.991 | Z: -0.055
+gyro_x: -0.132 | gyro_y: -0.958 | gyro_z: -0.255
+
+Time:  7.133441
+Sensor 1: 
+X: -0.267 | Y: 0.876 | Z: 0.402
+gyro_x: 0.027 | gyro_y: -0.792 | gyro_z: -0.610
+mag_x: 0.304 | mag_y: -0.837 | mag_z: -0.455
+Sensor 2: 
+X: 0.683 | Y: -0.717 | Z: 0.141
+gyro_x: -0.846 | gyro_y: 0.523 | gyro_z: -0.098
+Sensor 3: 
+X: 0.921 | Y: -0.290 | Z: 0.258
+gyro_x: -0.964 | gyro_y: 0.024 | gyro_z: -0.264
+Sensor 4: 
+X: 0.802 | Y: 0.398 | Z: 0.446
+gyro_x: -0.581 | gyro_y: -0.385 | gyro_z: -0.717
+Sensor 5: 
+X: 0.636 | Y: 0.524 | Z: 0.567
+gyro_x: -0.345 | gyro_y: -0.473 | gyro_z: -0.810
+Sensor 6: 
+X: 0.165 | Y: 0.985 | Z: -0.045
+gyro_x: -0.093 | gyro_y: -0.959 | gyro_z: -0.268
+
+Time:  7.133574
+Sensor 1: 
+X: -0.166 | Y: 0.891 | Z: 0.423
+gyro_x: -0.013 | gyro_y: -0.792 | gyro_z: -0.611
+mag_x: 0.304 | mag_y: -0.837 | mag_z: -0.455
+Sensor 2: 
+X: 0.713 | Y: -0.672 | Z: 0.202
+gyro_x: -0.846 | gyro_y: 0.516 | gyro_z: -0.135
+Sensor 3: 
+X: 0.910 | Y: -0.250 | Z: 0.331
+gyro_x: -0.955 | gyro_y: 0.025 | gyro_z: -0.296
+Sensor 4: 
+X: 0.804 | Y: 0.340 | Z: 0.488
+gyro_x: -0.589 | gyro_y: -0.356 | gyro_z: -0.725
+Sensor 5: 
+X: 0.615 | Y: 0.465 | Z: 0.637
+gyro_x: -0.361 | gyro_y: -0.451 | gyro_z: -0.816
+Sensor 6: 
+X: 0.223 | Y: 0.974 | Z: 0.026
+gyro_x: -0.117 | gyro_y: -0.954 | gyro_z: -0.276
+
+Time:  7.158273
+Sensor 1: 
+X: -0.101 | Y: 0.890 | Z: 0.444
+gyro_x: -0.013 | gyro_y: -0.792 | gyro_z: -0.611
+mag_x: 0.301 | mag_y: -0.793 | mag_z: -0.530
+Sensor 2: 
+X: 0.757 | Y: -0.613 | Z: 0.226
+gyro_x: -0.857 | gyro_y: 0.499 | gyro_z: -0.128
+Sensor 3: 
+X: 0.915 | Y: -0.174 | Z: 0.364
+gyro_x: -0.955 | gyro_y: 0.009 | gyro_z: -0.295
+Sensor 4: 
+X: 0.749 | Y: 0.347 | Z: 0.564
+gyro_x: -0.569 | gyro_y: -0.364 | gyro_z: -0.737
+Sensor 5: 
+X: 0.571 | Y: 0.453 | Z: 0.685
+gyro_x: -0.335 | gyro_y: -0.459 | gyro_z: -0.822
+Sensor 6: 
+X: 0.224 | Y: 0.969 | Z: 0.102
+gyro_x: -0.109 | gyro_y: -0.952 | gyro_z: -0.287
+
+Time:  7.202341
+Sensor 1: 
+X: -0.201 | Y: 0.825 | Z: 0.528
+gyro_x: -0.000 | gyro_y: -0.777 | gyro_z: -0.629
+mag_x: 0.304 | mag_y: -0.780 | mag_z: -0.547
+Sensor 2: 
+X: 0.781 | Y: -0.609 | Z: 0.137
+gyro_x: -0.853 | gyro_y: 0.508 | gyro_z: -0.122
+Sensor 3: 
+X: 0.951 | Y: -0.136 | Z: 0.278
+gyro_x: -0.957 | gyro_y: 0.008 | gyro_z: -0.290
+Sensor 4: 
+X: 0.681 | Y: 0.474 | Z: 0.559
+gyro_x: -0.580 | gyro_y: -0.371 | gyro_z: -0.726
+Sensor 5: 
+X: 0.455 | Y: 0.593 | Z: 0.664
+gyro_x: -0.346 | gyro_y: -0.462 | gyro_z: -0.817
+Sensor 6: 
+X: 0.116 | Y: 0.987 | Z: 0.115
+gyro_x: -0.108 | gyro_y: -0.954 | gyro_z: -0.278
+
+Time:  7.639353
+Sensor 1: 
+X: -0.256 | Y: 0.829 | Z: 0.498
+gyro_x: 0.040 | gyro_y: -0.769 | gyro_z: -0.638
+mag_x: 0.332 | mag_y: -0.776 | mag_z: -0.537
+Sensor 2: 
+X: 0.751 | Y: -0.654 | Z: 0.096
+gyro_x: -0.850 | gyro_y: 0.517 | gyro_z: -0.104
+Sensor 3: 
+X: 0.955 | Y: -0.186 | Z: 0.232
+gyro_x: -0.962 | gyro_y: 0.016 | gyro_z: -0.272
+Sensor 4: 
+X: 0.713 | Y: 0.494 | Z: 0.497
+gyro_x: -0.580 | gyro_y: -0.388 | gyro_z: -0.716
+Sensor 5: 
+X: 0.502 | Y: 0.613 | Z: 0.610
+gyro_x: -0.344 | gyro_y: -0.480 | gyro_z: -0.807
+Sensor 6: 
+X: 0.089 | Y: 0.995 | Z: 0.051
+gyro_x: -0.087 | gyro_y: -0.958 | gyro_z: -0.272
+
+Time:  7.639916
+Sensor 1: 
+X: -0.247 | Y: 0.874 | Z: 0.419
+gyro_x: 0.053 | gyro_y: -0.761 | gyro_z: -0.647
+mag_x: 0.299 | mag_y: -0.758 | mag_z: -0.579
+Sensor 2: 
+X: 0.710 | Y: -0.690 | Z: 0.141
+gyro_x: -0.858 | gyro_y: 0.497 | gyro_z: -0.132
+Sensor 3: 
+X: 0.931 | Y: -0.253 | Z: 0.264
+gyro_x: -0.953 | gyro_y: 0.008 | gyro_z: -0.302
+Sensor 4: 
+X: 0.776 | Y: 0.428 | Z: 0.463
+gyro_x: -0.576 | gyro_y: -0.353 | gyro_z: -0.737
+Sensor 5: 
+X: 0.601 | Y: 0.541 | Z: 0.588
+gyro_x: -0.336 | gyro_y: -0.446 | gyro_z: -0.829
+Sensor 6: 
+X: 0.157 | Y: 0.988 | Z: -0.012
+gyro_x: -0.123 | gyro_y: -0.949 | gyro_z: -0.292
+
+Time:  7.640054
+Sensor 1: 
+X: -0.194 | Y: 0.909 | Z: 0.369
+gyro_x: -0.031 | gyro_y: -0.768 | gyro_z: -0.639
+mag_x: 0.321 | mag_y: -0.699 | mag_z: -0.639
+Sensor 2: 
+X: 0.669 | Y: -0.716 | Z: 0.199
+gyro_x: -0.863 | gyro_y: 0.487 | gyro_z: -0.136
+Sensor 3: 
+X: 0.899 | Y: -0.311 | Z: 0.310
+gyro_x: -0.952 | gyro_y: -0.004 | gyro_z: -0.307
+Sensor 4: 
+X: 0.832 | Y: 0.347 | Z: 0.433
+gyro_x: -0.564 | gyro_y: -0.353 | gyro_z: -0.746
+Sensor 5: 
+X: 0.648 | Y: 0.484 | Z: 0.588
+gyro_x: -0.332 | gyro_y: -0.441 | gyro_z: -0.834
+Sensor 6: 
+X: 0.222 | Y: 0.974 | Z: -0.047
+gyro_x: -0.123 | gyro_y: -0.945 | gyro_z: -0.302
+
+Time:  7.640182
+Sensor 1: 
+X: -0.199 | Y: 0.900 | Z: 0.388
+gyro_x: -0.017 | gyro_y: -0.772 | gyro_z: -0.636
+mag_x: 0.295 | mag_y: -0.734 | mag_z: -0.611
+Sensor 2: 
+X: 0.712 | Y: -0.672 | Z: 0.201
+gyro_x: -0.857 | gyro_y: 0.491 | gyro_z: -0.158
+Sensor 3: 
+X: 0.915 | Y: -0.242 | Z: 0.322
+gyro_x: -0.945 | gyro_y: 0.012 | gyro_z: -0.328
+Sensor 4: 
+X: 0.770 | Y: 0.395 | Z: 0.501
+gyro_x: -0.586 | gyro_y: -0.327 | gyro_z: -0.741
+Sensor 5: 
+X: 0.585 | Y: 0.527 | Z: 0.616
+gyro_x: -0.349 | gyro_y: -0.418 | gyro_z: -0.839
+Sensor 6: 
+X: 0.198 | Y: 0.980 | Z: 0.021
+gyro_x: -0.157 | gyro_y: -0.942 | gyro_z: -0.298
+
+Time:  7.640306
+Sensor 1: 
+X: -0.197 | Y: 0.886 | Z: 0.420
+gyro_x: -0.017 | gyro_y: -0.772 | gyro_z: -0.636
+mag_x: 0.326 | mag_y: -0.662 | mag_z: -0.675
+Sensor 2: 
+X: 0.698 | Y: -0.698 | Z: 0.158
+gyro_x: -0.860 | gyro_y: 0.475 | gyro_z: -0.188
+Sensor 3: 
+X: 0.922 | Y: -0.271 | Z: 0.276
+gyro_x: -0.933 | gyro_y: -0.015 | gyro_z: -0.360
+Sensor 4: 
+X: 0.793 | Y: 0.419 | Z: 0.443
+gyro_x: -0.578 | gyro_y: -0.298 | gyro_z: -0.760
+Sensor 5: 
+X: 0.600 | Y: 0.540 | Z: 0.590
+gyro_x: -0.340 | gyro_y: -0.387 | gyro_z: -0.857
+Sensor 6: 
+X: 0.172 | Y: 0.985 | Z: -0.021
+gyro_x: -0.168 | gyro_y: -0.931 | gyro_z: -0.323
+
+Time:  7.640429
+Sensor 1: 
+X: -0.224 | Y: 0.872 | Z: 0.436
+gyro_x: -0.024 | gyro_y: -0.738 | gyro_z: -0.674
+mag_x: 0.300 | mag_y: -0.666 | mag_z: -0.683
+Sensor 2: 
+X: 0.677 | Y: -0.721 | Z: 0.148
+gyro_x: -0.886 | gyro_y: 0.449 | gyro_z: -0.116
+Sensor 3: 
+X: 0.916 | Y: -0.302 | Z: 0.265
+gyro_x: -0.955 | gyro_y: -0.054 | gyro_z: -0.292
+Sensor 4: 
+X: 0.830 | Y: 0.363 | Z: 0.424
+gyro_x: -0.520 | gyro_y: -0.367 | gyro_z: -0.771
+Sensor 5: 
+X: 0.650 | Y: 0.489 | Z: 0.582
+gyro_x: -0.279 | gyro_y: -0.449 | gyro_z: -0.849
+Sensor 6: 
+X: 0.183 | Y: 0.982 | Z: -0.051
+gyro_x: -0.096 | gyro_y: -0.933 | gyro_z: -0.346
+
+Time:  7.640555
+Sensor 1: 
+X: -0.129 | Y: 0.867 | Z: 0.481
+gyro_x: -0.064 | gyro_y: -0.712 | gyro_z: -0.699
+mag_x: 0.272 | mag_y: -0.587 | mag_z: -0.763
+Sensor 2: 
+X: 0.753 | Y: -0.632 | Z: 0.185
+gyro_x: -0.896 | gyro_y: 0.421 | gyro_z: -0.139
+Sensor 3: 
+X: 0.927 | Y: -0.190 | Z: 0.322
+gyro_x: -0.943 | gyro_y: -0.075 | gyro_z: -0.323
+Sensor 4: 
+X: 0.753 | Y: 0.371 | Z: 0.544
+gyro_x: -0.515 | gyro_y: -0.336 | gyro_z: -0.788
+Sensor 5: 
+X: 0.549 | Y: 0.500 | Z: 0.670
+gyro_x: -0.269 | gyro_y: -0.420 | gyro_z: -0.867
+Sensor 6: 
+X: 0.193 | Y: 0.978 | Z: 0.081
+gyro_x: -0.121 | gyro_y: -0.919 | gyro_z: -0.376
+
+Time:  7.64152
+Sensor 1: 
+X: -0.037 | Y: 0.886 | Z: 0.462
+gyro_x: -0.064 | gyro_y: -0.741 | gyro_z: -0.668
+mag_x: 0.272 | mag_y: -0.587 | mag_z: -0.763
+Sensor 2: 
+X: 0.742 | Y: -0.620 | Z: 0.254
+gyro_x: -0.899 | gyro_y: 0.423 | gyro_z: -0.109
+Sensor 3: 
+X: 0.896 | Y: -0.207 | Z: 0.393
+gyro_x: -0.955 | gyro_y: -0.080 | gyro_z: -0.287
+Sensor 4: 
+X: 0.784 | Y: 0.274 | Z: 0.558
+gyro_x: -0.492 | gyro_y: -0.376 | gyro_z: -0.786
+Sensor 5: 
+X: 0.579 | Y: 0.398 | Z: 0.712
+gyro_x: -0.247 | gyro_y: -0.460 | gyro_z: -0.853
+Sensor 6: 
+X: 0.276 | Y: 0.957 | Z: 0.089
+gyro_x: -0.076 | gyro_y: -0.926 | gyro_z: -0.369
+
+Time:  7.641658
+Sensor 1: 
+X: -0.079 | Y: 0.886 | Z: 0.456
+gyro_x: 0.015 | gyro_y: -0.676 | gyro_z: -0.737
+mag_x: 0.237 | mag_y: -0.592 | mag_z: -0.770
+Sensor 2: 
+X: 0.755 | Y: -0.610 | Z: 0.239
+gyro_x: -0.893 | gyro_y: 0.449 | gyro_z: -0.016
+Sensor 3: 
+X: 0.905 | Y: -0.182 | Z: 0.384
+gyro_x: -0.979 | gyro_y: -0.062 | gyro_z: -0.195
+Sensor 4: 
+X: 0.750 | Y: 0.314 | Z: 0.582
+gyro_x: -0.487 | gyro_y: -0.456 | gyro_z: -0.745
+Sensor 5: 
+X: 0.543 | Y: 0.452 | Z: 0.707
+gyro_x: -0.236 | gyro_y: -0.534 | gyro_z: -0.812
+Sensor 6: 
+X: 0.238 | Y: 0.965 | Z: 0.107
+gyro_x: -0.005 | gyro_y: -0.945 | gyro_z: -0.326
+
+Time:  7.641784
+Sensor 1: 
+X: -0.143 | Y: 0.848 | Z: 0.509
+gyro_x: 0.015 | gyro_y: -0.676 | gyro_z: -0.737
+mag_x: 0.232 | mag_y: -0.560 | mag_z: -0.796
+Sensor 2: 
+X: 0.769 | Y: -0.610 | Z: 0.189
+gyro_x: -0.875 | gyro_y: 0.482 | gyro_z: -0.045
+Sensor 3: 
+X: 0.925 | Y: -0.165 | Z: 0.342
+gyro_x: -0.977 | gyro_y: -0.011 | gyro_z: -0.214
+Sensor 4: 
+X: 0.735 | Y: 0.347 | Z: 0.583
+gyro_x: -0.531 | gyro_y: -0.431 | gyro_z: -0.730
+Sensor 5: 
+X: 0.527 | Y: 0.479 | Z: 0.702
+gyro_x: -0.286 | gyro_y: -0.516 | gyro_z: -0.807
+Sensor 6: 
+X: 0.197 | Y: 0.974 | Z: 0.111
+gyro_x: -0.045 | gyro_y: -0.955 | gyro_z: -0.294
+
+Time:  7.666145
+Sensor 1: 
+X: -0.056 | Y: 0.861 | Z: 0.505
+gyro_x: 0.087 | gyro_y: -0.758 | gyro_z: -0.646
+mag_x: 0.232 | mag_y: -0.560 | mag_z: -0.796
+Sensor 2: 
+X: 0.777 | Y: -0.591 | Z: 0.218
+gyro_x: -0.851 | gyro_y: 0.519 | gyro_z: -0.075
+Sensor 3: 
+X: 0.914 | Y: -0.154 | Z: 0.376
+gyro_x: -0.972 | gyro_y: 0.036 | gyro_z: -0.231
+Sensor 4: 
+X: 0.737 | Y: 0.299 | Z: 0.606
+gyro_x: -0.571 | gyro_y: -0.416 | gyro_z: -0.708
+Sensor 5: 
+X: 0.532 | Y: 0.431 | Z: 0.729
+gyro_x: -0.331 | gyro_y: -0.509 | gyro_z: -0.795
+Sensor 6: 
+X: 0.234 | Y: 0.963 | Z: 0.133
+gyro_x: -0.082 | gyro_y: -0.961 | gyro_z: -0.264
+
+Time:  7.71335
+Sensor 1: 
+X: -0.003 | Y: 0.851 | Z: 0.525
+gyro_x: 0.048 | gyro_y: -0.819 | gyro_z: -0.572
+mag_x: 0.232 | mag_y: -0.560 | mag_z: -0.796
+Sensor 2: 
+X: 0.803 | Y: -0.545 | Z: 0.240
+gyro_x: -0.823 | gyro_y: 0.551 | gyro_z: -0.140
+Sensor 3: 
+X: 0.907 | Y: -0.106 | Z: 0.408
+gyro_x: -0.957 | gyro_y: 0.065 | gyro_z: -0.283
+Sensor 4: 
+X: 0.708 | Y: 0.267 | Z: 0.654
+gyro_x: -0.619 | gyro_y: -0.357 | gyro_z: -0.699
+Sensor 5: 
+X: 0.507 | Y: 0.392 | Z: 0.768
+gyro_x: -0.408 | gyro_y: -0.453 | gyro_z: -0.793
+Sensor 6: 
+X: 0.251 | Y: 0.949 | Z: 0.190
+gyro_x: -0.156 | gyro_y: -0.957 | gyro_z: -0.245
+
+Time:  8.150747
+Sensor 1: 
+X: 0.027 | Y: 0.822 | Z: 0.568
+gyro_x: -0.009 | gyro_y: -0.843 | gyro_z: -0.539
+mag_x: 0.232 | mag_y: -0.560 | mag_z: -0.796
+Sensor 2: 
+X: 0.835 | Y: -0.499 | Z: 0.233
+gyro_x: -0.796 | gyro_y: 0.548 | gyro_z: -0.257
+Sensor 3: 
+X: 0.909 | Y: -0.046 | Z: 0.413
+gyro_x: -0.920 | gyro_y: 0.085 | gyro_z: -0.383
+Sensor 4: 
+X: 0.661 | Y: 0.276 | Z: 0.698
+gyro_x: -0.657 | gyro_y: -0.256 | gyro_z: -0.709
+Sensor 5: 
+X: 0.444 | Y: 0.396 | Z: 0.803
+gyro_x: -0.466 | gyro_y: -0.360 | gyro_z: -0.808
+Sensor 6: 
+X: 0.235 | Y: 0.939 | Z: 0.251
+gyro_x: -0.269 | gyro_y: -0.927 | gyro_z: -0.260
+
+Time:  8.150886
+Sensor 1: 
+X: 0.039 | Y: 0.809 | Z: 0.587
+gyro_x: -0.050 | gyro_y: -0.877 | gyro_z: -0.478
+mag_x: 0.145 | mag_y: -0.546 | mag_z: -0.825
+Sensor 2: 
+X: 0.862 | Y: -0.450 | Z: 0.232
+gyro_x: -0.757 | gyro_y: 0.561 | gyro_z: -0.336
+Sensor 3: 
+X: 0.907 | Y: 0.021 | Z: 0.421
+gyro_x: -0.892 | gyro_y: 0.121 | gyro_z: -0.436
+Sensor 4: 
+X: 0.601 | Y: 0.302 | Z: 0.740
+gyro_x: -0.695 | gyro_y: -0.188 | gyro_z: -0.695
+Sensor 5: 
+X: 0.379 | Y: 0.404 | Z: 0.832
+gyro_x: -0.525 | gyro_y: -0.286 | gyro_z: -0.802
+Sensor 6: 
+X: 0.218 | Y: 0.925 | Z: 0.311
+gyro_x: -0.343 | gyro_y: -0.908 | gyro_z: -0.241
+
+Time:  8.15103
+Sensor 1: 
+X: 0.037 | Y: 0.840 | Z: 0.542
+gyro_x: -0.050 | gyro_y: -0.877 | gyro_z: -0.478
+mag_x: 0.110 | mag_y: -0.541 | mag_z: -0.834
+Sensor 2: 
+X: 0.817 | Y: -0.522 | Z: 0.246
+gyro_x: -0.797 | gyro_y: 0.532 | gyro_z: -0.285
+Sensor 3: 
+X: 0.905 | Y: -0.071 | Z: 0.420
+gyro_x: -0.919 | gyro_y: 0.049 | gyro_z: -0.391
+Sensor 4: 
+X: 0.659 | Y: 0.291 | Z: 0.694
+gyro_x: -0.636 | gyro_y: -0.264 | gyro_z: -0.725
+Sensor 5: 
+X: 0.402 | Y: 0.402 | Z: 0.822
+gyro_x: -0.425 | gyro_y: -0.364 | gyro_z: -0.829
+Sensor 6: 
+X: 0.242 | Y: 0.942 | Z: 0.232
+gyro_x: -0.244 | gyro_y: -0.928 | gyro_z: -0.283
+
+Time:  8.151164
+Sensor 1: 
+X: -0.132 | Y: 0.900 | Z: 0.416
+gyro_x: 0.350 | gyro_y: -0.691 | gyro_z: -0.632
+mag_x: 0.076 | mag_y: -0.588 | mag_z: -0.806
+Sensor 2: 
+X: 0.743 | Y: -0.606 | Z: 0.284
+gyro_x: -0.640 | gyro_y: 0.766 | gyro_z: 0.063
+Sensor 3: 
+X: 0.879 | Y: -0.199 | Z: 0.434
+gyro_x: -0.944 | gyro_y: 0.331 | gyro_z: -0.000
+Sensor 4: 
+X: 0.765 | Y: 0.228 | Z: 0.602
+gyro_x: -0.677 | gyro_y: -0.612 | gyro_z: -0.408
+Sensor 5: 
+X: 0.583 | Y: 0.379 | Z: 0.719
+gyro_x: -0.532 | gyro_y: -0.696 | gyro_z: -0.481
+Sensor 6: 
+X: 0.300 | Y: 0.949 | Z: 0.098
+gyro_x: -0.021 | gyro_y: -0.997 | gyro_z: 0.075
+
+Time:  8.151287
+Sensor 1: 
+X: -0.079 | Y: 0.927 | Z: 0.366
+gyro_x: 0.350 | gyro_y: -0.691 | gyro_z: -0.632
+mag_x: 0.083 | mag_y: -0.576 | mag_z: -0.814
+Sensor 2: 
+X: 0.740 | Y: -0.589 | Z: 0.324
+gyro_x: -0.490 | gyro_y: 0.722 | gyro_z: -0.490
+Sensor 3: 
+X: 0.861 | Y: -0.195 | Z: 0.469
+gyro_x: -0.732 | gyro_y: 0.462 | gyro_z: -0.501
+Sensor 4: 
+X: 0.769 | Y: 0.196 | Z: 0.609
+gyro_x: -0.912 | gyro_y: 0.027 | gyro_z: -0.409
+Sensor 5: 
+X: 0.633 | Y: 0.311 | Z: 0.708
+gyro_x: -0.840 | gyro_y: -0.083 | gyro_z: -0.537
+Sensor 6: 
+X: 0.356 | Y: 0.929 | Z: 0.097
+gyro_x: -0.589 | gyro_y: -0.807 | gyro_z: 0.038
+
+Time:  8.151418
+Sensor 1: 
+X: 0.118 | Y: 0.910 | Z: 0.397
+gyro_x: -0.344 | gyro_y: -0.917 | gyro_z: 0.204
+mag_x: 0.046 | mag_y: -0.585 | mag_z: -0.809
+Sensor 2: 
+X: 0.718 | Y: -0.585 | Z: 0.377
+gyro_x: -0.391 | gyro_y: 0.560 | gyro_z: -0.730
+Sensor 3: 
+X: 0.830 | Y: -0.213 | Z: 0.516
+gyro_x: -0.553 | gyro_y: 0.387 | gyro_z: -0.738
+Sensor 4: 
+X: 0.796 | Y: 0.082 | Z: 0.600
+gyro_x: -0.839 | gyro_y: 0.336 | gyro_z: -0.429
+Sensor 5: 
+X: 0.590 | Y: 0.182 | Z: 0.787
+gyro_x: -0.826 | gyro_y: 0.227 | gyro_z: -0.516
+Sensor 6: 
+X: 0.426 | Y: 0.896 | Z: 0.127
+gyro_x: -0.774 | gyro_y: -0.630 | gyro_z: -0.072
+
+Time:  8.151547
+Sensor 1: 
+X: 0.027 | Y: 0.871 | Z: 0.491
+gyro_x: -0.344 | gyro_y: -0.917 | gyro_z: 0.204
+mag_x: 0.018 | mag_y: -0.580 | mag_z: -0.814
+Sensor 2: 
+X: 0.765 | Y: -0.556 | Z: 0.326
+gyro_x: -0.745 | gyro_y: 0.605 | gyro_z: -0.279
+Sensor 3: 
+X: 0.865 | Y: -0.145 | Z: 0.481
+gyro_x: -0.967 | gyro_y: 0.220 | gyro_z: -0.132
+Sensor 4: 
+X: 0.732 | Y: 0.181 | Z: 0.657
+gyro_x: -0.566 | gyro_y: -0.424 | gyro_z: -0.707
+Sensor 5: 
+X: 0.512 | Y: 0.293 | Z: 0.808
+gyro_x: -0.537 | gyro_y: -0.597 | gyro_z: -0.597
+Sensor 6: 
+X: 0.348 | Y: 0.919 | Z: 0.185
+gyro_x: -0.310 | gyro_y: -0.879 | gyro_z: -0.362
+
+Time:  8.154529
+Sensor 1: 
+X: -0.036 | Y: 0.857 | Z: 0.515
+gyro_x: 0.391 | gyro_y: 0.359 | gyro_z: -0.848
+mag_x: 0.018 | mag_y: -0.580 | mag_z: -0.814
+Sensor 2: 
+X: 0.790 | Y: -0.548 | Z: 0.274
+gyro_x: -0.571 | gyro_y: 0.143 | gyro_z: 0.809
+Sensor 3: 
+X: 0.890 | Y: -0.115 | Z: 0.441
+gyro_x: -0.678 | gyro_y: -0.178 | gyro_z: 0.713
+Sensor 4: 
+X: 0.701 | Y: 0.250 | Z: 0.668
+gyro_x: 0.233 | gyro_y: -0.933 | gyro_z: -0.272
+Sensor 5: 
+X: 0.488 | Y: 0.371 | Z: 0.790
+gyro_x: 0.291 | gyro_y: -0.956 | gyro_z: 0.042
+Sensor 6: 
+X: 0.284 | Y: 0.939 | Z: 0.194
+gyro_x: 0.814 | gyro_y: -0.458 | gyro_z: -0.356
+
+Time:  8.154666
+Sensor 1: 
+X: 0.001 | Y: 0.895 | Z: 0.446
+gyro_x: 0.575 | gyro_y: 0.732 | gyro_z: -0.366
+mag_x: 0.018 | mag_y: -0.580 | mag_z: -0.814
+Sensor 2: 
+X: 0.775 | Y: -0.544 | Z: 0.322
+gyro_x: 0.156 | gyro_y: -0.312 | gyro_z: 0.937
+Sensor 3: 
+X: 0.864 | Y: -0.134 | Z: 0.485
+gyro_x: -0.115 | gyro_y: -0.173 | gyro_z: 0.978
+Sensor 4: 
+X: 0.729 | Y: 0.186 | Z: 0.659
+gyro_x: 0.679 | gyro_y: -0.611 | gyro_z: 0.407
+Sensor 5: 
+X: 0.563 | Y: 0.303 | Z: 0.769
+gyro_x: 0.418 | gyro_y: -0.358 | gyro_z: 0.835
+Sensor 6: 
+X: 0.343 | Y: 0.923 | Z: 0.173
+gyro_x: 0.724 | gyro_y: 0.634 | gyro_z: -0.272
+
+Time:  8.1548
+Sensor 1: 
+X: 0.051 | Y: 0.912 | Z: 0.407
+gyro_x: -0.375 | gyro_y: 0.642 | gyro_z: 0.669
+mag_x: 0.068 | mag_y: -0.565 | mag_z: -0.822
+Sensor 2: 
+X: 0.754 | Y: -0.545 | Z: 0.366
+gyro_x: 0.735 | gyro_y: -0.640 | gyro_z: -0.224
+Sensor 3: 
+X: 0.840 | Y: -0.156 | Z: 0.519
+gyro_x: 0.982 | gyro_y: -0.135 | gyro_z: 0.135
+Sensor 4: 
+X: 0.746 | Y: 0.140 | Z: 0.651
+gyro_x: 0.586 | gyro_y: 0.615 | gyro_z: 0.527
+Sensor 5: 
+X: 0.573 | Y: 0.266 | Z: 0.775
+gyro_x: 0.277 | gyro_y: 0.654 | gyro_z: 0.704
+Sensor 6: 
+X: 0.384 | Y: 0.908 | Z: 0.165
+gyro_x: -0.274 | gyro_y: 0.960 | gyro_z: -0.055
+
+Time:  8.161573
+Sensor 1: 
+X: 0.017 | Y: 0.887 | Z: 0.462
+gyro_x: -0.294 | gyro_y: 0.710 | gyro_z: 0.640
+mag_x: 0.068 | mag_y: -0.565 | mag_z: -0.822
+Sensor 2: 
+X: 0.769 | Y: -0.545 | Z: 0.335
+gyro_x: 0.756 | gyro_y: -0.634 | gyro_z: -0.164
+Sensor 3: 
+X: 0.859 | Y: -0.140 | Z: 0.492
+gyro_x: 0.983 | gyro_y: -0.128 | gyro_z: 0.128
+Sensor 4: 
+X: 0.733 | Y: 0.176 | Z: 0.657
+gyro_x: 0.603 | gyro_y: 0.583 | gyro_z: 0.544
+Sensor 5: 
+X: 0.539 | Y: 0.304 | Z: 0.786
+gyro_x: 0.278 | gyro_y: 0.644 | gyro_z: 0.713
+Sensor 6: 
+X: 0.346 | Y: 0.921 | Z: 0.181
+gyro_x: -0.189 | gyro_y: 0.982 | gyro_z: 0.019
+
+Time:  8.204441
+Sensor 1: 
+X: 0.001 | Y: 0.868 | Z: 0.496
+gyro_x: -0.294 | gyro_y: 0.710 | gyro_z: 0.640
+mag_x: 0.077 | mag_y: -0.581 | mag_z: -0.810
+Sensor 2: 
+X: 0.782 | Y: -0.545 | Z: 0.303
+gyro_x: 0.796 | gyro_y: -0.605 | gyro_z: -0.032
+Sensor 3: 
+X: 0.877 | Y: -0.124 | Z: 0.464
+gyro_x: 0.966 | gyro_y: -0.082 | gyro_z: 0.246
+Sensor 4: 
+X: 0.710 | Y: 0.236 | Z: 0.664
+gyro_x: 0.630 | gyro_y: 0.476 | gyro_z: 0.614
+Sensor 5: 
+X: 0.521 | Y: 0.357 | Z: 0.776
+gyro_x: 0.297 | gyro_y: 0.552 | gyro_z: 0.779
+Sensor 6: 
+X: 0.307 | Y: 0.934 | Z: 0.185
+gyro_x: -0.075 | gyro_y: 0.992 | gyro_z: 0.105
+
+Time:  8.249004
+Sensor 1: 
+X: 0.033 | Y: 0.921 | Z: 0.389
+gyro_x: -0.091 | gyro_y: 0.664 | gyro_z: 0.742
+mag_x: 0.077 | mag_y: -0.581 | mag_z: -0.810
+Sensor 2: 
+X: 0.755 | Y: -0.547 | Z: 0.361
+gyro_x: 0.881 | gyro_y: -0.460 | gyro_z: -0.105
+Sensor 3: 
+X: 0.843 | Y: -0.158 | Z: 0.514
+gyro_x: 0.978 | gyro_y: 0.093 | gyro_z: 0.185
+Sensor 4: 
+X: 0.742 | Y: 0.168 | Z: 0.649
+gyro_x: 0.455 | gyro_y: 0.547 | gyro_z: 0.703
+Sensor 5: 
+X: 0.565 | Y: 0.307 | Z: 0.765
+gyro_x: 0.127 | gyro_y: 0.556 | gyro_z: 0.822
+Sensor 6: 
+X: 0.376 | Y: 0.913 | Z: 0.160
+gyro_x: -0.173 | gyro_y: 0.953 | gyro_z: 0.248
+
+Time:  8.66051
+Sensor 1: 
+X: 0.039 | Y: 0.935 | Z: 0.352
+gyro_x: -0.085 | gyro_y: 0.526 | gyro_z: 0.846
+mag_x: 0.077 | mag_y: -0.581 | mag_z: -0.810
+Sensor 2: 
+X: 0.710 | Y: -0.578 | Z: 0.402
+gyro_x: 0.910 | gyro_y: -0.381 | gyro_z: -0.167
+Sensor 3: 
+X: 0.813 | Y: -0.218 | Z: 0.540
+gyro_x: 0.973 | gyro_y: 0.196 | gyro_z: 0.122
+Sensor 4: 
+X: 0.795 | Y: 0.098 | Z: 0.599
+gyro_x: 0.373 | gyro_y: 0.588 | gyro_z: 0.718
+Sensor 5: 
+X: 0.634 | Y: 0.246 | Z: 0.733
+gyro_x: 0.060 | gyro_y: 0.600 | gyro_z: 0.798
+Sensor 6: 
+X: 0.422 | Y: 0.901 | Z: 0.106
+gyro_x: -0.229 | gyro_y: 0.917 | gyro_z: 0.326
+
+Time:  8.660682
+Sensor 1: 
+X: -0.010 | Y: 0.897 | Z: 0.441
+gyro_x: -0.099 | gyro_y: 0.532 | gyro_z: 0.841
+mag_x: 0.073 | mag_y: -0.547 | mag_z: -0.834
+Sensor 2: 
+X: 0.769 | Y: -0.564 | Z: 0.300
+gyro_x: 0.848 | gyro_y: -0.452 | gyro_z: -0.276
+Sensor 3: 
+X: 0.877 | Y: -0.148 | Z: 0.456
+gyro_x: 0.999 | gyro_y: 0.043 | gyro_z: -0.021
+Sensor 4: 
+X: 0.743 | Y: 0.228 | Z: 0.630
+gyro_x: 0.417 | gyro_y: 0.693 | gyro_z: 0.587
+Sensor 5: 
+X: 0.566 | Y: 0.313 | Z: 0.762
+gyro_x: 0.161 | gyro_y: 0.737 | gyro_z: 0.657
+Sensor 6: 
+X: 0.313 | Y: 0.935 | Z: 0.166
+gyro_x: -0.273 | gyro_y: 0.948 | gyro_z: 0.164
+
+Time:  8.66082
+Sensor 1: 
+X: -0.126 | Y: 0.870 | Z: 0.476
+gyro_x: -0.349 | gyro_y: 0.685 | gyro_z: 0.639
+mag_x: 0.129 | mag_y: -0.543 | mag_z: -0.829
+Sensor 2: 
+X: 0.677 | Y: -0.695 | Z: 0.242
+gyro_x: 0.720 | gyro_y: -0.601 | gyro_z: 0.348
+Sensor 3: 
+X: 0.881 | Y: -0.294 | Z: 0.371
+gyro_x: 0.792 | gyro_y: -0.282 | gyro_z: 0.541
+Sensor 4: 
+X: 0.860 | Y: 0.300 | Z: 0.413
+gyro_x: 0.777 | gyro_y: 0.112 | gyro_z: 0.620
+Sensor 5: 
+X: 0.506 | Y: 0.401 | Z: 0.764
+gyro_x: 0.585 | gyro_y: 0.225 | gyro_z: 0.780
+Sensor 6: 
+X: 0.276 | Y: 0.961 | Z: 0.027
+gyro_x: 0.452 | gyro_y: 0.888 | gyro_z: 0.084
+
+Time:  8.660951
+Sensor 1: 
+X: -0.118 | Y: 0.948 | Z: 0.294
+gyro_x: 0.428 | gyro_y: 0.892 | gyro_z: -0.144
+mag_x: 0.154 | mag_y: -0.576 | mag_z: -0.803
+Sensor 2: 
+X: 0.600 | Y: -0.731 | Z: 0.326
+gyro_x: 0.493 | gyro_y: -0.529 | gyro_z: 0.691
+Sensor 3: 
+X: 0.805 | Y: -0.409 | Z: 0.429
+gyro_x: 0.530 | gyro_y: -0.286 | gyro_z: 0.798
+Sensor 4: 
+X: 0.914 | Y: 0.072 | Z: 0.399
+gyro_x: 0.801 | gyro_y: -0.263 | gyro_z: 0.538
+Sensor 5: 
+X: 0.811 | Y: 0.184 | Z: 0.556
+gyro_x: 0.689 | gyro_y: -0.118 | gyro_z: 0.715
+Sensor 6: 
+X: 0.407 | Y: 0.906 | Z: -0.117
+gyro_x: 0.673 | gyro_y: 0.735 | gyro_z: 0.085
+
+Time:  8.661082
+Sensor 1: 
+X: 0.055 | Y: 0.949 | Z: 0.311
+gyro_x: -0.352 | gyro_y: 0.757 | gyro_z: 0.550
+mag_x: 0.226 | mag_y: -0.565 | mag_z: -0.794
+Sensor 2: 
+X: 0.744 | Y: -0.546 | Z: 0.385
+gyro_x: 0.709 | gyro_y: -0.705 | gyro_z: 0.033
+Sensor 3: 
+X: 0.833 | Y: -0.192 | Z: 0.519
+gyro_x: 0.947 | gyro_y: -0.255 | gyro_z: 0.194
+Sensor 4: 
+X: 0.812 | Y: 0.129 | Z: 0.570
+gyro_x: 0.702 | gyro_y: 0.484 | gyro_z: 0.523
+Sensor 5: 
+X: 0.714 | Y: 0.292 | Z: 0.636
+gyro_x: 0.455 | gyro_y: 0.603 | gyro_z: 0.655
+Sensor 6: 
+X: 0.386 | Y: 0.919 | Z: 0.081
+gyro_x: 0.000 | gyro_y: 1.000 | gyro_z: 0.003
+
+Time:  8.661205
+Sensor 1: 
+X: -0.035 | Y: 0.576 | Z: 0.817
+gyro_x: -0.258 | gyro_y: 0.595 | gyro_z: 0.762
+mag_x: 0.286 | mag_y: -0.535 | mag_z: -0.795
+Sensor 2: 
+X: 0.928 | Y: -0.324 | Z: 0.181
+gyro_x: 0.850 | gyro_y: -0.483 | gyro_z: -0.209
+Sensor 3: 
+X: 0.914 | Y: 0.196 | Z: 0.354
+gyro_x: 0.999 | gyro_y: 0.043 | gyro_z: 0.033
+Sensor 4: 
+X: 0.378 | Y: 0.591 | Z: 0.712
+gyro_x: 0.441 | gyro_y: 0.640 | gyro_z: 0.630
+Sensor 5: 
+X: 0.094 | Y: 0.718 | Z: 0.690
+gyro_x: 0.160 | gyro_y: 0.700 | gyro_z: 0.696
+Sensor 6: 
+X: 0.001 | Y: 0.896 | Z: 0.445
+gyro_x: -0.216 | gyro_y: 0.953 | gyro_z: 0.213
+
+Time:  8.661328
+Sensor 1: 
+X: -0.268 | Y: 0.644 | Z: 0.717
+gyro_x: 0.054 | gyro_y: 0.411 | gyro_z: 0.910
+mag_x: 0.286 | mag_y: -0.535 | mag_z: -0.795
+Sensor 2: 
+X: 0.933 | Y: -0.349 | Z: 0.092
+gyro_x: 0.934 | gyro_y: -0.273 | gyro_z: -0.229
+Sensor 3: 
+X: 0.939 | Y: 0.206 | Z: 0.274
+gyro_x: 0.952 | gyro_y: 0.304 | gyro_z: 0.043
+Sensor 4: 
+X: 0.314 | Y: 0.653 | Z: 0.689
+gyro_x: 0.242 | gyro_y: 0.615 | gyro_z: 0.751
+Sensor 5: 
+X: 0.057 | Y: 0.750 | Z: 0.658
+gyro_x: -0.055 | gyro_y: 0.621 | gyro_z: 0.782
+Sensor 6: 
+X: -0.050 | Y: 0.907 | Z: 0.418
+gyro_x: -0.304 | gyro_y: 0.846 | gyro_z: 0.438
+
+Time:  8.662068
+Sensor 1: 
+X: -0.188 | Y: 0.919 | Z: 0.347
+gyro_x: 0.042 | gyro_y: 0.057 | gyro_z: 0.998
+mag_x: 0.277 | mag_y: -0.566 | mag_z: -0.776
+Sensor 2: 
+X: 0.709 | Y: -0.663 | Z: 0.240
+gyro_x: 0.917 | gyro_y: -0.099 | gyro_z: -0.386
+Sensor 3: 
+X: 0.898 | Y: -0.244 | Z: 0.367
+gyro_x: 0.877 | gyro_y: 0.470 | gyro_z: -0.104
+Sensor 4: 
+X: 0.754 | Y: 0.391 | Z: 0.528
+gyro_x: 0.016 | gyro_y: 0.694 | gyro_z: 0.720
+Sensor 5: 
+X: 0.561 | Y: 0.524 | Z: 0.641
+gyro_x: -0.249 | gyro_y: 0.670 | gyro_z: 0.700
+Sensor 6: 
+X: 0.241 | Y: 0.970 | Z: 0.024
+gyro_x: -0.468 | gyro_y: 0.722 | gyro_z: 0.509
+
+Time:  8.662195
+Sensor 1: 
+X: -0.259 | Y: 0.932 | Z: 0.253
+gyro_x: 0.041 | gyro_y: 0.325 | gyro_z: 0.945
+mag_x: 0.277 | mag_y: -0.566 | mag_z: -0.776
+Sensor 2: 
+X: 0.481 | Y: -0.846 | Z: 0.229
+gyro_x: 0.976 | gyro_y: -0.153 | gyro_z: -0.153
+Sensor 3: 
+X: 0.794 | Y: -0.533 | Z: 0.292
+gyro_x: 0.903 | gyro_y: 0.402 | gyro_z: 0.151
+Sensor 4: 
+X: 0.961 | Y: 0.237 | Z: 0.142
+gyro_x: 0.185 | gyro_y: 0.496 | gyro_z: 0.848
+Sensor 5: 
+X: 0.815 | Y: 0.382 | Z: 0.436
+gyro_x: -0.072 | gyro_y: 0.517 | gyro_z: 0.853
+Sensor 6: 
+X: 0.295 | Y: 0.919 | Z: -0.261
+gyro_x: -0.181 | gyro_y: 0.807 | gyro_z: 0.563
+
+Time:  8.671906
+Sensor 1: 
+X: -0.136 | Y: 0.918 | Z: 0.373
+gyro_x: 0.041 | gyro_y: 0.325 | gyro_z: 0.945
+mag_x: 0.223 | mag_y: -0.620 | mag_z: -0.752
+Sensor 2: 
+X: 0.446 | Y: -0.883 | Z: 0.149
+gyro_x: 0.798 | gyro_y: -0.455 | gyro_z: 0.395
+Sensor 3: 
+X: 0.776 | Y: -0.597 | Z: 0.202
+gyro_x: 0.800 | gyro_y: -0.082 | gyro_z: 0.594
+Sensor 4: 
+X: 0.994 | Y: 0.075 | Z: 0.073
+gyro_x: 0.663 | gyro_y: 0.062 | gyro_z: 0.746
+Sensor 5: 
+X: 0.923 | Y: 0.151 | Z: 0.354
+gyro_x: 0.477 | gyro_y: 0.192 | gyro_z: 0.858
+Sensor 6: 
+X: 0.292 | Y: 0.889 | Z: -0.353
+gyro_x: 0.379 | gyro_y: 0.890 | gyro_z: 0.255
+
+Time:  8.708683
+Sensor 1: 
+X: -0.027 | Y: 0.723 | Z: 0.690
+gyro_x: -0.003 | gyro_y: 0.947 | gyro_z: 0.320
+mag_x: 0.223 | mag_y: -0.620 | mag_z: -0.752
+Sensor 2: 
+X: 0.815 | Y: -0.579 | Z: 0.003
+gyro_x: 0.750 | gyro_y: -0.626 | gyro_z: 0.213
+Sensor 3: 
+X: 0.980 | Y: -0.108 | Z: 0.164
+gyro_x: 0.900 | gyro_y: -0.216 | gyro_z: 0.378
+Sensor 4: 
+X: 0.780 | Y: 0.375 | Z: 0.500
+gyro_x: 0.748 | gyro_y: 0.276 | gyro_z: 0.603
+Sensor 5: 
+X: 0.663 | Y: 0.467 | Z: 0.585
+gyro_x: 0.525 | gyro_y: 0.414 | gyro_z: 0.743
+Sensor 6: 
+X: 0.035 | Y: 0.995 | Z: 0.092
+gyro_x: 0.195 | gyro_y: 0.977 | gyro_z: 0.086
+
+Time:  8.751441
+Sensor 1: 
+X: -0.051 | Y: 0.420 | Z: 0.906
+gyro_x: -0.293 | gyro_y: 0.771 | gyro_z: 0.565
+mag_x: 0.223 | mag_y: -0.620 | mag_z: -0.752
+Sensor 2: 
+X: 0.989 | Y: -0.141 | Z: -0.036
+gyro_x: 0.790 | gyro_y: -0.614 | gyro_z: 0.000
+Sensor 3: 
+X: 0.896 | Y: 0.407 | Z: 0.179
+gyro_x: 0.975 | gyro_y: -0.116 | gyro_z: 0.192
+Sensor 4: 
+X: 0.209 | Y: 0.638 | Z: 0.741
+gyro_x: 0.625 | gyro_y: 0.464 | gyro_z: 0.628
+Sensor 5: 
+X: -0.022 | Y: 0.729 | Z: 0.684
+gyro_x: 0.360 | gyro_y: 0.582 | gyro_z: 0.729
+Sensor 6: 
+X: -0.185 | Y: 0.800 | Z: 0.571
+gyro_x: -0.012 | gyro_y: 0.992 | gyro_z: 0.127
+
+Time:  9.167426
+Sensor 1: 
+X: 0.080 | Y: 0.633 | Z: 0.770
+gyro_x: -0.217 | gyro_y: 0.698 | gyro_z: 0.682
+mag_x: 0.344 | mag_y: -0.685 | mag_z: -0.642
+Sensor 2: 
+X: 0.988 | Y: -0.120 | Z: 0.092
+gyro_x: 0.852 | gyro_y: -0.457 | gyro_z: -0.257
+Sensor 3: 
+X: 0.865 | Y: 0.407 | Z: 0.295
+gyro_x: 0.995 | gyro_y: 0.099 | gyro_z: -0.031
+Sensor 4: 
+X: 0.219 | Y: 0.599 | Z: 0.770
+gyro_x: 0.384 | gyro_y: 0.678 | gyro_z: 0.626
+Sensor 5: 
+X: -0.001 | Y: 0.698 | Z: 0.717
+gyro_x: 0.099 | gyro_y: 0.727 | gyro_z: 0.679
+Sensor 6: 
+X: -0.057 | Y: 0.814 | Z: 0.578
+gyro_x: -0.308 | gyro_y: 0.921 | gyro_z: 0.239
+
+Time:  9.170255
+Sensor 1: 
+X: -0.098 | Y: 0.897 | Z: 0.431
+gyro_x: -0.022 | gyro_y: 0.209 | gyro_z: 0.978
+mag_x: 0.322 | mag_y: -0.662 | mag_z: -0.676
+Sensor 2: 
+X: 0.825 | Y: -0.509 | Z: 0.246
+gyro_x: 0.900 | gyro_y: -0.244 | gyro_z: -0.361
+Sensor 3: 
+X: 0.915 | Y: -0.050 | Z: 0.400
+gyro_x: 0.937 | gyro_y: 0.334 | gyro_z: -0.100
+Sensor 4: 
+X: 0.639 | Y: 0.409 | Z: 0.651
+gyro_x: 0.177 | gyro_y: 0.717 | gyro_z: 0.674
+Sensor 5: 
+X: 0.433 | Y: 0.529 | Z: 0.729
+gyro_x: -0.110 | gyro_y: 0.726 | gyro_z: 0.679
+Sensor 6: 
+X: 0.211 | Y: 0.953 | Z: 0.215
+gyro_x: -0.422 | gyro_y: 0.814 | gyro_z: 0.400
+
+Time:  9.17039
+Sensor 1: 
+X: -0.054 | Y: 0.863 | Z: 0.503
+gyro_x: -0.022 | gyro_y: 0.209 | gyro_z: 0.978
+mag_x: 0.229 | mag_y: -0.723 | mag_z: -0.651
+Sensor 2: 
+X: 0.701 | Y: -0.704 | Z: 0.117
+gyro_x: 0.884 | gyro_y: -0.387 | gyro_z: -0.262
+Sensor 3: 
+X: 0.935 | Y: -0.259 | Z: 0.243
+gyro_x: 0.983 | gyro_y: 0.184 | gyro_z: 0.021
+Sensor 4: 
+X: 0.713 | Y: 0.643 | Z: 0.281
+gyro_x: 0.369 | gyro_y: 0.636 | gyro_z: 0.678
+Sensor 5: 
+X: 0.223 | Y: 0.757 | Z: 0.614
+gyro_x: 0.137 | gyro_y: 0.679 | gyro_z: 0.721
+Sensor 6: 
+X: 0.091 | Y: 0.995 | Z: 0.036
+gyro_x: -0.207 | gyro_y: 0.918 | gyro_z: 0.339
+
+Time:  9.170533
+Sensor 1: 
+X: -0.317 | Y: 0.871 | Z: 0.375
+gyro_x: 0.734 | gyro_y: 0.677 | gyro_z: 0.057
+mag_x: 0.229 | mag_y: -0.723 | mag_z: -0.651
+Sensor 2: 
+X: 0.544 | Y: -0.835 | Z: 0.079
+gyro_x: 0.766 | gyro_y: -0.297 | gyro_z: 0.571
+Sensor 3: 
+X: 0.854 | Y: -0.490 | Z: 0.176
+gyro_x: 0.643 | gyro_y: 0.067 | gyro_z: 0.763
+Sensor 4: 
+X: 0.939 | Y: 0.223 | Z: 0.262
+gyro_x: 0.579 | gyro_y: -0.135 | gyro_z: 0.804
+Sensor 5: 
+X: 0.844 | Y: 0.312 | Z: 0.436
+gyro_x: 0.415 | gyro_y: -0.025 | gyro_z: 0.910
+Sensor 6: 
+X: 0.214 | Y: 0.939 | Z: -0.271
+gyro_x: 0.514 | gyro_y: 0.764 | gyro_z: 0.389
+
+Time:  9.170671
+Sensor 1: 
+X: -0.069 | Y: 0.843 | Z: 0.533
+gyro_x: 0.734 | gyro_y: 0.677 | gyro_z: 0.057
+mag_x: 0.279 | mag_y: -0.788 | mag_z: -0.548
+Sensor 2: 
+X: 0.650 | Y: -0.751 | Z: 0.115
+gyro_x: 0.775 | gyro_y: -0.585 | gyro_z: 0.240
+Sensor 3: 
+X: 0.899 | Y: -0.373 | Z: 0.232
+gyro_x: 0.889 | gyro_y: -0.163 | gyro_z: 0.428
+Sensor 4: 
+X: 0.922 | Y: 0.203 | Z: 0.329
+gyro_x: 0.695 | gyro_y: 0.253 | gyro_z: 0.673
+Sensor 5: 
+X: 0.777 | Y: 0.362 | Z: 0.514
+gyro_x: 0.460 | gyro_y: 0.385 | gyro_z: 0.800
+Sensor 6: 
+X: 0.195 | Y: 0.971 | Z: -0.137
+gyro_x: 0.221 | gyro_y: 0.965 | gyro_z: 0.141
+
+Time:  9.170802
+Sensor 1: 
+X: -0.230 | Y: 0.213 | Z: 0.950
+gyro_x: -0.144 | gyro_y: 0.890 | gyro_z: 0.433
+mag_x: 0.309 | mag_y: -0.769 | mag_z: -0.559
+Sensor 2: 
+X: 0.967 | Y: -0.123 | Z: -0.225
+gyro_x: 0.830 | gyro_y: -0.545 | gyro_z: 0.118
+Sensor 3: 
+X: 0.893 | Y: 0.450 | Z: -0.005
+gyro_x: 0.939 | gyro_y: 0.021 | gyro_z: 0.344
+Sensor 4: 
+X: 0.106 | Y: 0.768 | Z: 0.632
+gyro_x: 0.592 | gyro_y: 0.348 | gyro_z: 0.727
+Sensor 5: 
+X: -0.118 | Y: 0.820 | Z: 0.560
+gyro_x: 0.328 | gyro_y: 0.466 | gyro_z: 0.822
+Sensor 6: 
+X: -0.391 | Y: 0.744 | Z: 0.542
+gyro_x: 0.062 | gyro_y: 0.962 | gyro_z: 0.266
+
+Time:  9.170925
+Sensor 1: 
+X: -0.281 | Y: 0.184 | Z: 0.942
+gyro_x: -0.119 | gyro_y: 0.549 | gyro_z: 0.828
+mag_x: 0.314 | mag_y: -0.828 | mag_z: -0.465
+Sensor 2: 
+X: 0.960 | Y: 0.034 | Z: -0.278
+gyro_x: 0.902 | gyro_y: -0.406 | gyro_z: -0.147
+Sensor 3: 
+X: 0.809 | Y: 0.587 | Z: -0.039
+gyro_x: 0.980 | gyro_y: 0.164 | gyro_z: 0.111
+Sensor 4: 
+X: -0.033 | Y: 0.763 | Z: 0.646
+gyro_x: 0.364 | gyro_y: 0.586 | gyro_z: 0.724
+Sensor 5: 
+X: -0.249 | Y: 0.811 | Z: 0.530
+gyro_x: 0.081 | gyro_y: 0.633 | gyro_z: 0.770
+Sensor 6: 
+X: -0.432 | Y: 0.657 | Z: 0.618
+gyro_x: -0.229 | gyro_y: 0.917 | gyro_z: 0.326
+
+Time:  9.171649
+Sensor 1: 
+X: -0.010 | Y: 0.924 | Z: 0.382
+gyro_x: -0.196 | gyro_y: 0.123 | gyro_z: 0.973
+mag_x: 0.267 | mag_y: -0.823 | mag_z: -0.502
+Sensor 2: 
+X: 0.849 | Y: -0.500 | Z: 0.168
+gyro_x: 0.974 | gyro_y: -0.102 | gyro_z: -0.204
+Sensor 3: 
+X: 0.934 | Y: -0.016 | Z: 0.358
+gyro_x: 0.875 | gyro_y: 0.473 | gyro_z: 0.105
+Sensor 4: 
+X: 0.522 | Y: 0.528 | Z: 0.670
+gyro_x: 0.088 | gyro_y: 0.538 | gyro_z: 0.838
+Sensor 5: 
+X: 0.181 | Y: 0.634 | Z: 0.752
+gyro_x: -0.179 | gyro_y: 0.478 | gyro_z: 0.860
+Sensor 6: 
+X: 0.152 | Y: 0.954 | Z: 0.257
+gyro_x: -0.273 | gyro_y: 0.708 | gyro_z: 0.652
+
+Time:  9.171789
+Sensor 1: 
+X: -0.024 | Y: 0.967 | Z: 0.254
+gyro_x: 0.571 | gyro_y: 0.291 | gyro_z: 0.767
+mag_x: 0.267 | mag_y: -0.823 | mag_z: -0.502
+Sensor 2: 
+X: 0.678 | Y: -0.659 | Z: 0.324
+gyro_x: 0.998 | gyro_y: -0.036 | gyro_z: -0.054
+Sensor 3: 
+X: 0.836 | Y: -0.305 | Z: 0.456
+gyro_x: 0.813 | gyro_y: 0.523 | gyro_z: 0.255
+Sensor 4: 
+X: 0.846 | Y: 0.146 | Z: 0.513
+gyro_x: 0.108 | gyro_y: 0.413 | gyro_z: 0.904
+Sensor 5: 
+X: 0.727 | Y: 0.266 | Z: 0.633
+gyro_x: -0.138 | gyro_y: 0.427 | gyro_z: 0.894
+Sensor 6: 
+X: 0.382 | Y: 0.924 | Z: -0.021
+gyro_x: -0.173 | gyro_y: 0.728 | gyro_z: 0.663
+
+Time:  9.171924
+Sensor 1: 
+X: -0.348 | Y: 0.804 | Z: 0.483
+gyro_x: 0.169 | gyro_y: 0.465 | gyro_z: 0.869
+mag_x: 0.126 | mag_y: -0.903 | mag_z: -0.410
+Sensor 2: 
+X: 0.585 | Y: -0.810 | Z: 0.044
+gyro_x: 0.941 | gyro_y: -0.337 | gyro_z: 0.012
+Sensor 3: 
+X: 0.890 | Y: -0.429 | Z: 0.154
+gyro_x: 0.939 | gyro_y: 0.114 | gyro_z: 0.323
+Sensor 4: 
+X: 0.909 | Y: 0.395 | Z: 0.132
+gyro_x: 0.474 | gyro_y: 0.382 | gyro_z: 0.793
+Sensor 5: 
+X: 0.723 | Y: 0.502 | Z: 0.474
+gyro_x: 0.261 | gyro_y: 0.448 | gyro_z: 0.855
+Sensor 6: 
+X: 0.114 | Y: 0.976 | Z: -0.188
+gyro_x: 0.080 | gyro_y: 0.927 | gyro_z: 0.366
+
+Time:  9.208745
+Sensor 1: 
+X: -0.250 | Y: 0.715 | Z: 0.653
+gyro_x: 0.335 | gyro_y: 0.930 | gyro_z: 0.153
+mag_x: 0.126 | mag_y: -0.903 | mag_z: -0.410
+Sensor 2: 
+X: 0.742 | Y: -0.669 | Z: -0.042
+gyro_x: 0.750 | gyro_y: -0.401 | gyro_z: 0.526
+Sensor 3: 
+X: 0.971 | Y: -0.201 | Z: 0.126
+gyro_x: 0.694 | gyro_y: -0.059 | gyro_z: 0.718
+Sensor 4: 
+X: 0.750 | Y: 0.480 | Z: 0.454
+gyro_x: 0.647 | gyro_y: -0.088 | gyro_z: 0.758
+Sensor 5: 
+X: 0.544 | Y: 0.580 | Z: 0.606
+gyro_x: 0.453 | gyro_y: 0.035 | gyro_z: 0.891
+Sensor 6: 
+X: -0.003 | Y: 0.999 | Z: 0.040
+gyro_x: 0.497 | gyro_y: 0.816 | gyro_z: 0.295
+
+Time:  9.249426
+Sensor 1: 
+X: 0.008 | Y: 0.622 | Z: 0.783
+gyro_x: 0.295 | gyro_y: 0.938 | gyro_z: 0.182
+mag_x: 0.175 | mag_y: -0.920 | mag_z: -0.351
+Sensor 2: 
+X: 0.963 | Y: -0.262 | Z: -0.068
+gyro_x: 0.760 | gyro_y: -0.554 | gyro_z: 0.340
+Sensor 3: 
+X: 0.945 | Y: 0.282 | Z: 0.169
+gyro_x: 0.837 | gyro_y: -0.161 | gyro_z: 0.523
+Sensor 4: 
+X: 0.425 | Y: 0.538 | Z: 0.728
+gyro_x: 0.708 | gyro_y: 0.156 | gyro_z: 0.688
+Sensor 5: 
+X: 0.289 | Y: 0.612 | Z: 0.736
+gyro_x: 0.481 | gyro_y: 0.302 | gyro_z: 0.823
+Sensor 6: 
+X: -0.100 | Y: 0.893 | Z: 0.438
+gyro_x: 0.280 | gyro_y: 0.948 | gyro_z: 0.152
+
+Time:  9.680432
+Sensor 1: 
+X: 0.144 | Y: 0.461 | Z: 0.875
+gyro_x: -0.191 | gyro_y: 0.864 | gyro_z: 0.466
+mag_x: 0.148 | mag_y: -0.927 | mag_z: -0.345
+Sensor 2: 
+X: 0.994 | Y: -0.111 | Z: 0.015
+gyro_x: 0.816 | gyro_y: -0.576 | gyro_z: -0.059
+Sensor 3: 
+X: 0.877 | Y: 0.410 | Z: 0.250
+gyro_x: 0.985 | gyro_y: -0.054 | gyro_z: 0.163
+Sensor 4: 
+X: 0.269 | Y: 0.541 | Z: 0.797
+gyro_x: 0.541 | gyro_y: 0.541 | gyro_z: 0.644
+Sensor 5: 
+X: 0.036 | Y: 0.658 | Z: 0.752
+gyro_x: 0.269 | gyro_y: 0.649 | gyro_z: 0.712
+Sensor 6: 
+X: -0.109 | Y: 0.805 | Z: 0.583
+gyro_x: -0.107 | gyro_y: 0.980 | gyro_z: 0.166
+
+Time:  9.680567
+Sensor 1: 
+X: -0.013 | Y: 0.565 | Z: 0.825
+gyro_x: -0.136 | gyro_y: 0.428 | gyro_z: 0.893
+mag_x: 0.148 | mag_y: -0.927 | mag_z: -0.345
+Sensor 2: 
+X: 0.971 | Y: -0.215 | Z: 0.105
+gyro_x: 0.945 | gyro_y: -0.258 | gyro_z: -0.200
+Sensor 3: 
+X: 0.893 | Y: 0.316 | Z: 0.320
+gyro_x: 0.941 | gyro_y: 0.325 | gyro_z: 0.097
+Sensor 4: 
+X: 0.212 | Y: 0.587 | Z: 0.781
+gyro_x: 0.243 | gyro_y: 0.583 | gyro_z: 0.775
+Sensor 5: 
+X: -0.083 | Y: 0.672 | Z: 0.736
+gyro_x: -0.055 | gyro_y: 0.595 | gyro_z: 0.802
+Sensor 6: 
+X: -0.043 | Y: 0.833 | Z: 0.551
+gyro_x: -0.264 | gyro_y: 0.845 | gyro_z: 0.465
+
+Time:  9.680715
+Sensor 1: 
+X: -0.036 | Y: 0.880 | Z: 0.473
+gyro_x: 0.131 | gyro_y: 0.145 | gyro_z: 0.981
+mag_x: 0.148 | mag_y: -0.927 | mag_z: -0.345
+Sensor 2: 
+X: 0.856 | Y: -0.481 | Z: 0.190
+gyro_x: 0.944 | gyro_y: -0.075 | gyro_z: -0.321
+Sensor 3: 
+X: 0.925 | Y: -0.011 | Z: 0.379
+gyro_x: 0.874 | gyro_y: 0.485 | gyro_z: -0.014
+Sensor 4: 
+X: 0.611 | Y: 0.384 | Z: 0.692
+gyro_x: 0.065 | gyro_y: 0.672 | gyro_z: 0.737
+Sensor 5: 
+X: 0.450 | Y: 0.465 | Z: 0.762
+gyro_x: -0.192 | gyro_y: 0.652 | gyro_z: 0.734
+Sensor 6: 
+X: 0.186 | Y: 0.953 | Z: 0.238
+gyro_x: -0.412 | gyro_y: 0.748 | gyro_z: 0.521
+
+Time:  9.680846
+Sensor 1: 
+X: -0.231 | Y: 0.808 | Z: 0.542
+gyro_x: 0.131 | gyro_y: 0.145 | gyro_z: 0.981
+mag_x: -0.018 | mag_y: -0.940 | mag_z: -0.342
+Sensor 2: 
+X: 0.686 | Y: -0.715 | Z: 0.133
+gyro_x: 0.992 | gyro_y: -0.119 | gyro_z: 0.034
+Sensor 3: 
+X: 0.915 | Y: -0.285 | Z: 0.285
+gyro_x: 0.822 | gyro_y: 0.407 | gyro_z: 0.398
+Sensor 4: 
+X: 0.788 | Y: 0.435 | Z: 0.435
+gyro_x: 0.310 | gyro_y: 0.266 | gyro_z: 0.913
+Sensor 5: 
+X: 0.464 | Y: 0.600 | Z: 0.651
+gyro_x: 0.083 | gyro_y: 0.240 | gyro_z: 0.967
+Sensor 6: 
+X: 0.136 | Y: 0.991 | Z: 0.010
+gyro_x: 0.068 | gyro_y: 0.759 | gyro_z: 0.648
+
