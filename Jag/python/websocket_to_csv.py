@@ -86,13 +86,16 @@ def spacebar_listen(ws):
         while True:
             ch = read_char()
             if ch == '1':
-                label = 'rock'
+                label = 'pinch close'
                 label_next = True
             elif ch == '2':
-                label = 'paper'
+                label = 'pinch open'
                 label_next = True
             elif ch == '3':
-                label = 'scissors'
+                label = 'point left'
+                label_next = True
+            elif ch == '4':
+                label = 'point right'
                 label_next = True
             elif ch == ' ':
                 label_next = False
