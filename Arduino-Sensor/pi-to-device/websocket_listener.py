@@ -22,7 +22,7 @@ KEEP_INDICES = [
 
 PICO_URI = "ws://192.168.4.1:81"
 CONFIDENCE_THRESHOLD = 0.82 
-GESTURE_MAP = {0: "None", 1: "Paper", 2: "Rock", 3: "Scissors"}
+GESTURE_MAP = {0: "A", 1: "B", 2: "X", 3: "Y", 4: "None", 5: "paper", 6: "rock", 7: "scissors"}
 
 
 def no_action():
@@ -33,6 +33,7 @@ def open_notepad():
     pass
 
 def super_menu():
+    pag.hotkey('shift', )
     pass
 
 def print_screen():
