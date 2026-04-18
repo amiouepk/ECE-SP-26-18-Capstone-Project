@@ -4,10 +4,6 @@ import numpy as np
 import pyautogui as pag
 import threading
 import time
-<<<<<<< HEAD:Jag/python/Models Archive/Model_07(left-and-right)/presentation_listener.py
-# import dbus
-=======
->>>>>>> 74d52774b25077b723fa3fca7d1c0f811a96b812:Jag/python/Models Archive/Model_04/presentation_listener.py
 
 pag.PAUSE = 0
 

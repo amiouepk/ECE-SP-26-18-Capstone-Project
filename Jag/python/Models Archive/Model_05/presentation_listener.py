@@ -4,10 +4,7 @@ import numpy as np
 import pyautogui as pag
 import threading
 import time
-<<<<<<< HEAD:Jag/python/Models Archive/Model_07(left-and-right)/presentation_listener.py
-# import dbus
-=======
->>>>>>> 74d52774b25077b723fa3fca7d1c0f811a96b812:Jag/python/Models Archive/Model_04/presentation_listener.py
+import dbus
 
 pag.PAUSE = 0
 
@@ -48,7 +45,7 @@ def point_right():
         print(f"[DBG] Right error: {e}")
 
 
-def run_live_inference(model):
+def run_live_inference_windowed(model):
     global last_action_time, last_action_gesture
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -138,4 +135,4 @@ print("Model loaded (36 features, 3 classes)")
 print("Using left/right for presentation navigation")
 
 if __name__ == "__main__":
-    run_live_inference(loaded_model)
+    run_live_inference_windowed(loaded_model)
