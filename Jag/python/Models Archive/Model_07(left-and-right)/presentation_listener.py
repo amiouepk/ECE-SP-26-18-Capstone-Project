@@ -4,7 +4,7 @@ import numpy as np
 import pyautogui as pag
 import threading
 import time
-import dbus
+# import dbus
 
 pag.PAUSE = 0
 
