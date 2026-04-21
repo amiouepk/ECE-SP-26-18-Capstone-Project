@@ -4,7 +4,8 @@ import numpy as np
 import pyautogui as pag
 import threading
 import time
-import dbus
+import torch
+from torch import nn
 
 pag.PAUSE = 0
 
@@ -18,13 +19,18 @@ KEEP_INDICES = [
 ]
 
 PICO_URI = "ws://192.168.4.1:81"
-CONFIDENCE_THRESHOLD = 0.5
+CONFIDENCE_THRESHOLD = 0.7
 GESTURE_MAP = {0: "None", 1: "Point Left", 2: "Point Right"}
 WINDOW_SIZE = 5
+CONSENSUS_REQUIRED = 3
 ACTION_COOLDOWN = 1.5
+DISPLAY_WIDTH = 50
 
+gesture_buffer = deque(maxlen=WINDOW_SIZE)
+consensus_count = 0
 last_action_time = 0
 last_action_gesture = None
+stable_gesture = None
 
 
 def no_action():
@@ -35,18 +41,18 @@ def point_left():
     try:
         pag.press('left')
     except Exception as e:
-        print(f"[DBG] Left error: {e}")
+        print(f"\n[DBG] Left error: {e}")
 
 
 def point_right():
     try:
         pag.press('right')
     except Exception as e:
-        print(f"[DBG] Right error: {e}")
+        print(f"\n[DBG] Right error: {e}")
 
 
 def run_live_inference_windowed(model):
-    global last_action_time, last_action_gesture
+    global last_action_time, last_action_gesture, stable_gesture
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -77,58 +83,82 @@ def run_live_inference_windowed(model):
                 
                 if confidence > CONFIDENCE_THRESHOLD:
                     gesture = GESTURE_MAP[gesture_idx]
-                    print(f"Detected: {gesture:10} | Conf: {confidence:.2f}", end="\r")
+                    gesture_buffer.append(gesture_idx)
+                    
+                    if len(gesture_buffer) >= WINDOW_SIZE:
+                        counts = [gesture_buffer.count(i) for i in range(3)]
+                        max_count = max(counts)
+                        if max_count >= CONSENSUS_REQUIRED:
+                            stable_gesture = counts.index(max_count)
+                        else:
+                            stable_gesture = None
+                    
+                    msg = f"Detected: {gesture:12} | Conf: {confidence:.2f}"
+                    print(f"\r{msg:<{DISPLAY_WIDTH}}", end="", flush=True)
                     
                     current_time = time.time()
-                    if gesture_idx != last_action_gesture or current_time - last_action_time > ACTION_COOLDOWN:
-                        last_action_gesture = gesture_idx
+                    if stable_gesture is not None and (stable_gesture != last_action_gesture or current_time - last_action_time > ACTION_COOLDOWN):
+                        last_action_gesture = stable_gesture
                         last_action_time = current_time
-                        if gesture_idx == 1:
+                        if stable_gesture == 1:
                             threading.Thread(target=point_left, daemon=True).start()
-                        elif gesture_idx == 2:
+                        elif stable_gesture == 2:
                             threading.Thread(target=point_right, daemon=True).start()
                 else:
-                    print(f"Detected: {'None':10} | Conf: {confidence:.2f}", end="\r")
+                    gesture_buffer.clear()
+                    stable_gesture = None
+                    msg = f"Detected: {'None':12} | Conf: {confidence:.2f}"
+                    print(f"\r{msg:<{DISPLAY_WIDTH}}", end="", flush=True)
 
             except (ValueError, IndexError):
                 continue
 
     except KeyboardInterrupt:
-        print("\nStopping Live Inference...")
+        print(f"\r{'':<{DISPLAY_WIDTH}}")
+        print("Stopping Live Inference...")
     except Exception as e:
-        print(f"\nError: {e}")
+        print(f"\r{'':<{DISPLAY_WIDTH}}")
+        print(f"Error: {e}")
     finally:
         if 'ws' in locals(): ws.close()
-
-
-import torch
-import json
-from torch import nn
-
-DROPOUT = 0.1
-
-device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Using device: {device}")
 
 
 class RPSModel(nn.Module):
     def __init__(self, input_features, output_features):
         super().__init__()
-        self.linear_layer_stack = nn.Sequential(
-            nn.Linear(in_features=input_features, out_features=32),
+        self.net = nn.Sequential(
+            nn.Linear(input_features, 256),
+            nn.BatchNorm1d(256),
             nn.ReLU(),
-            nn.Dropout(p=DROPOUT),
-            nn.Linear(in_features=32, out_features=16),
+            nn.Dropout(0.3),
+
+            nn.Linear(256, 128),
+            nn.BatchNorm1d(128),
             nn.ReLU(),
-            nn.Dropout(p=DROPOUT),
-            nn.Linear(in_features=16, out_features=output_features)
+            nn.Dropout(0.3),
+            
+            nn.Linear(128, 64),
+            nn.BatchNorm1d(64),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+
+            nn.Linear(64, 32),
+            nn.BatchNorm1d(32),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+
+            nn.Linear(32, output_features)
         )
 
     def forward(self, x):
-        return self.linear_layer_stack(x)
+        return self.net(x)
 
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Using device: {device}")
 
 loaded_model = RPSModel(input_features=36, output_features=3).to(device)
+loaded_model.load_state_dict(torch.load("model.pth", map_location=device))
 loaded_model.eval()
 
 print("Model loaded (36 features, 3 classes)")
