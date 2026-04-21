@@ -101,16 +101,16 @@ def spacebar_listen(ws):
         while True:
             ch = read_char()
             if ch == '1':
-                label = 'A'
+                label = 'pinch open'
 
             elif ch == '2':
-                label = 'B'
+                label = 'pinch close'
 
             elif ch == '3':
-                label = 'X'
+                label = 'point left'
 
             elif ch == '4':
-                label = 'Y'
+                label = 'point right'
                 
             elif ch == ' ':
                 label = 'none'
