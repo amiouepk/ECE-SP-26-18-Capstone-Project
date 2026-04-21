@@ -53,7 +53,7 @@ def point_right():
 
 def run_live_inference_windowed(model):
     global last_action_time, last_action_gesture, stable_gesture
-    
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     model.eval()
